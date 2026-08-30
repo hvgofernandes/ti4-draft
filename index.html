@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twilight Imperium — Draft</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌌 Twilight Imperium — Draft</h1>
+        <p>Draft multiplayer de facções</p>
+    </header>
+
+    <main>
+
+        <section id="lobby">
+
+            <h2>Criar novo draft</h2>
+
+            <input
+                type="text"
+                id="playerName"
+                placeholder="Seu nome"
+                maxlength="20"
+            >
+
+            <select id="playerCount">
+                <option value="3">3 jogadores</option>
+                <option value="4">4 jogadores</option>
+                <option value="5">5 jogadores</option>
+                <option value="6" selected>6 jogadores</option>
+            </select>
+
+            <button id="createDraft">
+                Criar sala
+            </button>
+
+        </section>
+
+        <section id="room" hidden>
+
+            <h2>Sala <span id="roomCode"></span></h2>
+
+            <p id="roomStatus">
+                Aguardando jogadores...
+            </p>
+
+            <div id="players"></div>
+
+            <button id="startDraft">
+                Iniciar draft
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

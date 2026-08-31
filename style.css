@@ -129,3 +129,57 @@ button:hover {
 
     margin-top: 5px;
 }
+
+#orderPanel {
+    margin-top: 25px;
+}
+
+.order-help {
+    color: #9aa5b5;
+    font-size: 14px;
+}
+
+#orderPlayers {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.order-player {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 14px;
+
+    background: #0b0f15;
+    border: 1px solid #273141;
+    border-radius: 9px;
+
+    cursor: grab;
+
+    user-select: none;
+}
+
+.order-player:active {
+    cursor: grabbing;
+}
+
+.order-player.dragging {
+    opacity: 0.5;
+}
+
+.drag-handle {
+    color: #7f8a9a;
+    font-size: 18px;
+}
+
+.order-number {
+    width: 25px;
+    font-weight: 700;
+}
+
+.order-name {
+    font-weight: 600;
+}

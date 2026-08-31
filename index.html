@@ -12,7 +12,7 @@
 
     <header>
         <h1>🌌 Twilight Imperium — Draft</h1>
-        <p>Draft multiplayer de facções</p>
+        <p>Draft multiplayer de facções - Made by Gus</p>
     </header>
 
     <main>
@@ -38,6 +38,28 @@
             <button id="createDraft">
                 Criar sala
             </button>
+            <hr>
+
+<h2>Entrar em uma sala</h2>
+
+<input
+    type="text"
+    id="joinPlayerName"
+    placeholder="Seu nome"
+    maxlength="20"
+>
+
+<input
+    type="text"
+    id="joinRoomCode"
+    placeholder="Código da sala"
+    maxlength="6"
+    style="text-transform: uppercase;"
+>
+
+<button id="joinDraft">
+    Entrar na sala
+</button>
 
         </section>
 
@@ -45,20 +67,37 @@
 
             <h2>Sala <span id="roomCode"></span></h2>
 
-            <p id="roomStatus">
-                Aguardando jogadores...
-            </p>
+<p id="roomStatus">
+    Aguardando jogadores...
+</p>
 
-            <div id="players"></div>
+<div id="players"></div>
 
-            <button id="startDraft">
-                Iniciar draft
-            </button>
+<div id="orderPanel" hidden>
+
+    <h3>Definir ordem do draft</h3>
+
+    <p class="order-help">
+        Arraste os jogadores para definir a ordem.
+    </p>
+
+    <div id="orderPlayers"></div>
+
+    <button id="saveOrder">
+        Salvar ordem
+    </button>
+
+</div>
+
+<button id="startDraft" disabled>
+    Iniciar draft
+</button>
 
         </section>
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js"></script>
 
 </body>

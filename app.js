@@ -61,7 +61,10 @@ const roomStatus =
     let currentDraftId = null;
     let realtimeChannel = null;
     let currentPlayerId = null;
+    let myPlayerId = null;
     let currentIsHost = false;
+    let draftRealtimeChannel = null;
+    let currentDraftStatus = null;
 
 const startDraft =
     document.getElementById("startDraft");
@@ -109,6 +112,7 @@ createDraftButton.addEventListener("click", async () => {
         const draft = data.draft;
         const player = data.player;
         currentDraftId = draft.id;
+        myPlayerId = player.id;
         currentPlayerId= player.id;
         currentIsHost = true;
 
@@ -133,6 +137,7 @@ console.log("Depois do loadPlayers");
 console.log("Antes do subscribeToPlayers");
 
 subscribeToPlayers();
+subscribeToDraft();
 
 console.log("Depois do subscribeToPlayers");
 
@@ -189,6 +194,7 @@ joinDraftButton.addEventListener("click", async () => {
         const draft = data.draft;
         const player = data.player;
         currentDraftId = draft.id;
+        myPlayerId = player.id;
         currentPlayerId = player.id;
         currentIsHost = false;
 
@@ -205,6 +211,7 @@ joinDraftButton.addEventListener("click", async () => {
         addPlayer(player.name);
         loadPlayers();
         subscribeToPlayers();
+        subscribeToDraft();
 
     } catch (error) {
 
@@ -220,11 +227,66 @@ joinDraftButton.addEventListener("click", async () => {
 
 });
 
-startDraft.addEventListener("click", () => {
+startDraft.addEventListener("click", async () => {
 
-    alert(
-        "Aqui entraremos com o motor multiplayer do draft."
-    );
+    if (!currentDraftId) {
+        alert("Sala não identificada.");
+        return;
+    }
+
+    if (!currentIsHost) {
+        alert("Somente o host pode iniciar o draft.");
+        return;
+    }
+
+    startDraft.disabled = true;
+    startDraft.textContent = "Iniciando...";
+
+    try {
+
+        const { data, error } =
+            await supabaseClient.rpc(
+                "start_draft",
+                {
+                    p_draft_id: currentDraftId
+                }
+            );
+
+        if (error) {
+
+            console.error(
+                "Erro ao iniciar draft:",
+                error
+            );
+
+            alert(error.message);
+            return;
+        }
+
+        console.log(
+            "Draft iniciado:",
+            data
+        );
+
+        alert("Draft iniciado!");
+
+    } catch (error) {
+
+        console.error(
+            "Erro inesperado:",
+            error
+        );
+
+        alert(
+            "Não foi possível iniciar o draft."
+        );
+
+    } finally {
+
+        startDraft.disabled = false;
+        startDraft.textContent = "Iniciar draft";
+
+    }
 
 });
 
@@ -532,34 +594,150 @@ function subscribeToPlayers() {
         supabaseClient.removeChannel(realtimeChannel);
     }
 
-    realtimeChannel = supabaseClient
-        .channel(`draft-${currentDraftId}`)
-        .on(
-            "postgres_changes",
-            {
-                event: "*",
-                schema: "public",
-                table: "players",
-                filter: `draft_id=eq.${currentDraftId}`
-            },
-            payload => {
+    realtimeChannel =
+        supabaseClient
+            .channel(`players-${currentDraftId}-${Date.now()}`)
+            .on(
+                "postgres_changes",
+                {
+                    event: "*",
+                    schema: "public",
+                    table: "players",
+                    filter: `draft_id=eq.${currentDraftId}`
+                },
+                payload => {
+
+                    console.log(
+                        "Atualização de jogadores:",
+                        payload
+                    );
+
+                    loadPlayers();
+                }
+            )
+            .subscribe(status => {
 
                 console.log(
-                    "Atualização de jogadores:",
-                    payload
+                    "Realtime:",
+                    status
                 );
 
-                loadPlayers();
-            }
-        )
-        .subscribe(status => {
+            });
+}
+
+function subscribeToDraft() {
+
+    if (!currentDraftId) {
+        return;
+    }
+
+    // Remover canal anterior, se existir
+    if (draftRealtimeChannel) {
+
+        supabaseClient.removeChannel(
+            draftRealtimeChannel
+);
+
+        draftRealtimeChannel = null;
+    }
+
+    // Criar um nome único para o canal
+    const channelName =
+        `draft-${currentDraftId}-${Date.now()}`;
+
+    draftRealtimeChannel =
+        supabaseClient.channel(channelName);
+
+    draftRealtimeChannel.on(
+        "postgres_changes",
+        {
+            event: "UPDATE",
+            schema: "public",
+            table: "drafts",
+            filter: `id=eq.${currentDraftId}`
+        },
+        payload => {
 
             console.log(
-                "Realtime:",
-                status
+                "Atualização do draft:",
+                payload
             );
 
-        });
+            const draft = payload.new;
+
+            currentDraftStatus =
+                draft.status;
+
+            currentPlayerId =
+                draft.current_player;
+
+            console.log(
+                "Status do draft:",
+                currentDraftStatus
+            );
+
+            console.log(
+                "Jogador atual:",
+                currentPlayerId
+            );
+
+            if (typeof updateDraftTurn === "function") {
+                updateDraftTurn();
+            }
+        }
+    );
+
+    draftRealtimeChannel.subscribe(status => {
+
+        console.log(
+            "Realtime Draft:",
+            status
+        );
+
+    });
+}
+
+function updateDraftTurn() {
+
+    if (currentDraftStatus !== "active") {
+        return;
+    }
+
+    const orderPanel =
+        document.getElementById("orderPanel");
+
+    if (orderPanel) {
+        orderPanel.hidden = true;
+    }
+
+    startDraft.hidden = true;
+
+    if (!currentPlayerId || !myPlayerId) {
+        return;
+    }
+
+    if (currentPlayerId === myPlayerId) {
+
+        roomStatus.textContent =
+            "🟢 É SUA VEZ! Escolha uma facção.";
+
+        roomStatus.classList.add("your-turn");
+
+        console.log(
+            "É a sua vez!"
+        );
+
+    } else {
+
+        roomStatus.textContent =
+            "⏳ Aguarde. É a vez de outro jogador.";
+
+        roomStatus.classList.remove("your-turn");
+
+        console.log(
+            "Aguarde sua vez."
+        );
+    }
 }
 
 function addPlayer(name) {

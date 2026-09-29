@@ -1,14 +1,25 @@
-const SUPABASE_URL = "https://xpqeshatbzjqglngdztz.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_1INZjWT0SJFxSVZPUiFrRw_dWcVWC6c";
-
+const legacySupabaseConfig = window.TI4_DRAFT_SUPABASE_CONFIG;
+if (!legacySupabaseConfig?.url || !legacySupabaseConfig?.publishableKey) {
+    throw new Error("O app.js legado não é mais o entrypoint. Use o frontend Vite e configure o arquivo .env.local.");
+}
 const supabaseClient = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_PUBLISHABLE_KEY
+    legacySupabaseConfig.url,
+    legacySupabaseConfig.publishableKey
 );
 
-console.log("Supabase conectado:", supabaseClient);
-
 async function initializeAuth() {
+    const { data: sessionData, error: sessionError } =
+        await supabaseClient.auth.getSession();
+
+    if (sessionError) {
+        console.error("Erro ao recuperar a sessão:", sessionError);
+        return null;
+    }
+
+    if (sessionData.session?.user) {
+        return sessionData.session.user;
+    }
+
     const { data, error } =
         await supabaseClient.auth.signInAnonymously();
 
@@ -25,7 +36,7 @@ async function initializeAuth() {
     return data.user;
 }
 
-initializeAuth();
+const authReady = initializeAuth();
 const createDraftButton =
     document.getElementById("createDraft");
 
@@ -79,6 +90,11 @@ const saveOrder =
     document.getElementById("saveOrder");
 
 createDraftButton.addEventListener("click", async () => {
+
+    if (!(await authReady)) {
+        alert("Não foi possível autenticar este jogador.");
+        return;
+    }
 
     const name = playerName.value.trim();
     const numberOfPlayers = Number(playerCount.value);
@@ -156,6 +172,11 @@ console.log("Depois do subscribeToPlayers");
 });
 
 joinDraftButton.addEventListener("click", async () => {
+
+    if (!(await authReady)) {
+        alert("Não foi possível autenticar este jogador.");
+        return;
+    }
 
     const name = joinPlayerName.value.trim();
     const code = joinRoomCode.value.trim().toUpperCase();
@@ -300,6 +321,7 @@ async function loadPlayers() {
         .from("players")
         .select("*")
         .eq("draft_id", currentDraftId)
+        .order("seat", { ascending: true, nullsFirst: false })
         .order("joined_at", { ascending: true });
 
     if (error) {
@@ -348,8 +370,34 @@ async function loadPlayers() {
         orderPanel.hidden = true;
 
     }
+
+    if (currentDraftStatus === "active" || currentDraftStatus === "finished") {
+        updateDraftTurn();
+    }
 }
 
+async function loadDraftState() {
+
+    if (!currentDraftId) {
+        return;
+    }
+
+    const { data, error } = await supabaseClient
+        .from("drafts")
+        .select("id, code, status, player_count, current_player")
+        .eq("id", currentDraftId)
+        .single();
+
+    if (error) {
+        console.error("Erro ao carregar o estado do draft:", error);
+        return;
+    }
+
+    currentDraftStatus = data.status;
+    currentPlayerId = data.current_player;
+    roomCode.textContent = data.code;
+    updateDraftTurn();
+}
 async function getPlayerCount() {
 
     if (!currentDraftId) {
@@ -616,12 +664,10 @@ function subscribeToPlayers() {
                 }
             )
             .subscribe(status => {
-
-                console.log(
-                    "Realtime:",
-                    status
-                );
-
+                console.log("Realtime:", status);
+                if (status === "SUBSCRIBED") {
+                    loadPlayers();
+                }
             });
 }
 
@@ -688,28 +734,28 @@ function subscribeToDraft() {
     );
 
     draftRealtimeChannel.subscribe(status => {
-
-        console.log(
-            "Realtime Draft:",
-            status
-        );
-
+        console.log("Realtime Draft:", status);
+        if (status === "SUBSCRIBED") {
+            loadDraftState();
+        }
     });
 }
 
 function updateDraftTurn() {
 
+    if (currentDraftStatus === "finished") {
+        orderPanel.hidden = true;
+        startDraft.hidden = true;
+        roomStatus.textContent = "Draft finalizado.";
+        roomStatus.classList.remove("your-turn");
+        return;
+    }
+
     if (currentDraftStatus !== "active") {
         return;
     }
 
-    const orderPanel =
-        document.getElementById("orderPanel");
-
-    if (orderPanel) {
-        orderPanel.hidden = true;
-    }
-
+    orderPanel.hidden = true;
     startDraft.hidden = true;
 
     if (!currentPlayerId || !myPlayerId) {
@@ -717,29 +763,13 @@ function updateDraftTurn() {
     }
 
     if (currentPlayerId === myPlayerId) {
-
-        roomStatus.textContent =
-            "🟢 É SUA VEZ! Escolha uma facção.";
-
+        roomStatus.textContent = "🟢 É SUA VEZ! Escolha uma facção.";
         roomStatus.classList.add("your-turn");
-
-        console.log(
-            "É a sua vez!"
-        );
-
     } else {
-
-        roomStatus.textContent =
-            "⏳ Aguarde. É a vez de outro jogador.";
-
+        roomStatus.textContent = "⏳ Aguarde. É a vez de outro jogador.";
         roomStatus.classList.remove("your-turn");
-
-        console.log(
-            "Aguarde sua vez."
-        );
     }
 }
-
 function addPlayer(name) {
 
     const element =

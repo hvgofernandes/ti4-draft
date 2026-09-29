@@ -1,104 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090c12" />
+    <meta name="description" content="Draft multiplayer de facções para Twilight Imperium." />
     <title>Twilight Imperium — Draft</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <header>
-        <h1>🌌 Twilight Imperium — Draft</h1>
-        <p>Draft multiplayer de facções - Made by Gus</p>
-    </header>
-
-    <main>
-
-        <section id="lobby">
-
-            <h2>Criar novo draft</h2>
-
-            <input
-                type="text"
-                id="playerName"
-                placeholder="Seu nome"
-                maxlength="20"
-            >
-
-            <select id="playerCount">
-                <option value="3">3 jogadores</option>
-                <option value="4">4 jogadores</option>
-                <option value="5">5 jogadores</option>
-                <option value="6" selected>6 jogadores</option>
-            </select>
-
-            <button id="createDraft">
-                Criar sala
-            </button>
-            <hr>
-
-<h2>Entrar em uma sala</h2>
-
-<input
-    type="text"
-    id="joinPlayerName"
-    placeholder="Seu nome"
-    maxlength="20"
->
-
-<input
-    type="text"
-    id="joinRoomCode"
-    placeholder="Código da sala"
-    maxlength="6"
-    style="text-transform: uppercase;"
->
-
-<button id="joinDraft">
-    Entrar na sala
-</button>
-
-        </section>
-
-        <section id="room" hidden>
-
-            <h2>Sala <span id="roomCode"></span></h2>
-
-<p id="roomStatus">
-    Aguardando jogadores...
-</p>
-
-<div id="players"></div>
-
-<div id="orderPanel" hidden>
-
-    <h3>Definir ordem do draft</h3>
-
-    <p class="order-help">
-        Arraste os jogadores para definir a ordem.
-    </p>
-
-    <div id="orderPlayers"></div>
-
-    <button id="saveOrder">
-        Salvar ordem
-    </button>
-
-</div>
-
-<button id="startDraft" disabled>
-    Iniciar draft
-</button>
-
-        </section>
-
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="app.js"></script>
-
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

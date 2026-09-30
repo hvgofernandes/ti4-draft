@@ -1,0 +1,14 @@
+test_authoritative_catalog (__main__.ScannerTests.test_authoritative_catalog) ... ok
+test_end_to_end_missing_and_exact_cache (__main__.ScannerTests.test_end_to_end_missing_and_exact_cache) ... ok
+test_gallery_empty_multiple_and_escaping (__main__.ScannerTests.test_gallery_empty_multiple_and_escaping) ... ok
+test_json_full_recursive_traversal (__main__.ScannerTests.test_json_full_recursive_traversal) ... ok
+test_object_local_strings_exclude_descendants (__main__.ScannerTests.test_object_local_strings_exclude_descendants) ... ok
+test_real_atlas_card_mapping (__main__.ScannerTests.test_real_atlas_card_mapping) ... ok
+test_report_and_copy_integrity (__main__.ScannerTests.test_report_and_copy_integrity) ... ok
+test_safe_copy_spaces_idempotence_and_guards (__main__.ScannerTests.test_safe_copy_spaces_idempotence_and_guards) ... ok
+test_url_extraction_and_case_sensitive_cache_key (__main__.ScannerTests.test_url_extraction_and_case_sensitive_cache_key) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.437s
+
+OK

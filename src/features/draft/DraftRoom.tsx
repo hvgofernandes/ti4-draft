@@ -1,20 +1,26 @@
 import { useEffect, useMemo, useState } from "react";
-import type { DraftMembership, Player } from "../../domain/draft";
+import type { DraftMembership, DraftRoomSnapshot, Player } from "../../domain/draft";
 import type { DraftGateway } from "../../application/ports";
+import { DraftContentSets } from "./DraftContentSets";
 import { useDraftRoom } from "./useDraftRoom";
 
 interface DraftRoomProps {
   gateway: DraftGateway;
   membership: DraftMembership;
+  initialSnapshot: DraftRoomSnapshot;
   userId: string;
   onLeave: () => void;
 }
 
-export function DraftRoom({ gateway, membership, userId, onLeave }: DraftRoomProps) {
-  const { draft, players, picks, loading, error, refresh } = useDraftRoom(gateway, membership.draft.id);
+export function DraftRoom({ gateway, membership, initialSnapshot, userId, onLeave }: DraftRoomProps) {
+  const { draft, players, picks, contentSets, factions, enabledContentSetIds, loading, error, refresh } = useDraftRoom(
+    gateway,
+    membership.draft.id,
+    initialSnapshot,
+  );
   const [orderIds, setOrderIds] = useState<string[]>([]);
   const [draggedId, setDraggedId] = useState<string | null>(null);
-  const [pending, setPending] = useState<"order" | "start" | null>(null);
+  const [pending, setPending] = useState<"order" | "start" | "content" | null>(null);
   const [actionError, setActionError] = useState<string | null>(null);
   const isHost = draft?.host_id === userId;
   const orderedPlayers = useMemo(() => {
@@ -60,11 +66,31 @@ export function DraftRoom({ gateway, membership, userId, onLeave }: DraftRoomPro
     }
   }
 
+  async function toggleContentSet(contentSetId: string, enabled: boolean) {
+    if (!isHost || draft?.status !== "waiting" || pending !== null) return;
+    setPending("content");
+    setActionError(null);
+    try {
+      const nextIds = enabled
+        ? [...enabledContentSetIds, contentSetId]
+        : enabledContentSetIds.filter((id) => id !== contentSetId);
+      await gateway.setDraftContentSets(membership.draft.id, nextIds);
+      await refresh();
+    } catch (cause) {
+      setActionError(messageOf(cause));
+    } finally {
+      setPending(null);
+    }
+  }
+
   function movePlayer(playerId: string, targetId: string) {
     setOrderIds((current) => {
-      const next = current.filter((id) => id !== playerId);
-      const targetIndex = next.indexOf(targetId);
-      next.splice(targetIndex < 0 ? next.length : targetIndex, 0, playerId);
+      const currentIndex = current.indexOf(playerId);
+      const targetIndex = current.indexOf(targetId);
+      if (currentIndex < 0 || targetIndex < 0 || currentIndex === targetIndex) return current;
+      const next = [...current];
+      const [movedPlayer] = next.splice(currentIndex, 1);
+      next.splice(Math.min(targetIndex, next.length), 0, movedPlayer);
       return next;
     });
   }
@@ -128,6 +154,16 @@ export function DraftRoom({ gateway, membership, userId, onLeave }: DraftRoomPro
           </div>
         </section>
 
+        <DraftContentSets
+          contentSets={contentSets}
+          factions={factions}
+          enabledContentSetIds={enabledContentSetIds}
+          playerCount={draft?.player_count ?? membership.draft.player_count}
+          editable={isHost && draft?.status === "waiting"}
+          saving={pending !== null}
+          onToggle={(contentSetId, enabled) => void toggleContentSet(contentSetId, enabled)}
+        />
+
         {isHost && draft?.status === "waiting" && (
           <section className="room-section order-section" aria-labelledby="order-heading">
             <div className="section-heading">
@@ -184,7 +220,8 @@ export function DraftRoom({ gateway, membership, userId, onLeave }: DraftRoomPro
             <ol className="pick-list">
               {picks.map((pick) => {
                 const player = players.find((candidate) => candidate.id === pick.player_id);
-                return <li key={pick.id}><span className="pick-number">{pick.pick_order}</span><strong>{pick.faction}</strong><span>{player?.name ?? "Jogador"}</span></li>;
+                const faction = factions.find((candidate) => candidate.id === pick.faction_id);
+                return <li key={pick.id}><span className="pick-number">{pick.pick_order}</span><strong>{faction?.name ?? pick.faction}</strong><span>{player?.name ?? "Jogador"}</span></li>;
               })}
             </ol>
           ) : <p className="feedback-muted">As escolhas aparecerão aqui quando forem registradas.</p>}

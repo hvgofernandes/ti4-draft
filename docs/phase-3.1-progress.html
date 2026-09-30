@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TI4-Draft · Fase 3.1</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, Segoe UI, Arial, sans-serif; background: #0b1020; color: #e9eef8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at 80% 0, #173258 0, transparent 33rem), #0b1020; }
+    main { max-width: 1180px; margin: 0 auto; padding: 40px 24px 80px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: clamp(2.3rem, 5vw, 4.5rem); letter-spacing: -.045em; margin-bottom: 4px; }
+    h2 { font-size: 1.1rem; letter-spacing: .1em; text-transform: uppercase; color: #a8c6f6; }
+    h3 { font-size: 1rem; margin-bottom: 8px; }
+    p, li { line-height: 1.55; }
+    .eyebrow { color: #7cd2eb; font-size: .82rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+    .lead { max-width: 700px; color: #b6c3d9; font-size: 1.08rem; }
+    .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; margin-bottom: 30px; }
+    .badge { display: inline-flex; gap: 10px; align-items: center; padding: 11px 16px; border: 1px solid #d3aa52; border-radius: 999px; color: #ffe2a4; background: #5c421c77; font-weight: 700; white-space: nowrap; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; box-shadow: 0 0 12px currentColor; }
+    .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+    .card { background: #131d31dc; border: 1px solid #2a3954; border-radius: 18px; padding: 23px; box-shadow: 0 14px 30px #0002; }
+    .span-8 { grid-column: span 8; } .span-6 { grid-column: span 6; } .span-4 { grid-column: span 4; } .span-12 { grid-column: span 12; }
+    .muted { color: #a5b4ce; }
+    .fine { font-size: .87rem; color: #8ea0bc; }
+    .progress-track { width: 100%; height: 12px; background: #26334c; border-radius: 99px; overflow: hidden; margin: 20px 0 8px; }
+    .progress-fill { width: 100%; height: 100%; background: linear-gradient(90deg, #57c5df, #73dfab); border-radius: inherit; }
+    .status-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; padding: 0; list-style: none; }
+    .status-list li { display: flex; gap: 10px; align-items: baseline; border-bottom: 1px solid #26334c; padding: 8px 0; }
+    .status-list .icon { color: #7cd2eb; font-weight: 800; width: 20px; flex: none; }
+    .status-list .done .icon { color: #73dfab; }
+    .status-list .pending .icon { color: #8391ad; }
+    .metric { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 13px 0; border-bottom: 1px solid #26334c; }
+    .metric:last-child { border: 0; }
+    .metric strong { font-size: 1.4rem; color: #f6fbff; }
+    .flow { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-top: 15px; }
+    .flow span { border: 1px solid #41648c; background: #18324b; border-radius: 10px; padding: 8px 10px; font-size: .88rem; }
+    .flow b { color: #74cddd; }
+    .test-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+    .test-list li { color: #afbdd2; background: #1a2941; padding: 9px 12px; border-radius: 9px; }
+    .test-list li::before { content: "○"; margin-right: 8px; color: #91a3bd; }
+    .test-list li.passed::before { content: "✓"; color: #73dfab; }
+    .test-list li.failed::before { content: "✕"; color: #ff9a9a; }
+    .plain { margin-bottom: 0; padding-left: 20px; }
+    .plain li + li { margin-top: 5px; }
+    details { border: 1px solid #30425e; border-radius: 10px; margin-top: 10px; background: #18263d; }
+    summary { cursor: pointer; padding: 12px 14px; font-weight: 700; }
+    details p { padding: 0 14px 12px; margin: 0; color: #b9c8df; }
+    code { background: #23334b; border-radius: 5px; padding: 2px 5px; color: #c2e7ff; overflow-wrap: anywhere; }
+    a { color: #91d9fb; }
+    footer { margin-top: 28px; color: #8ea0bc; font-size: .85rem; }
+    @media (max-width: 800px) { .span-8, .span-6, .span-4 { grid-column: span 12; } }
+    @media (max-width: 560px) { .status-list, .test-list { grid-template-columns: 1fr; } main { padding: 26px 16px 60px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top">
+      <header>
+        <div class="eyebrow">Twilight Draft Pick</div>
+        <h1>TI4-DRAFT<br>FASE 3.1</h1>
+        <p class="lead">Catálogo de facções e configuração dos conjuntos de conteúdo de cada draft.</p>
+      </header>
+      <div class="badge" style="border-color:#62c99a;color:#a8f2c8;background:#1f5c4277"><span class="dot"></span> Concluído</div>
+    </div>
+
+    <div class="grid">
+      <section class="card span-8">
+        <h2>Status geral</h2>
+        <p><strong>Tarefa atual:</strong> Fase 3.1 concluída; aguardando decisão de produto para iniciar a Fase 3.2.</p>
+        <div class="progress-track" aria-label="12 de 12 áreas concluídas"><div class="progress-fill"></div></div>
+        <p class="fine">12 de 12 áreas concluídas · Atualizado em 30/09/2026</p>
+        <ul class="status-list">
+          <li class="done"><span class="icon">✓</span>Pesquisa do catálogo</li>
+          <li class="done"><span class="icon">✓</span>Modelagem do banco</li>
+          <li class="done"><span class="icon">✓</span>Migrations</li>
+          <li class="done"><span class="icon">✓</span>RPCs</li>
+          <li class="done"><span class="icon">✓</span>RLS / segurança</li>
+          <li class="done"><span class="icon">✓</span>Application layer</li>
+          <li class="done"><span class="icon">✓</span>Supabase adapters</li>
+          <li class="done"><span class="icon">✓</span>UI do lobby</li>
+          <li class="done"><span class="icon">✓</span>Realtime</li>
+          <li class="done"><span class="icon">✓</span>Testes</li>
+          <li class="done"><span class="icon">✓</span>Regressão</li>
+          <li class="done"><span class="icon">✓</span>Code review</li>
+        </ul>
+      </section>
+
+      <section class="card span-4">
+        <h2>Catálogo</h2>
+        <div class="metric"><span>Base Game</span><strong>17</strong></div>
+        <div class="metric"><span>Prophecy of Kings</span><strong>7</strong></div>
+        <div class="metric"><span>Thunder's Edge</span><strong>6</strong></div>
+        <div class="metric"><span>Discordant Stars</span><strong>34</strong></div>
+        <div class="metric"><span>Total</span><strong>64</strong></div>
+        <p class="fine">Seed e banco local conferidos: 64 facções, sem slugs duplicados.</p>
+      </section>
+
+      <section class="card span-6">
+        <h2>Como o aplicativo conversa com o banco</h2>
+        <p class="muted">A interface solicita ações por camadas. As regras do draft continuam no backend.</p>
+        <div class="flow"><span>React</span><b>→</b><span>Application Services</span><b>→</b><span>Ports</span><b>→</b><span>Supabase Adapter</span><b>→</b><span>RPC / PostgreSQL</span></div>
+      </section>
+
+      <section class="card span-6">
+        <h2>Como o conteúdo participa do draft</h2>
+        <p class="muted">Conjuntos agrupam facções; cada sala escolhe os conjuntos permitidos.</p>
+        <div class="flow"><span>Content Sets</span><b>→</b><span>Factions</span><b>→</b><span>Draft Content Sets</span><b>→</b><span>Draft</span><b>→</b><span>Picks</span></div>
+      </section>
+
+      <section class="card span-6">
+        <h2>Trabalho e decisões</h2>
+        <h3>Concluído até agora</h3>
+        <ul class="plain"><li>Catálogo de 64 facções pesquisado, revisado independentemente e carregado no Supabase local.</li><li>Migration aplicada sem reset; RPCs, RLS e grants validados.</li><li>Lobby mostra configuração e total de facções; host altera conjuntos em <code>waiting</code>.</li><li>Realtime atualiza outras sessões após mudança de configuração, ordem, status e picks.</li><li>Regressão local: três jogadores entraram, trocaram ordem, restauraram a sala, escolheram facções e chegaram a <code>finished</code>.</li></ul>
+        <h3 style="margin-top: 20px">Decisões confirmadas</h3>
+        <ul class="plain"><li>Base Game habilitado por padrão ao criar uma sala.</li><li>Somente host, em <code>waiting</code>, altera a seleção de conjuntos.</li><li>Um pick por jogador; facção identificada por <code>faction_id</code>.</li><li>Catálogo público para usuários autenticados; dados da sala restritos aos participantes.</li></ul>
+        <h3 style="margin-top: 20px">Bloqueios / problemas</h3>
+        <ul class="plain"><li>Nenhum bloqueio técnico permanece nesta fase.</li><li>Limite documental: a contagem de Discordant Stars vem do criador, mas as grafias individuais foram conferidas em lista comunitária porque o documento de referência original não pôde ser extraído.</li><li>Um primeiro teste Realtime excedeu a janela de 8 s; duas repetições passaram com janela de 15 s, e o fluxo foi confirmado também no navegador.</li></ul>
+      </section>
+
+      <section class="card span-6">
+        <h2>Arquivos e próximos passos</h2>
+        <p><strong>Criados:</strong> <code>docs/phase-3.1-progress.html</code>, <code>src/features/draft/DraftContentSets.tsx</code>, <code>supabase/tests/phase_3_1_database_regression.sql</code> e a migration abaixo.</p>
+        <p><strong>Modificados:</strong> <code>README.md</code>, <code>src/App.tsx</code>, <code>src/application/services.ts</code>, <code>src/application/ports.ts</code>, <code>src/domain/draft.ts</code>, <code>src/features/draft/DraftRoom.tsx</code>, <code>src/features/draft/useDraftRoom.ts</code>, <code>src/features/lobby/Lobby.tsx</code>, <code>src/infrastructure/supabase/database.types.ts</code>, <code>src/infrastructure/supabase/supabaseDraftGateway.ts</code>, <code>src/styles.css</code> e <code>supabase/tests/draft_rpc_regression.mjs</code>.</p>
+        <p><strong>Migration criada:</strong> <code>supabase/migrations/20260930150000_content_catalog_and_draft_configuration.sql</code>. Aplicada apenas localmente.</p>
+        <p><strong>Correções durante a fase:</strong> contagem visual passou a excluir conjuntos inativos; janela do teste Realtime aumentada de 8 para 15 s após um timeout transitório.</p>
+        <p><strong>Próximos passos:</strong> definir a experiência visual de escolha de facção para a Fase 3.2; não foi implementada nesta fase.</p>
+        <p class="fine">O repositório já tinha alterações da Fase 2.5 antes desta fase; elas serão preservadas.</p>
+      </section>
+
+      <section class="card span-12">
+        <h2>Testes da Fase 3.1</h2>
+        <p class="fine">Um teste só recebe ✓ após ser executado com sucesso.</p>
+        <ul class="test-list">
+          <li class="passed">npm run check</li><li class="passed">npm run build</li><li class="passed">Supabase lint</li><li class="passed">Catálogo e contagens no banco</li>
+          <li class="passed">Slugs únicos</li><li class="passed">Host altera configuração</li><li class="passed">Não-host bloqueado</li><li class="passed">Active congela configuração</li>
+          <li class="passed">Finished congela configuração</li><li class="passed">make_pick</li><li class="passed">RLS</li><li class="passed">Realtime</li>
+          <li class="passed">Reload e restauração</li><li class="passed">Regressão completa</li><li class="passed">git diff --check</li><li class="passed">Code review independente</li>
+        </ul>
+        <p class="fine" style="margin: 16px 0 0">Resultados: 9 grupos PASS na regressão RPC (duas execuções após ajuste da janela); teste SQL transacional PASS e ROLLBACK; Supabase lint sem erros; TypeScript, build e diff check sem erros; fluxo completo observado no navegador.</p>
+      </section>
+
+      <section class="card span-12">
+        <h2>Fontes e classificação</h2>
+        <p>As contagens foram conferidas com material da <a href="https://www.fantasyflightgames.com/en/news/2020/8/2/prophecy-of-kings/">Fantasy Flight Games (PoK)</a>, a <a href="https://www.fantasyflightgames.com/en/news/2025/7/31/thunders-edge/">descrição oficial de Thunder's Edge</a> e o <a href="https://www.reddit.com/r/twilightimperium/comments/10rw7r9/discordant_stars_home_brew_faction_pack/">anúncio do criador de Discordant Stars</a>. A grafia dos nomes foi cotejada com a <a href="https://twilight-imperium.fandom.com/wiki/Discordant_Stars_Expansion_(UNOFFICIAL)">lista comunitária de Discordant Stars</a> e a <a href="https://twilight-imperium.fandom.com/wiki/Factions">lista de facções oficiais</a>.</p>
+        <p class="fine">Decisão de classificação: Council Keleres integra Thunder's Edge para o aplicativo porque o conteúdo está incluído na caixa. Firmament / Obsidian conta como uma escolha. Discordant Stars é conteúdo comunitário: 24 facções originais mais 10 adicionais. A dependência física de Prophecy of Kings não cria seleção obrigatória no aplicativo.</p>
+        <details><summary>Base Game · 17 facções</summary><p>The Arborec; The Barony of Letnev; The Clan of Saar; The Embers of Muaat; The Emirates of Hacan; The Federation of Sol; The Ghosts of Creuss; The L1Z1X Mindnet; The Mentak Coalition; The Naalu Collective; The Nekro Virus; Sardakk N'orr; The Universities of Jol-Nar; The Winnu; The Xxcha Kingdom; The Yin Brotherhood; The Yssaril Tribes.</p></details>
+        <details><summary>Prophecy of Kings · 7 facções</summary><p>The Argent Flight; The Empyrean; The Mahact Gene-Sorcerers; The Naaz-Rokha Alliance; The Nomad; The Titans of Ul; The Vuil'Raith Cabal.</p></details>
+        <details><summary>Thunder's Edge · 6 facções</summary><p>Last Bastion; The Deepwrought Scholarate; The Crimson Rebellion; The Ral Nel Consortium; The Firmament / The Obsidian; The Council Keleres.</p></details>
+        <details><summary>Discordant Stars · 34 facções</summary><p>The Shipwrights of Axis; The Celdauri Trade Confederation; The Savages of Cymiae; The Dih-Mohn Flotilla; The Florzen Profiteers; The Free Systems Compact; The Ghemina Raiders; The Augurs of Ilyxum; The Kollecc Society; The Kortali Tribunal; The Li-Zho Dynasty; The L'tokk Khrask; The Mirveda Protectorate; The Glimmer of Mortheus; The Myko-Mentori; The Nivyn Star Kings; The Olradin League; The Zealots of Rhodun; Roh'Dhna Mechatronics; The Tnelis Syndicate; The Vaden Banking Clans; The Vaylerian Scourge; The Veldyr Sovereignty; The Zelian Purifier; The Bentor Conglomerate; The Cheiran Hordes; The Edyn Mandate; The Ghoti Wayfarers; The GLEdge Union; The Berserkers of Kjalengard; The Monks of Kolume; The Kyro Sodality; The Lanefir Remnants; The Nokar Sellships.</p></details>
+      </section>
+    </div>
+    <footer>Relatório visual local e autocontido · Abra este arquivo diretamente no navegador.</footer>
+  </main>
+</body>
+</html>

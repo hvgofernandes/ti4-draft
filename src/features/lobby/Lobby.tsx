@@ -4,7 +4,7 @@ import type { DraftMembership } from "../../domain/draft";
 interface LobbyProps {
   onCreate: (name: string, playerCount: number) => Promise<DraftMembership>;
   onJoin: (name: string, code: string) => Promise<DraftMembership>;
-  onEnter: (membership: DraftMembership) => void;
+  onEnter: (membership: DraftMembership) => void | Promise<void>;
 }
 
 export function Lobby({ onCreate, onJoin, onEnter }: LobbyProps) {
@@ -20,7 +20,7 @@ export function Lobby({ onCreate, onJoin, onEnter }: LobbyProps) {
     setBusy("create");
     setError(null);
     try {
-      onEnter(await onCreate(createName.trim(), playerCount));
+      await onEnter(await onCreate(createName.trim(), playerCount));
     } catch (cause) {
       setError(messageOf(cause));
     } finally {
@@ -33,7 +33,7 @@ export function Lobby({ onCreate, onJoin, onEnter }: LobbyProps) {
     setBusy("join");
     setError(null);
     try {
-      onEnter(await onJoin(joinName.trim(), roomCode.trim().toUpperCase()));
+      await onEnter(await onJoin(joinName.trim(), roomCode.trim().toUpperCase()));
     } catch (cause) {
       setError(messageOf(cause));
     } finally {

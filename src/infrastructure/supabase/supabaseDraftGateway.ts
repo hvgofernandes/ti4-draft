@@ -1,4 +1,4 @@
-import type { Draft, DraftMembership, MakePickResult, Pick, Player } from "../../domain/draft";
+import type { ContentSet, Draft, DraftMembership, Faction, MakePickResult, Pick, Player } from "../../domain/draft";
 import type { DraftGateway } from "../../application/ports";
 import { supabase } from "./client";
 
@@ -9,6 +9,14 @@ function requireData<T>(data: T | null, error: { message: string } | null): T {
 }
 
 export class SupabaseDraftGateway implements DraftGateway {
+  async findMemberships(userId: string): Promise<Player[]> {
+    const { data, error } = await supabase
+      .from("players")
+      .select("*")
+      .eq("user_id", userId);
+    return requireData(data, error);
+  }
+
   async createDraft(playerName: string, playerCount: number): Promise<DraftMembership> {
     const { data, error } = await supabase.rpc("create_draft", {
       p_player_name: playerName,
@@ -53,6 +61,38 @@ export class SupabaseDraftGateway implements DraftGateway {
     return requireData(data, error);
   }
 
+  async loadContentSets(): Promise<ContentSet[]> {
+    const { data, error } = await supabase
+      .from("content_sets")
+      .select("*")
+      .order("sort_order", { ascending: true });
+    return requireData(data, error);
+  }
+
+  async loadFactions(): Promise<Faction[]> {
+    const { data, error } = await supabase
+      .from("factions")
+      .select("*")
+      .order("sort_order", { ascending: true });
+    return requireData(data, error);
+  }
+
+  async loadEnabledContentSetIds(draftId: string): Promise<string[]> {
+    const { data, error } = await supabase
+      .from("draft_content_sets")
+      .select("content_set_id")
+      .eq("draft_id", draftId);
+    return requireData(data, error).map(({ content_set_id }) => content_set_id);
+  }
+
+  async setDraftContentSets(draftId: string, contentSetIds: string[]): Promise<void> {
+    const { error } = await supabase.rpc("set_draft_content_sets", {
+      p_draft_id: draftId,
+      p_content_set_ids: contentSetIds,
+    });
+    if (error) throw new Error(error.message);
+  }
+
   async setPlayerOrder(draftId: string, playerIds: string[]): Promise<void> {
     const { error } = await supabase.rpc("set_player_order", {
       p_draft_id: draftId,
@@ -66,10 +106,10 @@ export class SupabaseDraftGateway implements DraftGateway {
     if (error) throw new Error(error.message);
   }
 
-  async makePick(draftId: string, faction: string): Promise<MakePickResult> {
+  async makePick(draftId: string, factionId: string): Promise<MakePickResult> {
     const { data, error } = await supabase.rpc("make_pick", {
       p_draft_id: draftId,
-      p_faction: faction,
+      p_faction_id: factionId,
     });
     return requireData(data, error);
   }

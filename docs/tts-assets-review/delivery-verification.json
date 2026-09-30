@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:5173/docs/tts-assets-review/",
+  "entry": "C:\\Projetos\\ti4-draft\\docs\\tts-assets-review\\index.html",
+  "status": "passed",
+  "sections": 30,
+  "imageElements": 121,
+  "uniqueImageFiles": 92,
+  "httpImagesVerified": 92,
+  "hashesVerified": true,
+  "allGalleryDependenciesInsideDelivery": true,
+  "ttsCacheAccessed": false,
+  "investigationRerun": false,
+  "browserTests": "Recorded separately in delivery-test.md"
+}

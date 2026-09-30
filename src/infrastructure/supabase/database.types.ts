@@ -1,4 +1,4 @@
-import type { Draft, Pick as DraftPick, MakePickResult, Player } from "../../domain/draft";
+import type { ContentSet, Draft, DraftContentSet, Faction, Pick as DraftPick, MakePickResult, Player } from "../../domain/draft";
 
 type Table<Row, Insert, Update = Partial<Insert>> = {
   Row: Row;
@@ -24,6 +24,9 @@ export type Database = {
         DraftPick,
         Omit<DraftPick, "id" | "created_at"> & Partial<Pick<DraftPick, "id" | "created_at">>
       >;
+      content_sets: Table<ContentSet, ContentSet>;
+      factions: Table<Faction, Faction>;
+      draft_content_sets: Table<DraftContentSet, DraftContentSet>;
     };
     Views: { [_ in never]: never };
     Functions: {
@@ -44,8 +47,12 @@ export type Database = {
         Returns: { success: boolean; status: "active"; current_player: string };
       };
       make_pick: {
-        Args: { p_draft_id: string; p_faction: string };
+        Args: { p_draft_id: string; p_faction_id: string };
         Returns: MakePickResult;
+      };
+      set_draft_content_sets: {
+        Args: { p_draft_id: string; p_content_set_ids: string[] };
+        Returns: undefined;
       };
       is_draft_participant: {
         Args: { p_draft_id: string };

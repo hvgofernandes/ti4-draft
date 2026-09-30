@@ -1,25 +1,47 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { Draft, Pick, Player } from "../../domain/draft";
+import type { ContentSet, Draft, DraftRoomSnapshot, Faction, Pick, Player } from "../../domain/draft";
 import type { DraftGateway } from "../../application/ports";
 
 interface DraftRoomState {
   draft: Draft | null;
   players: Player[];
   picks: Pick[];
+  contentSets: ContentSet[];
+  factions: Faction[];
+  enabledContentSetIds: string[];
   loading: boolean;
   error: string | null;
 }
 
-export function useDraftRoom(gateway: DraftGateway, draftId: string): DraftRoomState & { refresh: () => Promise<void> } {
-  const [state, setState] = useState<DraftRoomState>({
-    draft: null,
-    players: [],
-    picks: [],
-    loading: true,
+export function useDraftRoom(
+  gateway: DraftGateway,
+  draftId: string,
+  initialSnapshot: DraftRoomSnapshot,
+): DraftRoomState & { refresh: () => Promise<void> } {
+  const [state, setState] = useState<DraftRoomState>(() => ({
+    draft: initialSnapshot.draft,
+    players: initialSnapshot.players,
+    picks: initialSnapshot.picks,
+    contentSets: initialSnapshot.contentSets,
+    factions: initialSnapshot.factions,
+    enabledContentSetIds: initialSnapshot.enabledContentSetIds,
+    loading: false,
     error: null,
-  });
+  }));
   const mounted = useRef(false);
-  const versions = useRef({ draft: 0, players: 0, picks: 0 });
+  const versions = useRef({ draft: 0, players: 0, picks: 0, content: 0 });
+
+  const loadEnabledContentSetIds = useCallback(async () => {
+    const version = versions.current.content;
+    try {
+      const enabledContentSetIds = await gateway.loadEnabledContentSetIds(draftId);
+      if (mounted.current && version === versions.current.content) {
+        setState((current) => ({ ...current, enabledContentSetIds, error: null }));
+      }
+    } catch (error) {
+      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
+    }
+  }, [draftId, gateway]);
 
   const loadDraft = useCallback(async () => {
     const version = versions.current.draft;
@@ -58,9 +80,9 @@ export function useDraftRoom(gateway: DraftGateway, draftId: string): DraftRoomS
   }, [draftId, gateway]);
 
   const refresh = useCallback(async () => {
-    await Promise.all([loadDraft(), loadPlayers(), loadPicks()]);
+    await Promise.all([loadDraft(), loadPlayers(), loadPicks(), loadEnabledContentSetIds()]);
     if (mounted.current) setState((current) => ({ ...current, loading: false }));
-  }, [loadDraft, loadPlayers, loadPicks]);
+  }, [loadDraft, loadPlayers, loadPicks, loadEnabledContentSetIds]);
 
   useEffect(() => {
     mounted.current = true;
@@ -69,8 +91,10 @@ export function useDraftRoom(gateway: DraftGateway, draftId: string): DraftRoomS
       (draft) => {
         versions.current.draft += 1;
         setState((current) => ({ ...current, draft, error: null }));
+        versions.current.content += 1;
+        void loadEnabledContentSetIds();
       },
-      () => void loadDraft(),
+      () => void refresh(),
     );
     const unsubscribePlayers = gateway.subscribeToPlayers(
       draftId,
@@ -89,14 +113,13 @@ export function useDraftRoom(gateway: DraftGateway, draftId: string): DraftRoomS
       () => void loadPicks(),
     );
 
-    void refresh();
     return () => {
       mounted.current = false;
       unsubscribeDraft();
       unsubscribePlayers();
       unsubscribePicks();
     };
-  }, [draftId, gateway, loadDraft, loadPlayers, loadPicks, refresh]);
+  }, [draftId, gateway, loadDraft, loadPlayers, loadPicks, loadEnabledContentSetIds, refresh]);
 
   return { ...state, refresh };
 }

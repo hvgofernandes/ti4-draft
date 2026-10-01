@@ -3,3 +3,8 @@ dist/
 .env
 .env.*
 !.env.example
+imports/discordant-stars/
+__pycache__/
+*.pyc
+.asset-pipeline-deps/
+.test-build/

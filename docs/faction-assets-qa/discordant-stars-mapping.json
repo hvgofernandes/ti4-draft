@@ -1,0 +1,1908 @@
+{
+  "version": 1,
+  "count": 34,
+  "selectedSourceBytes": 680393969,
+  "factions": [
+    {
+      "slug": "the-shipwrights-of-axis",
+      "name": "The Shipwrights of Axis",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Axis R.png",
+      "importSha256": "52b30b30bfd3241bd0d00c17a9952109b2ad1473305f381740f77a8bdf8271c7",
+      "source": "assets/factions/source/discordant-stars/the-shipwrights-of-axis.png",
+      "sourceSha256": "52b30b30bfd3241bd0d00c17a9952109b2ad1473305f381740f77a8bdf8271c7",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-shipwrights-of-axis.png",
+      "intermediateSha256": "02398c2b266e0a10400e07d91e66d3ab071aab6b5b76e5246f6b304afd0ad0a4",
+      "intermediateWidth": 454,
+      "intermediateHeight": 592,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "circle",
+          "center": [
+            378,
+            346
+          ],
+          "radius": 145,
+          "meaning": "Axis moon"
+        },
+        "colorSeed": "crimson",
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 113653,
+        "cropPixels": 608000,
+        "backgroundNoise": 11.01,
+        "foregroundBoundsInCrop": [
+          116,
+          201,
+          538,
+          761
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5370,
+          285
+        ],
+        "occupancy": 0.1869
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-celdauri-trade-confederation",
+      "name": "The Celdauri Trade Confederation",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Celd R.png",
+      "importSha256": "42edc1a8441225c808d3bfae1fa3e4234e223f56d3124659d31bf72cbcbf8280",
+      "source": "assets/factions/source/discordant-stars/the-celdauri-trade-confederation.png",
+      "sourceSha256": "42edc1a8441225c808d3bfae1fa3e4234e223f56d3124659d31bf72cbcbf8280",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-celdauri-trade-confederation.png",
+      "intermediateSha256": "cd0d637e38275f30860170be3fdda113c5790144ad1005c55ad947f6333397ba",
+      "intermediateWidth": 664,
+      "intermediateHeight": 600,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": "gold_and_blue_outline",
+        "fillEnclosedHoles": true,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 185158,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.74,
+        "foregroundBoundsInCrop": [
+          74,
+          135,
+          706,
+          703
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5328,
+          219
+        ],
+        "occupancy": 0.3045
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-savages-of-cymiae",
+      "name": "The Savages of Cymiae",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Cymi R.png",
+      "importSha256": "b9a158ed407a34c2e5532a1c73abc97f2c32c225ffb46158a0c7705c5ce89b29",
+      "source": "assets/factions/source/discordant-stars/the-savages-of-cymiae.png",
+      "sourceSha256": "b9a158ed407a34c2e5532a1c73abc97f2c32c225ffb46158a0c7705c5ce89b29",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-savages-of-cymiae.png",
+      "intermediateSha256": "8536a0186ce58c251c96d9ebb18bc3c3a6666c2641d27d5ab8abe7178ac6f09f",
+      "intermediateWidth": 392,
+      "intermediateHeight": 535,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 83903,
+        "cropPixels": 608000,
+        "backgroundNoise": 8.75,
+        "foregroundBoundsInCrop": [
+          194,
+          228,
+          554,
+          731
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5448,
+          312
+        ],
+        "occupancy": 0.138
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-dih-mohn-flotilla",
+      "name": "The Dih-Mohn Flotilla",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/DihM R.png",
+      "importSha256": "12427e5cc5d1e6b9ba84819dd77ae52bc2a48035e3dba7b57f4455f70736b9ed",
+      "source": "assets/factions/source/discordant-stars/the-dih-mohn-flotilla.png",
+      "sourceSha256": "12427e5cc5d1e6b9ba84819dd77ae52bc2a48035e3dba7b57f4455f70736b9ed",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-dih-mohn-flotilla.png",
+      "intermediateSha256": "543f83dce9731fb5d4db6d3e3b90fa09333ac016b3cb24972cafb3d138aa6acd",
+      "intermediateWidth": 583,
+      "intermediateHeight": 621,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": "violet",
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 172128,
+        "cropPixels": 608000,
+        "backgroundNoise": 7.8,
+        "foregroundBoundsInCrop": [
+          101,
+          156,
+          652,
+          745
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5355,
+          240
+        ],
+        "occupancy": 0.2831
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-florzen-profiteers",
+      "name": "The Florzen Profiteers",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Flor R.png",
+      "importSha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72",
+      "source": "assets/factions/source/discordant-stars/the-florzen-profiteers.png",
+      "sourceSha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-florzen-profiteers.png",
+      "intermediateSha256": "f224b996b50e21b2c33df110ecbef97821b4acc629341ead13e3b152e7cfb512",
+      "intermediateWidth": 571,
+      "intermediateHeight": 572,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "grabcutRect": [
+          85,
+          150,
+          580,
+          590
+        ],
+        "grabcutIterations": 8,
+        "minimumComponentArea": 100,
+        "fillEnclosedDarkAperture": false
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 125785,
+        "cropPixels": 608000,
+        "foregroundBoundsInCrop": [
+          105,
+          175,
+          644,
+          715
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5359,
+          259
+        ],
+        "occupancy": 0.2069,
+        "foregroundComponents": [
+          {
+            "x": 105,
+            "y": 175,
+            "width": 353,
+            "height": 478,
+            "area": 63025
+          },
+          {
+            "x": 166,
+            "y": 364,
+            "width": 478,
+            "height": 351,
+            "area": 62760
+          }
+        ]
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-free-systems-compact",
+      "name": "The Free Systems Compact",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Free R.png",
+      "importSha256": "8d64d9a8c315685554929d9c20fba1aedc054865232911e7303ca535f9213d99",
+      "source": "assets/factions/source/discordant-stars/the-free-systems-compact.png",
+      "sourceSha256": "8d64d9a8c315685554929d9c20fba1aedc054865232911e7303ca535f9213d99",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-free-systems-compact.png",
+      "intermediateSha256": "3ca779ddd612a8df882522222deb47b41aa7957c78f1da712b9ff73be98df789",
+      "intermediateWidth": 549,
+      "intermediateHeight": 549,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "circle",
+          "center": [
+            375,
+            470
+          ],
+          "radius": 258,
+          "meaning": "Free Systems enclosed mark"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 209049,
+        "cropPixels": 608000,
+        "backgroundNoise": 11.39,
+        "foregroundBoundsInCrop": [
+          117,
+          212,
+          634,
+          729
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5371,
+          296
+        ],
+        "occupancy": 0.3438
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-ghemina-raiders",
+      "name": "The Ghemina Raiders",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ghem R.png",
+      "importSha256": "ce2082d6aa4b5de505c180bb139f1c132ee57bfbdba6c2b7b33f37a97746db0d",
+      "source": "assets/factions/source/discordant-stars/the-ghemina-raiders.png",
+      "sourceSha256": "ce2082d6aa4b5de505c180bb139f1c132ee57bfbdba6c2b7b33f37a97746db0d",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-ghemina-raiders.png",
+      "intermediateSha256": "252a31903ab48fda5d1c1f7b786090a1cc719b6de14eda281cd1d247217e2777",
+      "intermediateWidth": 538,
+      "intermediateHeight": 551,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 99253,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.85,
+        "foregroundBoundsInCrop": [
+          128,
+          223,
+          634,
+          742
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5382,
+          307
+        ],
+        "occupancy": 0.1632
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-augurs-of-ilyxum",
+      "name": "The Augurs of Ilyxum",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ilyx R.png",
+      "importSha256": "2af1107623996399f4ece3beea1f962b564746b830e4260e70bf61b816383258",
+      "source": "assets/factions/source/discordant-stars/the-augurs-of-ilyxum.png",
+      "sourceSha256": "2af1107623996399f4ece3beea1f962b564746b830e4260e70bf61b816383258",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-augurs-of-ilyxum.png",
+      "intermediateSha256": "dab519efefb42c81480dade2e62aae796acfeb1ca21d93ee6fe6b981516413c9",
+      "intermediateWidth": 645,
+      "intermediateHeight": 538,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": "localized_violet_left_petal",
+        "fillEnclosedHoles": true,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 112940,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.47,
+        "foregroundBoundsInCrop": [
+          74,
+          171,
+          687,
+          677
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5328,
+          255
+        ],
+        "occupancy": 0.1858
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-kollecc-society",
+      "name": "The Kollecc Society",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Koll R.png",
+      "importSha256": "b5c97013cf9f7598eee3d7954d29d04a0a53b3eb4390ff0df0904585ff7cd7db",
+      "source": "assets/factions/source/discordant-stars/the-kollecc-society.png",
+      "sourceSha256": "b5c97013cf9f7598eee3d7954d29d04a0a53b3eb4390ff0df0904585ff7cd7db",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-kollecc-society.png",
+      "intermediateSha256": "7d2302df8623a7c439c2f4d9dac1ea93ebc2ba5f2e526021b42aafabaf5d1f6e",
+      "intermediateWidth": 442,
+      "intermediateHeight": 520,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 100014,
+        "cropPixels": 608000,
+        "backgroundNoise": 6.58,
+        "foregroundBoundsInCrop": [
+          167,
+          226,
+          577,
+          714
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5421,
+          310
+        ],
+        "occupancy": 0.1645
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-kortali-tribunal",
+      "name": "The Kortali Tribunal",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kort R.png",
+      "importSha256": "6b12ddb2c3e1248646a73eeea971c5e52568edc17dade7d9ff8a9d34369971d8",
+      "source": "assets/factions/source/discordant-stars/the-kortali-tribunal.png",
+      "sourceSha256": "6b12ddb2c3e1248646a73eeea971c5e52568edc17dade7d9ff8a9d34369971d8",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-kortali-tribunal.png",
+      "intermediateSha256": "3697977f3790f8e04ab6346312169c52359081b42132bec64a25faddc90fafd8",
+      "intermediateWidth": 614,
+      "intermediateHeight": 600,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "largest_closed_white_contour",
+          "minimumArea": 100000,
+          "meaning": "Kortali black shield"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 232556,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.62,
+        "foregroundBoundsInCrop": [
+          83,
+          192,
+          665,
+          760
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5337,
+          276
+        ],
+        "occupancy": 0.3825
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-li-zho-dynasty",
+      "name": "The Li-Zho Dynasty",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/LiZh R.png",
+      "importSha256": "82e66c473ce63ed1bed58c9c037c58e195204df58f90db2916a0b8d51bab6963",
+      "source": "assets/factions/source/discordant-stars/the-li-zho-dynasty.png",
+      "sourceSha256": "82e66c473ce63ed1bed58c9c037c58e195204df58f90db2916a0b8d51bab6963",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-li-zho-dynasty.png",
+      "intermediateSha256": "3b91299e859a5052c880525f9f5f4adc534210ee8af960ac58512aa3ba0dc89a",
+      "intermediateWidth": 553,
+      "intermediateHeight": 511,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 50394,
+        "cropPixels": 608000,
+        "backgroundNoise": 11.14,
+        "foregroundBoundsInCrop": [
+          120,
+          242,
+          641,
+          721
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5374,
+          326
+        ],
+        "occupancy": 0.0829
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-ltokk-khrask",
+      "name": "The L'tokk Khrask",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/LTok R.png",
+      "importSha256": "8ef44447fe75ca8a900e322d8f0993e5e6917a46b832b1becea70e2f2c26356a",
+      "source": "assets/factions/source/discordant-stars/the-ltokk-khrask.png",
+      "sourceSha256": "8ef44447fe75ca8a900e322d8f0993e5e6917a46b832b1becea70e2f2c26356a",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-ltokk-khrask.png",
+      "intermediateSha256": "df272e8cc7ab11b04a688ab5e025cef4245c0c3fbee38ad64f214261d2dd3e10",
+      "intermediateWidth": 557,
+      "intermediateHeight": 489,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "source_panel_polygon",
+          "meaning": "L'tokk dark triangle"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 120818,
+        "cropPixels": 608000,
+        "backgroundNoise": 11.08,
+        "foregroundBoundsInCrop": [
+          116,
+          247,
+          641,
+          704
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5370,
+          331
+        ],
+        "occupancy": 0.1987
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-mirveda-protectorate",
+      "name": "The Mirveda Protectorate",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Mirv R.png",
+      "importSha256": "55260f0f25261cd06983ecb4568c9f57aad1e44116e6cfdca95db0f8e1e07d8d",
+      "source": "assets/factions/source/discordant-stars/the-mirveda-protectorate.png",
+      "sourceSha256": "55260f0f25261cd06983ecb4568c9f57aad1e44116e6cfdca95db0f8e1e07d8d",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-mirveda-protectorate.png",
+      "intermediateSha256": "f6b371026373b1f0599282533ac9ab82952b19c211b39987eb08d1d0bd46f0b4",
+      "intermediateWidth": 509,
+      "intermediateHeight": 510,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 117347,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.95,
+        "foregroundBoundsInCrop": [
+          133,
+          218,
+          610,
+          696
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5387,
+          302
+        ],
+        "occupancy": 0.193
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-glimmer-of-mortheus",
+      "name": "The Glimmer of Mortheus",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Mort R.png",
+      "importSha256": "f365bad3818a4a468174688662d8e95014d81df16b6930a2d6f18f81236ad2e5",
+      "source": "assets/factions/source/discordant-stars/the-glimmer-of-mortheus.png",
+      "sourceSha256": "f365bad3818a4a468174688662d8e95014d81df16b6930a2d6f18f81236ad2e5",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-glimmer-of-mortheus.png",
+      "intermediateSha256": "e5f721a41c8081f768c1e0db35fca30e849b5059403afdd7a30e68ccbb7107cd",
+      "intermediateWidth": 579,
+      "intermediateHeight": 445,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "two_circles",
+          "centers": [
+            [
+              190,
+              547
+            ],
+            [
+              562,
+              414
+            ]
+          ],
+          "radii": [
+            55,
+            55
+          ],
+          "meaning": "Mortheus filled eyes"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 106035,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.03,
+        "foregroundBoundsInCrop": [
+          103,
+          270,
+          650,
+          683
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5357,
+          354
+        ],
+        "occupancy": 0.1744
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-myko-mentori",
+      "name": "The Myko-Mentori",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Myko R.png",
+      "importSha256": "58e56783daf164d3c14ed1250ba82f34efc4563829af2312ef0f57b8ef24e324",
+      "source": "assets/factions/source/discordant-stars/the-myko-mentori.png",
+      "sourceSha256": "58e56783daf164d3c14ed1250ba82f34efc4563829af2312ef0f57b8ef24e324",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-myko-mentori.png",
+      "intermediateSha256": "d68e3812b293cf4ce94b1163b33ae2b5dd5b1e4601db5cd723db42f2eb906ff1",
+      "intermediateWidth": 503,
+      "intermediateHeight": 477,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 146754,
+        "cropPixels": 608000,
+        "backgroundNoise": 11.28,
+        "foregroundBoundsInCrop": [
+          141,
+          236,
+          612,
+          681
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5395,
+          320
+        ],
+        "occupancy": 0.2414
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-nivyn-star-kings",
+      "name": "The Nivyn Star Kings",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Nivy R.png",
+      "importSha256": "6be39d40c6f572e4079452453e1cc8848e1523d9a81d502d7a77c00dd7192d3c",
+      "source": "assets/factions/source/discordant-stars/the-nivyn-star-kings.png",
+      "sourceSha256": "6be39d40c6f572e4079452453e1cc8848e1523d9a81d502d7a77c00dd7192d3c",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-nivyn-star-kings.png",
+      "intermediateSha256": "48b56e8d02277a605608bebb0bc9d967e60753a6cfbe8a62b114aebce81a37ec",
+      "intermediateWidth": 653,
+      "intermediateHeight": 673,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [
+        "foreground_near_crop_boundary"
+      ],
+      "metrics": {
+        "detectedPixels": 68920,
+        "cropPixels": 608000,
+        "backgroundNoise": 6.04,
+        "foregroundBoundsInCrop": [
+          70,
+          146,
+          691,
+          787
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5324,
+          230
+        ],
+        "occupancy": 0.1134
+      },
+      "status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "slug": "the-olradin-league",
+      "name": "The Olradin League",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Olra R.png",
+      "importSha256": "14aa7dd75fb5dabd9f1f827a63be1cf0fbb5d599ecfce74129eb840d1a66ec68",
+      "source": "assets/factions/source/discordant-stars/the-olradin-league.png",
+      "sourceSha256": "14aa7dd75fb5dabd9f1f827a63be1cf0fbb5d599ecfce74129eb840d1a66ec68",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-olradin-league.png",
+      "intermediateSha256": "9e6bcd2fda1e009983b946d8b561116c82ad58ae7143ff81f46a100aead64706",
+      "intermediateWidth": 440,
+      "intermediateHeight": 663,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 122557,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.9,
+        "foregroundBoundsInCrop": [
+          202,
+          125,
+          610,
+          756
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5456,
+          209
+        ],
+        "occupancy": 0.2016
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-zealots-of-rhodun",
+      "name": "The Zealots of Rhodun",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Rhod R.png",
+      "importSha256": "2177c6a942a6ed8daf11c1dadfb44b6d5fc8fd648d28bbdd13007f14052084e6",
+      "source": "assets/factions/source/discordant-stars/the-zealots-of-rhodun.png",
+      "sourceSha256": "2177c6a942a6ed8daf11c1dadfb44b6d5fc8fd648d28bbdd13007f14052084e6",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-zealots-of-rhodun.png",
+      "intermediateSha256": "26e436fb565e7643c7017c932412b8767de671372210e745b8f12014aeee1f2d",
+      "intermediateWidth": 576,
+      "intermediateHeight": 509,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 94456,
+        "cropPixels": 608000,
+        "backgroundNoise": 12.14,
+        "foregroundBoundsInCrop": [
+          102,
+          238,
+          646,
+          715
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5356,
+          322
+        ],
+        "occupancy": 0.1554
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "rohdhna-mechatronics",
+      "name": "Roh'Dhna Mechatronics",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/RohD R.png",
+      "importSha256": "7f183a37b685de71bd43779942b98c9a24e809bb9d6848796705bb33e246288d",
+      "source": "assets/factions/source/discordant-stars/rohdhna-mechatronics.png",
+      "sourceSha256": "7f183a37b685de71bd43779942b98c9a24e809bb9d6848796705bb33e246288d",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/rohdhna-mechatronics.png",
+      "intermediateSha256": "88f063c03d886e678b8dbee752494b0e6200e1dffac158d87611bc48bea40e4f",
+      "intermediateWidth": 573,
+      "intermediateHeight": 574,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 112039,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.86,
+        "foregroundBoundsInCrop": [
+          106,
+          205,
+          647,
+          747
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5360,
+          289
+        ],
+        "occupancy": 0.1843
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-tnelis-syndicate",
+      "name": "The Tnelis Syndicate",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Tnel R.png",
+      "importSha256": "76ac8ae0fe76b555cea0827ba16f575c3fbacec3e3e66394e657ef0106e4f6c2",
+      "source": "assets/factions/source/discordant-stars/the-tnelis-syndicate.png",
+      "sourceSha256": "76ac8ae0fe76b555cea0827ba16f575c3fbacec3e3e66394e657ef0106e4f6c2",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-tnelis-syndicate.png",
+      "intermediateSha256": "c1bbd63b4bb3e8c938e23f7258536f4030fa77b0724a9c2c91062e12a51241e4",
+      "intermediateWidth": 645,
+      "intermediateHeight": 388,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": "black_staff_and_saturated_green_snake_wing",
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 92773,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.59,
+        "foregroundBoundsInCrop": [
+          75,
+          301,
+          688,
+          657
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5329,
+          385
+        ],
+        "occupancy": 0.1526
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-vaden-banking-clans",
+      "name": "The Vaden Banking Clans",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vade R.png",
+      "importSha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6",
+      "source": "assets/factions/source/discordant-stars/the-vaden-banking-clans.png",
+      "sourceSha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-vaden-banking-clans.png",
+      "intermediateSha256": "15508c4b6111c974602689f4e261e20937c092348682083921d5253683ed2e11",
+      "intermediateWidth": 563,
+      "intermediateHeight": 545,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "grabcutRect": [
+          90,
+          190,
+          590,
+          570
+        ],
+        "grabcutIterations": 8,
+        "minimumComponentArea": 100,
+        "fillEnclosedDarkAperture": false
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 193286,
+        "cropPixels": 608000,
+        "foregroundBoundsInCrop": [
+          129,
+          219,
+          660,
+          732
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5383,
+          303
+        ],
+        "occupancy": 0.3179,
+        "foregroundComponents": [
+          {
+            "x": 401,
+            "y": 219,
+            "width": 259,
+            "height": 282,
+            "area": 21657
+          },
+          {
+            "x": 129,
+            "y": 249,
+            "width": 495,
+            "height": 483,
+            "area": 171629
+          }
+        ]
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-vaylerian-scourge",
+      "name": "The Vaylerian Scourge",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vayl R.png",
+      "importSha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1",
+      "source": "assets/factions/source/discordant-stars/the-vaylerian-scourge.png",
+      "sourceSha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-vaylerian-scourge.png",
+      "intermediateSha256": "699906bce8e641e316efae7ee7798e5e37986a16c0d7f8e160951fe70a3ecc44",
+      "intermediateWidth": 572,
+      "intermediateHeight": 642,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "grabcutRect": [
+          100,
+          120,
+          540,
+          620
+        ],
+        "grabcutIterations": 8,
+        "minimumComponentArea": 100,
+        "fillEnclosedDarkAperture": false
+      },
+      "warnings": [
+        "source_glow_requires_review"
+      ],
+      "metrics": {
+        "detectedPixels": 257477,
+        "cropPixels": 608000,
+        "foregroundBoundsInCrop": [
+          100,
+          124,
+          640,
+          734
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5354,
+          208
+        ],
+        "occupancy": 0.4235,
+        "foregroundComponents": [
+          {
+            "x": 100,
+            "y": 124,
+            "width": 540,
+            "height": 610,
+            "area": 257477
+          }
+        ]
+      },
+      "status": "NEEDS_MANUAL_REVIEW"
+    },
+    {
+      "slug": "the-veldyr-sovereignty",
+      "name": "The Veldyr Sovereignty",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Veld R.png",
+      "importSha256": "d28259c93aea9ddb7ffc3c6493c79034f6e55130f52ccf42621a646671d7d21c",
+      "source": "assets/factions/source/discordant-stars/the-veldyr-sovereignty.png",
+      "sourceSha256": "d28259c93aea9ddb7ffc3c6493c79034f6e55130f52ccf42621a646671d7d21c",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-veldyr-sovereignty.png",
+      "intermediateSha256": "3cf0377d4bf27711ecfff69220ab88bf124798b65b3a98cabee8096affddd3a8",
+      "intermediateWidth": 559,
+      "intermediateHeight": 559,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "circle",
+          "center": [
+            375,
+            470
+          ],
+          "radius": 263,
+          "meaning": "Veldyr enclosed mark"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 217249,
+        "cropPixels": 608000,
+        "backgroundNoise": 8.11,
+        "foregroundBoundsInCrop": [
+          112,
+          207,
+          639,
+          734
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5366,
+          291
+        ],
+        "occupancy": 0.3573
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-zelian-purifier",
+      "name": "The Zelian Purifier",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Zelian.png",
+      "importSha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782",
+      "source": "assets/factions/source/discordant-stars/the-zelian-purifier.png",
+      "sourceSha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782",
+      "sourceWidth": 3284,
+      "sourceHeight": 2276,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-zelian-purifier.png",
+      "intermediateSha256": "b1b04405f4dbc916f61f24428cd308bb935055ee55bd83c05676049f7df02dec",
+      "intermediateWidth": 353,
+      "intermediateHeight": 334,
+      "crop": [
+        170,
+        150,
+        580,
+        590
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "grabcutRect": [
+          35,
+          65,
+          350,
+          350
+        ],
+        "grabcutIterations": 8,
+        "minimumComponentArea": 100,
+        "fillEnclosedDarkAperture": false
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 74067,
+        "cropPixels": 180400,
+        "foregroundBoundsInCrop": [
+          57,
+          88,
+          378,
+          390
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          211,
+          222
+        ],
+        "occupancy": 0.4106,
+        "foregroundComponents": [
+          {
+            "x": 57,
+            "y": 88,
+            "width": 321,
+            "height": 302,
+            "area": 74067
+          }
+        ]
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-bentor-conglomerate",
+      "name": "The Bentor Conglomerate",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Bent R.png",
+      "importSha256": "4ad17a7b382ce337383844e600927c6e349896821e3547101e03932254ad2343",
+      "source": "assets/factions/source/discordant-stars/the-bentor-conglomerate.png",
+      "sourceSha256": "4ad17a7b382ce337383844e600927c6e349896821e3547101e03932254ad2343",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-bentor-conglomerate.png",
+      "intermediateSha256": "2b251d81286dfd709d04b515b62b06f0db92098572d30a9a9974a5bbe4c4f566",
+      "intermediateWidth": 579,
+      "intermediateHeight": 579,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 93993,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.13,
+        "foregroundBoundsInCrop": [
+          99,
+          199,
+          646,
+          746
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5353,
+          283
+        ],
+        "occupancy": 0.1546
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-cheiran-hordes",
+      "name": "The Cheiran Hordes",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Chei R.png",
+      "importSha256": "627c7599fa59c4f3ac9843c8ea33ec8de273ba3ba83ca45b32eee81065063e7e",
+      "source": "assets/factions/source/discordant-stars/the-cheiran-hordes.png",
+      "sourceSha256": "627c7599fa59c4f3ac9843c8ea33ec8de273ba3ba83ca45b32eee81065063e7e",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-cheiran-hordes.png",
+      "intermediateSha256": "a1119ce472276694907943d74c5763d1443d148d3cd8de9553e1bde3785d7585",
+      "intermediateWidth": 578,
+      "intermediateHeight": 573,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": [
+          100,
+          185,
+          560,
+          570
+        ],
+        "grabcutIterations": 8
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 289268,
+        "cropPixels": 608000,
+        "backgroundNoise": 53.32,
+        "foregroundBoundsInCrop": [
+          104,
+          202,
+          650,
+          743
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5358,
+          286
+        ],
+        "occupancy": 0.4758
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-edyn-mandate",
+      "name": "The Edyn Mandate",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Edyn R.png",
+      "importSha256": "c8c562aba7bfac7174d128274fa524b27488efc36806b220f10493330310d12d",
+      "source": "assets/factions/source/discordant-stars/the-edyn-mandate.png",
+      "sourceSha256": "c8c562aba7bfac7174d128274fa524b27488efc36806b220f10493330310d12d",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-edyn-mandate.png",
+      "intermediateSha256": "9631abe896986dc1531eedb1a33732302ebe20df6482ec7813704395d2476189",
+      "intermediateWidth": 521,
+      "intermediateHeight": 536,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 101424,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.49,
+        "foregroundBoundsInCrop": [
+          130,
+          224,
+          619,
+          728
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5384,
+          308
+        ],
+        "occupancy": 0.1668
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-ghoti-wayfarers",
+      "name": "The Ghoti Wayfarers",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ghot R.png",
+      "importSha256": "b06a27d162cd9eb2eccfe03a432016724ef29b9f5c52a892f9b2ed639f8773d7",
+      "source": "assets/factions/source/discordant-stars/the-ghoti-wayfarers.png",
+      "sourceSha256": "b06a27d162cd9eb2eccfe03a432016724ef29b9f5c52a892f9b2ed639f8773d7",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-ghoti-wayfarers.png",
+      "intermediateSha256": "4e9ceb41485d3f24b745bcc5f59510f8e8429cd0e7c147017250e5b6005bdecb",
+      "intermediateWidth": 550,
+      "intermediateHeight": 548,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "source_panel_polygon",
+          "meaning": "Ghoti dark diamond"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 133578,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.98,
+        "foregroundBoundsInCrop": [
+          109,
+          211,
+          627,
+          727
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5363,
+          295
+        ],
+        "occupancy": 0.2197
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-gledge-union",
+      "name": "The GLEdge Union",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/GLEd R.png",
+      "importSha256": "2933c2d196e7bd8b8acf6b0a2fe5d59999a5b9a64b3b58dadde11e768c9ff8e1",
+      "source": "assets/factions/source/discordant-stars/the-gledge-union.png",
+      "sourceSha256": "2933c2d196e7bd8b8acf6b0a2fe5d59999a5b9a64b3b58dadde11e768c9ff8e1",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-gledge-union.png",
+      "intermediateSha256": "0aa3d3515d6668d8f072138f2b94f9ef6ba5b83c203b8b256d946a23ee31ef40",
+      "intermediateWidth": 537,
+      "intermediateHeight": 582,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 125796,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.02,
+        "foregroundBoundsInCrop": [
+          121,
+          201,
+          626,
+          751
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5375,
+          285
+        ],
+        "occupancy": 0.2069
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-berserkers-of-kjalengard",
+      "name": "The Berserkers of Kjalengard",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kjal R.png",
+      "importSha256": "7b19e21db0c8dae9c967c2ab2618119460c7c756843ad608a9a73a28d3f5cb60",
+      "source": "assets/factions/source/discordant-stars/the-berserkers-of-kjalengard.png",
+      "sourceSha256": "7b19e21db0c8dae9c967c2ab2618119460c7c756843ad608a9a73a28d3f5cb60",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-berserkers-of-kjalengard.png",
+      "intermediateSha256": "9db78f086e01c7a787e5dd5060cb6d857cea2a3fc9828dc683c2ca893278af26",
+      "intermediateWidth": 597,
+      "intermediateHeight": 558,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 149315,
+        "cropPixels": 608000,
+        "backgroundNoise": 8.55,
+        "foregroundBoundsInCrop": [
+          75,
+          190,
+          640,
+          716
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5329,
+          274
+        ],
+        "occupancy": 0.2456
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-monks-of-kolume",
+      "name": "The Monks of Kolume",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kolu R.png",
+      "importSha256": "8057860d1f6eb26d889378aae1d2d8725b04207ff9f570a2a4df600b032535fc",
+      "source": "assets/factions/source/discordant-stars/the-monks-of-kolume.png",
+      "sourceSha256": "8057860d1f6eb26d889378aae1d2d8725b04207ff9f570a2a4df600b032535fc",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-monks-of-kolume.png",
+      "intermediateSha256": "67aa23fbc6365efc58dbfe957b439d3211ead0ea27c9c62fc0d78950b941bce3",
+      "intermediateWidth": 593,
+      "intermediateHeight": 593,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": {
+          "shape": "circle",
+          "center": [
+            365,
+            430
+          ],
+          "radius": 280,
+          "meaning": "Kolume enclosed mark"
+        },
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 246253,
+        "cropPixels": 608000,
+        "backgroundNoise": 4.47,
+        "foregroundBoundsInCrop": [
+          85,
+          150,
+          646,
+          711
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5339,
+          234
+        ],
+        "occupancy": 0.405
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-kyro-sodality",
+      "name": "The Kyro Sodality",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kyro R.png",
+      "importSha256": "f8761532673fe99cce2db09ab628c948fe8b03ef01c2ea9e72b285ecc1f6de9d",
+      "source": "assets/factions/source/discordant-stars/the-kyro-sodality.png",
+      "sourceSha256": "f8761532673fe99cce2db09ab628c948fe8b03ef01c2ea9e72b285ecc1f6de9d",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-kyro-sodality.png",
+      "intermediateSha256": "5e4b422f2862de850d9cdb38de1f061d94a32e64f4f9c91b32dcde6d4a2c729a",
+      "intermediateWidth": 354,
+      "intermediateHeight": 516,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 43656,
+        "cropPixels": 608000,
+        "backgroundNoise": 10.77,
+        "foregroundBoundsInCrop": [
+          214,
+          236,
+          536,
+          720
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5468,
+          320
+        ],
+        "occupancy": 0.0718
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-lanefir-remnants",
+      "name": "The Lanefir Remnants",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Lane R.png",
+      "importSha256": "e8ba957b18670140db86b570cc67563dafb098f04e643bfeebcab2e7a8a65432",
+      "source": "assets/factions/source/discordant-stars/the-lanefir-remnants.png",
+      "sourceSha256": "e8ba957b18670140db86b570cc67563dafb098f04e643bfeebcab2e7a8a65432",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-lanefir-remnants.png",
+      "intermediateSha256": "5cb438d007f1e5c218bc4a0452d6377ea867e7bbed5e761ff9e340c4300ebbc2",
+      "intermediateWidth": 516,
+      "intermediateHeight": 516,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "robust_background_color_difference_mask_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "backgroundFit": "quadratic_IRLS_6_iterations_off_center",
+        "differenceThreshold": "max(55, p45_border+25)",
+        "manualGeometry": null,
+        "colorSeed": null,
+        "fillEnclosedHoles": false,
+        "grabcutRect": null,
+        "grabcutIterations": null
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 104043,
+        "cropPixels": 608000,
+        "backgroundNoise": 9.76,
+        "foregroundBoundsInCrop": [
+          134,
+          236,
+          618,
+          720
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5388,
+          320
+        ],
+        "occupancy": 0.1711
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-nokar-sellships",
+      "name": "The Nokar Sellships",
+      "contentSet": "discordant-stars",
+      "importSource": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Noka R.png",
+      "importSha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e",
+      "source": "assets/factions/source/discordant-stars/the-nokar-sellships.png",
+      "sourceSha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e",
+      "sourceWidth": 6176,
+      "sourceHeight": 4472,
+      "sourceKind": "ds",
+      "intermediate": "assets/factions/intermediate/discordant-stars/the-nokar-sellships.png",
+      "intermediateSha256": "bedf22c5b8599829dc5ad0d560f76f00a6d9d5d7c40436951aaf1210004fead2",
+      "intermediateWidth": 545,
+      "intermediateHeight": 622,
+      "crop": [
+        5270,
+        100,
+        6030,
+        900
+      ],
+      "method": "opencv_grabcut_rect_8_iterations_no_resampling",
+      "parameters": {
+        "padding": 16,
+        "grabcutRect": [
+          100,
+          160,
+          570,
+          625
+        ],
+        "grabcutIterations": 8,
+        "minimumComponentArea": 100,
+        "fillEnclosedDarkAperture": true
+      },
+      "warnings": [],
+      "metrics": {
+        "detectedPixels": 215221,
+        "cropPixels": 608000,
+        "foregroundBoundsInCrop": [
+          121,
+          190,
+          634,
+          780
+        ],
+        "intermediatePadding": 16,
+        "intermediateOffset": [
+          5375,
+          274
+        ],
+        "occupancy": 0.354,
+        "foregroundComponents": [
+          {
+            "x": 121,
+            "y": 190,
+            "width": 513,
+            "height": 590,
+            "area": 215221
+          }
+        ],
+        "enclosedAperturePixelsRestored": 14494
+      },
+      "status": "READY_FOR_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,2183 @@
+{
+  "schemaVersion": 1,
+  "description": "Factual inventory of 30 official TTS gallery entries. Gallery validation did not identify one approved isolated emblem per faction.",
+  "catalogSource": "supabase/migrations/20260930150000_content_catalog_and_draft_configuration.sql",
+  "catalogSha256": "74dfcabf00bd8c39c002b72cb4de0e160b618733388274126c76756e674b75a9",
+  "candidateReport": "docs/tts-assets-review/tts-faction-assets-report.json",
+  "candidateReportSha256": "af922aec6b8401e68f931ff7d6c7ac04ff14d94cd37b3aaa388d7e6002a9d799",
+  "candidateAssociations": 121,
+  "selectionPolicy": "No candidate selected automatically. Token sheet candidate 01 is only a source preview; visual approval and safe symbol isolation are pending.",
+  "factions": [
+    {
+      "contentSet": "base",
+      "name": "The Arborec",
+      "slug": "the-arborec",
+      "sortOrder": 1,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-arborec__candidate-01-91e7d8d4.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-arborec__candidate-01-91e7d8d4.jpg",
+          "sourceSha256": "6a6ebeb9ae350512d8378b8000020b7ac6129b1e3219e1f5db3d5fde56fdbfd8",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476093814F2D5841FC59D6B9DF38FBB86C1776039C55E173E.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093814/F2D5841FC59D6B9DF38FBB86C1776039C55E173E/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-arborec__candidate-02-1616b6b4.jpg",
+          "sourceSha256": "199eb03cca5cb294553542fb3586a07aac585cac1353ca73e444b506360f1546",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377185863B1661CE3787D1C60F736140A5EACDEC361981D76.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377185863/B1661CE3787D1C60F736140A5EACDEC361981D76/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-arborec__candidate-03-9f45cdd3.jpg",
+          "sourceSha256": "33f7f55ed4c4617bf7d8c6c18ca3293700d1660ef8d74149c6bbfb34849b9b01",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348171473001489684AB86ACD881634C9D2EA4AFE6884E07A134B49D.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014896/84AB86ACD881634C9D2EA4AFE6884E07A134B49D/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347500,
+            "index": 0,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 0
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Barony of Letnev",
+      "slug": "the-barony-of-letnev",
+      "sortOrder": 2,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-01-9fc3a455.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-01-9fc3a455.jpg",
+          "sourceSha256": "5956a394d596fd9d164de376b822e410c3a35e21f3e91628a09c3db98cd506c1",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16049256664760937692CD708DF5694066B56ED5A79A769DB5A537DAF92.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093769/2CD708DF5694066B56ED5A79A769DB5A537DAF92/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-02-bec0aebf.jpg",
+          "sourceSha256": "987a60771b5af18730c07dfb61e77a2dc8cc667252c06882ed76522755cd4936",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186034E4689E275754D6EDEE05E2A96482597A7DCC9AE2.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186034/E4689E275754D6EDEE05E2A96482597A7DCC9AE2/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-03-5807acaf.jpg",
+          "sourceSha256": "eb60a54855c2c0f06f172b9585b2b35d76ac47e989d5e131670d023ee8b18b13",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300144097F18D66C7B08894EAE16EF4E2F94C4972697E4C2.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014409/7F18D66C7B08894EAE16EF4E2F94C4972697E4C2/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347509,
+            "index": 9,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 1
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Clan of Saar",
+      "slug": "the-clan-of-saar",
+      "sortOrder": 3,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-01-b634c124.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-01-b634c124.jpg",
+          "sourceSha256": "b43c7e88e450accaa367d7b6a675294ea4c2896cc56f6d150f5fad5229164470",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16049256664760942971C6928A3C66C9748CF36982175A9D6C443875D9F.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094297/1C6928A3C66C9748CF36982175A9D6C443875D9F/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-02-cef0fb99.jpg",
+          "sourceSha256": "440f6230e2c3fbc6c2fda2ad94b2bb39a5a793f0e80e2704a9e421d6a3cfe0dd",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348110137718618378D5AF9DDEFBE1ACF5E91B1F5E4504A60810CEB0.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186183/78D5AF9DDEFBE1ACF5E91B1F5E4504A60810CEB0/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-03-59a85feb.jpg",
+          "sourceSha256": "5f63ab3383f667a053e277deca5ac4382a33517c725296f6babffeea40e90fb4",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014567C4AEE08A009C10117DCCC948FC2CBE1876B599D4.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014567/C4AEE08A009C10117DCCC948FC2CBE1876B599D4/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347516,
+            "index": 16,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 3
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Embers of Muaat",
+      "slug": "the-embers-of-muaat",
+      "sortOrder": 4,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-01-1a112136.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-01-1a112136.jpg",
+          "sourceSha256": "d743290567852c50eb679e9431cd6dfd273648749e357ad5d4480252c9f54c0d",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc160492566647609371527AF84635D1943A1FEB1E0CC2F1E44FA4EB30DDB.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093715/27AF84635D1943A1FEB1E0CC2F1E44FA4EB30DDB/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-02-b5a87a5e.jpg",
+          "sourceSha256": "4a47af6779f23dcdbe2188baf51ab9ec4fa8ed342089b3071b2b9d7ffc8bdbbc",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186094FB1F99B9EF8656F4817AD93931B1B84F8B533416.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186094/FB1F99B9EF8656F4817AD93931B1B84F8B533416/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-03-6028be9f.jpg",
+          "sourceSha256": "786fd43779d83a0951efb87e14d1054dc8ad4dc5aa49a505809677befb0c1607",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014797CC4F4F13DCCE0A5A601FD702BE6EA19AC0CD0771.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014797/CC4F4F13DCCE0A5A601FD702BE6EA19AC0CD0771/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347502,
+            "index": 2,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 0
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Emirates of Hacan",
+      "slug": "the-emirates-of-hacan",
+      "sortOrder": 5,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-01-7888fc3b.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-01-7888fc3b.jpg",
+          "sourceSha256": "1e2c9f46ebac668784f4f9c91e1e9ca3f310c58787fe2507bcfb39c3ba1a79b6",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16049256664760941511686E76FD346316B498F73E205AF004587B15A7A.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094151/1686E76FD346316B498F73E205AF004587B15A7A/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-02-172d6b67.jpg",
+          "sourceSha256": "6bcb8cca5bd7698e5efc371814081520193951d6c211a4b8b2187503a92777af",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377185940E4161EF34E7AC785E5DAF82F54FE0C1787585A8C.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377185940/E4161EF34E7AC785E5DAF82F54FE0C1787585A8C/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-03-64322e3d.jpg",
+          "sourceSha256": "8215b56ccc881ed03ab80da3e22b2327fb164420f01f7832cf1ef4a7e144229c",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300144703BE5409E4EB8750B0A82330E35EE4DD4C456382B.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014470/3BE5409E4EB8750B0A82330E35EE4DD4C456382B/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347505,
+            "index": 5,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 1
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Federation of Sol",
+      "slug": "the-federation-of-sol",
+      "sortOrder": 6,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-01-805305b3.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-01-805305b3.jpg",
+          "sourceSha256": "35d7b42c190dc6eaa2ba6f8399a95a3b05c9b098fa85b622b29e79f025e028b5",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc160492566647609405063E9F4B6206B7459B45FDA68AEC643BF8DE33B0C.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094050/63E9F4B6206B7459B45FDA68AEC643BF8DE33B0C/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-02-20b4bbf8.jpg",
+          "sourceSha256": "7a99cfb9e6812f7dadcad8d875d5d24e4683478746ecf8c578668216b5c27808",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348110137718620868C6F10F5DFFB11BE59594D1E0F43932CCF1C8FA.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186208/68C6F10F5DFFB11BE59594D1E0F43932CCF1C8FA/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-03-0ecc1b1c.jpg",
+          "sourceSha256": "47c81f68fbbf172698404d62e2c762793c562af79cc6218f412cdf930f58bdca",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300143602EAD087F46570DA6B6686E1C95A0AFDD3EA4510B.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014360/2EAD087F46570DA6B6686E1C95A0AFDD3EA4510B/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347518,
+            "index": 18,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 3
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Ghosts of Creuss",
+      "slug": "the-ghosts-of-creuss",
+      "sortOrder": 7,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-01-69ba1445.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-01-69ba1445.jpg",
+          "sourceSha256": "2a28ef25de9e853eea8afa164fc6e0a17f7340ac05e5c66b7668330dfe889179",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc137652536314988442093A8E14D1A7D0B487752CA9CEBEA8076B9B974F3E.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/13765253631498844209/3A8E14D1A7D0B487752CA9CEBEA8076B9B974F3E/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-02-e59f6d68.jpg",
+          "sourceSha256": "94492dc07aeffb80e6a72bf7dea3f29bbd3a78c7f25fa3cd544708bb64feda72",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476094342ECFBD23FE7BFE5107127212922C475A5F730DD13.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094342/ECFBD23FE7BFE5107127212922C475A5F730DD13/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-03-b989654d.jpg",
+          "sourceSha256": "47a6b9ecd562c16cb7f54e0739d436c959343340cb729ca424ffa317f4022f8f",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771859027908D6B11B9FD3B02E28D8AE5E71A88E1D837271.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377185902/7908D6B11B9FD3B02E28D8AE5E71A88E1D837271/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-04-272c8903.jpg",
+          "sourceSha256": "9ed542f7a28120c34dff6a28104aefd84850f0b24154dd9db52ef15be91ddf99",
+          "sourceWidth": 2048,
+          "sourceHeight": 1025,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014248EFF2C85FB725CC707423807B88B14CF56F8EF5DE.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014248/EFF2C85FB725CC707423807B88B14CF56F8EF5DE/"
+        },
+        {
+          "index": 5,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347504,
+            "index": 4,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 0
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The L1Z1X Mindnet",
+      "slug": "the-l1z1x-mindnet",
+      "sortOrder": 8,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-01-18a2c204.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-01-18a2c204.jpg",
+          "sourceSha256": "7653eb000066c8b6b3d54b4b49f914653d9d1f804fd7286d82fcbe4501628a41",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc160492566647609341805B776DB18321B7E2CF436229336095BEE9F8BEC.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093418/05B776DB18321B7E2CF436229336095BEE9F8BEC/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-02-b20aa9e1.jpg",
+          "sourceSha256": "83d131af9ead5bc47ff3254c74d2a44666aa030748b5dd2fcb02f6eda63acd64",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186002A7D8CD2A092127E16DB24D5ED04AC8152E93C84E.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186002/A7D8CD2A092127E16DB24D5ED04AC8152E93C84E/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-03-8193b6e7.jpg",
+          "sourceSha256": "5bc82a8bcd4c6a467899d028e9d2f2ee73cf819287e4528662575873fef8f3da",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348171473001465829B69B3F4F1F19A420DA34224A34E9F45A9E7039.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014658/29B69B3F4F1F19A420DA34224A34E9F45A9E7039/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347508,
+            "index": 8,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 1
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Mentak Coalition",
+      "slug": "the-mentak-coalition",
+      "sortOrder": 9,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-01-a7665d05.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-01-a7665d05.jpg",
+          "sourceSha256": "21cd0069ff225e88bd9612b861b015ae2aae77feb54bd14d0cb8d6f7363c4693",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476093860C20159CCF67117B57BF683DC2F993AE1CA8E7F27.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093860/C20159CCF67117B57BF683DC2F993AE1CA8E7F27/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-02-1a7ff0ce.jpg",
+          "sourceSha256": "200ec8fa22e0d2665e90024de369c588b3f1e7baeb6a65cb79f5f034009caa8b",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771860635F2E967AE05E9D2CC11CCD59C623781A30FF91E3.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186063/5F2E967AE05E9D2CC11CCD59C623781A30FF91E3/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-03-b61f554c.jpg",
+          "sourceSha256": "0906d94a7fcf8650b31b89886a3859ce4d47649fc50e6e2276dbfdb8e68b909e",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300148478B1CD5823DD5D07B09A00CDA51CB3CA442D58094.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014847/8B1CD5823DD5D07B09A00CDA51CB3CA442D58094/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347511,
+            "index": 11,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 2
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Naalu Collective",
+      "slug": "the-naalu-collective",
+      "sortOrder": 10,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-naalu-collective__candidate-01-402598c2.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naalu-collective__candidate-01-402598c2.jpg",
+          "sourceSha256": "a9e7363c10d32dee92fc57056f9d232ef02737e4e81cb2cc3a4f566f41ec35aa",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16049256664760940068031A0D107AD8ADAA91EE9337BEE0C4FCCCED9AA.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094006/8031A0D107AD8ADAA91EE9337BEE0C4FCCCED9AA/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naalu-collective__candidate-02-cd16abff.jpg",
+          "sourceSha256": "c6e2f3845ac75d69f1baf27e16d11bdc69c9cc745a1ebdf404b4a34f14a731b8",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186127004DE3EBDDD4A7B83323E73022040DD8A179E497.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186127/004DE3EBDDD4A7B83323E73022040DD8A179E497/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naalu-collective__candidate-03-30526066.jpg",
+          "sourceSha256": "c3165867653e652f61132e49a2bbbbf1cb3246ce1ba659bea2917e91cb572944",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014523B969C7014C97E067DC606AB748B18C46DCCC2AE1.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014523/B969C7014C97E067DC606AB748B18C46DCCC2AE1/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347512,
+            "index": 12,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 2
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Nekro Virus",
+      "slug": "the-nekro-virus",
+      "sortOrder": 11,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-nekro-virus__candidate-01-ed7c4786.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nekro-virus__candidate-01-ed7c4786.jpg",
+          "sourceSha256": "f51c8b741eb04da3cf1d3d73e18173e1e794beaf44982fcdaf2e07b24950cf31",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476094255FA0DCE0033B9315115DB0F890BE6A929AAF8C3CD.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094255/FA0DCE0033B9315115DB0F890BE6A929AAF8C3CD/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nekro-virus__candidate-02-5745c76a.jpg",
+          "sourceSha256": "de6861ded15ec9ce003387b9490bd5cfadcab81bc261aee9a98f111753772e54",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186155F950E517B64D4ED1BB47DF904D8A5BFD1EBF3540.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186155/F950E517B64D4ED1BB47DF904D8A5BFD1EBF3540/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nekro-virus__candidate-03-9fa37690.jpg",
+          "sourceSha256": "2a655b7262eeba25e9e1d25bc9302420e3c9e58981821639639f492276afc171",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300141816ED51F1656F4B0306D0E847AD212F6A38356DC2A.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014181/6ED51F1656F4B0306D0E847AD212F6A38356DC2A/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347514,
+            "index": 14,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 2
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "Sardakk N'orr",
+      "slug": "sardakk-norr",
+      "sortOrder": 12,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/sardakk-norr__candidate-01-a08e97fb.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/sardakk-norr__candidate-01-a08e97fb.jpg",
+          "sourceSha256": "1d448ff179697c9027cdf813d96cf099762d6270c0ffff1deaa9b860c991f97e",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476093616C1D5533D1C5AD7188F5BD5FD5C87E895575F5DF5.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093616/C1D5533D1C5AD7188F5BD5FD5C87E895575F5DF5/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/sardakk-norr__candidate-02-281588b9.jpg",
+          "sourceSha256": "2f9ee3daf1815b61a9780f0b08f2d53701d4b467455182216aacade3312c1cf0",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348110137718635563288FF18DA7553653488394585A9B23C5CBD458.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186355/63288FF18DA7553653488394585A9B23C5CBD458/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/sardakk-norr__candidate-03-7b2aaa17.jpg",
+          "sourceSha256": "9b6ec7e8bcd168e4a45db12ee13268f9c0b96942e05abcfffbbd42fe03eb40ec",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014701155422035463E0A92E5D535CB4C3A6D2333A31AD.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014701/155422035463E0A92E5D535CB4C3A6D2333A31AD/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347517,
+            "index": 17,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 3
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Universities of Jol-Nar",
+      "slug": "the-universities-of-jol-nar",
+      "sortOrder": 13,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-01-92fc052a.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-01-92fc052a.jpg",
+          "sourceSha256": "3b2615f103082732bf37b2eb95d79a5fc6f0bd8fa4d3a075c837ae8502a4fbf2",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc160492566647609410126EF83301658A434E178455F82CBF7C199ACD0CC.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094101/26EF83301658A434E178455F82CBF7C199ACD0CC/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-02-065448eb.jpg",
+          "sourceSha256": "941c378de91e8a6460e5ff3ce76451be41a1a018f5663d9657c7de0af493bdc7",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771859721292500D4909B80059BC396B5799AEB8E3403F1D.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377185972/1292500D4909B80059BC396B5799AEB8E3403F1D/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-03-37801565.jpg",
+          "sourceSha256": "8474bda9f570409603d7f13a43023923fbb75ceb115268deed0ad3585535a457",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730015038732A6BB2777C3AB70012BC871B20234BD891EF40.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730015038/732A6BB2777C3AB70012BC871B20234BD891EF40/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347506,
+            "index": 6,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 1
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Winnu",
+      "slug": "the-winnu",
+      "sortOrder": 14,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-winnu__candidate-01-82a1023d.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-winnu__candidate-01-82a1023d.jpg",
+          "sourceSha256": "973853b19f8a37d045d9b933da09681b7178fd08e32395b1a3c5e91f22da2adf",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476094208A93144BE74BB08E06AC76A34E9DA2997C39D9471.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476094208/A93144BE74BB08E06AC76A34E9DA2997C39D9471/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-winnu__candidate-02-67cf150d.jpg",
+          "sourceSha256": "0482c8c441463472b427dd386acf252a92fe8b8082944ad92ff0dfd0f69919df",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771862366ABFF3B66B6A02D00981A95D7866EDA35A121F5A.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186236/6ABFF3B66B6A02D00981A95D7866EDA35A121F5A/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-winnu__candidate-03-a76f2099.jpg",
+          "sourceSha256": "3d563837a5f5f4714f2cd38b7e794bea09aeaf560ddbf8dcfff0230e2580d72f",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300146123AECE6BB9F45A66F3553EBDB3BE24374F89107D2.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014612/3AECE6BB9F45A66F3553EBDB3BE24374F89107D2/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347521,
+            "index": 21,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 4
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Xxcha Kingdom",
+      "slug": "the-xxcha-kingdom",
+      "sortOrder": 15,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-01-dee2a75f.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-01-dee2a75f.jpg",
+          "sourceSha256": "bc41bd2a662fb894139842eb74c0b3a076e01fade72624473ebb3b476d9d3d8a",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc160492566647609395594E134F5E6BA5348755E2976E15166754ED428EA.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093955/94E134F5E6BA5348755E2976E15166754ED428EA/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-02-7944ec8c.jpg",
+          "sourceSha256": "b1e558c099be329ec417acf2cbe42e2dda3815a415d9566aa06f63053f918b6f",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771862679F2448A328C30C1B3E24E625E446858144006164.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186267/9F2448A328C30C1B3E24E625E446858144006164/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-03-0d6ace7a.jpg",
+          "sourceSha256": "8b5f53e53088779dd52048ea6f5a8515b46d55cafd51ac111896b92eb33b5bb9",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014934041FCD24D4A1546B14C74E50010AB1A58D49F66E.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014934/041FCD24D4A1546B14C74E50010AB1A58D49F66E/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347522,
+            "index": 22,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 4
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Yin Brotherhood",
+      "slug": "the-yin-brotherhood",
+      "sortOrder": 16,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-01-b258e7e7.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-01-b258e7e7.jpg",
+          "sourceSha256": "e487d1d1c629bb914750c738c7f12cf076d1a98daa4032a70d08b1da42ebe392",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476093668FE300B7DE61B355BAFC027364F4E7833CAD2C9A7.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093668/FE300B7DE61B355BAFC027364F4E7833CAD2C9A7/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-02-15f86e2e.jpg",
+          "sourceSha256": "bf7a8772b1120ac609237649f06d1891926c80c3604078f90231b271fdb75765",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186299602C0235E6C3E62EDECD84D7DBB5800C3BEA85A6.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186299/602C0235E6C3E62EDECD84D7DBB5800C3BEA85A6/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-03-9f3016a3.jpg",
+          "sourceSha256": "116854bbe0141bbeac24363652143e9061779d1af5eb8ef80cba3a6898872cff",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300150859723FE5A92AC5F4F325536842DD94A296672AA71.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730015085/9723FE5A92AC5F4F325536842DD94A296672AA71/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347523,
+            "index": 23,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 4
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "base",
+      "name": "The Yssaril Tribes",
+      "slug": "the-yssaril-tribes",
+      "sortOrder": 17,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-01-2f0f5793.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-01-2f0f5793.jpg",
+          "sourceSha256": "affc791bfc65c9db6b7ec733a82b246bbc26d0e3c69f32a501ae36d55915bad6",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1604925666476093897E7140A6C52D3C884F19ACF8E4BE750760A345CF4.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1604925666476093897/E7140A6C52D3C884F19ACF8E4BE750760A345CF4/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-02-ba678be5.jpg",
+          "sourceSha256": "b064664376063e6e6056b36d0701bb29d4185bf91426ab711146542b07051bd7",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771863279C9694052FB10EED649D759DA512C78114EA45FE.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186327/9C9694052FB10EED649D759DA512C78114EA45FE/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-03-c3b1e228.jpg",
+          "sourceSha256": "73280b2d19492d69d7698473e68ef846cd88e10395b57921321ffdf4dd89a1ff",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014986C1AB63686549EE27725E1673859E409858562FDA.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014986/C1AB63686549EE27725E1673859E409858562FDA/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347524,
+            "index": 24,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 4
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Argent Flight",
+      "slug": "the-argent-flight",
+      "sortOrder": 1,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-argent-flight__candidate-01-1551f465.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-argent-flight__candidate-01-1551f465.jpg",
+          "sourceSha256": "d330ac4a3d18cea460ada652b38cdb169bf8e1e5b7bf7b1752340dda9b1cd257",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc10209788532248807775D842B7842247689097732320AD8E39FF592D8C4B.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/10209788532248807775/D842B7842247689097732320AD8E39FF592D8C4B/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-argent-flight__candidate-02-d0d2fb56.jpg",
+          "sourceSha256": "2239cf70491e54788208ba62f4b14adb05bd04cfaf8fa98750ca304f7478cb2e",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771863868B7353129AF35A54B62551A2C470F2AA5F2A8B5C.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186386/8B7353129AF35A54B62551A2C470F2AA5F2A8B5C/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-argent-flight__candidate-03-eac6a3c6.jpg",
+          "sourceSha256": "92e4b12bfe29012b25830bf3a8da957ee125374859725bfbf020a55c68fa3ad2",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014070DBAF1CB39672CD29489BE4F83FE5FB36241E0A22.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014070/DBAF1CB39672CD29489BE4F83FE5FB36241E0A22/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347501,
+            "index": 1,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 0
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Empyrean",
+      "slug": "the-empyrean",
+      "sortOrder": 2,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-empyrean__candidate-01-53be43ca.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-empyrean__candidate-01-53be43ca.jpg",
+          "sourceSha256": "0d2cb029b5b0e8b1378f91eae8feab344e0521a5d14170a4748e9c795113effe",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1555052022585318868862D7C02214EFC08A33A78CCD1D08F411C81FD885.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/15550520225853188688/62D7C02214EFC08A33A78CCD1D08F411C81FD885/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-empyrean__candidate-02-a77aa6ac.jpg",
+          "sourceSha256": "5dfdcfe37583554fc5605bfba222354ec1bf65c57e06432d709f8fe7d82e4388",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186449A2D1ACFB636F6CC654CD24E773DA1143C87CECB0.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186449/A2D1ACFB636F6CC654CD24E773DA1143C87CECB0/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-empyrean__candidate-03-e54bf7e9.jpg",
+          "sourceSha256": "6d09e3cbe84aa4626e28c12e76c1968e5e3eddee7b107890aa9003b912239ba7",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300139040D9BAA461522C914049D9B056626B30C5F9B6B1B.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730013904/0D9BAA461522C914049D9B056626B30C5F9B6B1B/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347503,
+            "index": 3,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 0
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Mahact Gene-Sorcerers",
+      "slug": "the-mahact-gene-sorcerers",
+      "sortOrder": 3,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-01-94e6e0d8.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-01-94e6e0d8.jpg",
+          "sourceSha256": "47959bd072b78f24b76d7e097f0fd4bb1f984616704b29cce1a5aa8b282aed7a",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc9717546023241691450AC8FCB63E2EEF2C7D57AA89A3C649AA1EAFDADC8.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9717546023241691450/AC8FCB63E2EEF2C7D57AA89A3C649AA1EAFDADC8/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-02-6e691420.jpg",
+          "sourceSha256": "5a8c7fa604302b6bcd31fb68aef8afd2d3af133764534bdd83d79761de223cae",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634811013771864828D0D2E14F5C71C3BC2C18EF148A1368F691BBCF1.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186482/8D0D2E14F5C71C3BC2C18EF148A1368F691BBCF1/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-03-83bea1ff.jpg",
+          "sourceSha256": "86d25dd3a0185d23578e3aa0d394762af0cfb96b046e610604fe67909103bbb8",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300138493FE63F1A264879FB319DAA7F418C75F93323E245.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730013849/3FE63F1A264879FB319DAA7F418C75F93323E245/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347510,
+            "index": 10,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 2
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Naaz-Rokha Alliance",
+      "slug": "the-naaz-rokha-alliance",
+      "sortOrder": 4,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-01-850b0ff2.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-01-850b0ff2.jpg",
+          "sourceSha256": "3afd3a5bf815b05d944260247f05ea5f74b6c494a2ff266fad687a1ccc2c2e70",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc13235440768662130253B7111D674566ADCC536FE9B5C082F4B0EE9EC49D.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/13235440768662130253/B7111D674566ADCC536FE9B5C082F4B0EE9EC49D/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-02-78c158ed.jpg",
+          "sourceSha256": "9fb9954909c84faca95b322355d0853a614f6b7771f18e5a386bcf289f9dde1e",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186560CBAFB2A906D72AC788A07E5D451C41794DBCE28B.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186560/CBAFB2A906D72AC788A07E5D451C41794DBCE28B/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-03-74c4854b.jpg",
+          "sourceSha256": "bc9badbd24a7e4633c9ddf107179ab1088ac3f52f1806a1893d783506ec7ed72",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348171473001380636630DC084AAE4F85489E3AC4E9A691F3131DB22.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730013806/36630DC084AAE4F85489E3AC4E9A691F3131DB22/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347513,
+            "index": 13,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 2
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Nomad",
+      "slug": "the-nomad",
+      "sortOrder": 5,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-nomad__candidate-01-fff384be.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nomad__candidate-01-fff384be.jpg",
+          "sourceSha256": "99436aa8f1b6f164ad0fc09b09d013610ae49f0e75f3fa9388338b41b154068c",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc15887321940897214968B908547311D6458C78C1D7EBCF756D2A39D85F1D.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/15887321940897214968/B908547311D6458C78C1D7EBCF756D2A39D85F1D/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nomad__candidate-02-1de2b8ef.jpg",
+          "sourceSha256": "54ce66e7c41c324a7aa92161fa0d0def7383f44e12d78b312817b558ebfb1a54",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348110137718652473F8F20A7ED61C9C4106E0C57A98658F5036A780.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186524/73F8F20A7ED61C9C4106E0C57A98658F5036A780/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-nomad__candidate-03-456eb88c.jpg",
+          "sourceSha256": "48f4bcb949ebc385ade72d4de5b01f45bf4e47a8d0d4515f75b931b5f229aca4",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481714730014132714326CC228BBCC39E319D0C8CF545B0ACBBE9E7.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014132/714326CC228BBCC39E319D0C8CF545B0ACBBE9E7/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347515,
+            "index": 15,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 3
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Titans of Ul",
+      "slug": "the-titans-of-ul",
+      "sortOrder": 6,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-01-ef9fe379.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-01-ef9fe379.jpg",
+          "sourceSha256": "a086d27601243755f40d0dee2a83503dd8b9205a545ee86341fd4b128663a854",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc15704524236150712527C5D0E469A259B37F1EFC33D0B6B74DE866F43B19.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/15704524236150712527/C5D0E469A259B37F1EFC33D0B6B74DE866F43B19/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-02-30aaf9e0.jpg",
+          "sourceSha256": "e9e4d10b0b94197916354bc54998f19b299eaea110b06ef61f5a399e56162028",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348110137718659334948060AFAD64C2714A4E1B22DFD935056F88F5.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186593/34948060AFAD64C2714A4E1B22DFD935056F88F5/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-03-8489eabe.jpg",
+          "sourceSha256": "f13d2001997958ede7bc5be33003d6f9b9b1404196f7dfe452ce627055f9240e",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc166348171473001401746E5D3B5A84C31CC21FEB826A6D63BD8CD1855E5.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014017/46E5D3B5A84C31CC21FEB826A6D63BD8CD1855E5/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347519,
+            "index": 19,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 3
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "pok",
+      "name": "The Vuil'Raith Cabal",
+      "slug": "the-vuilraith-cabal",
+      "sortOrder": 7,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-01-67abd152.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-01-67abd152.jpg",
+          "sourceSha256": "0e5e36236fe1de4b4ea7b398a66fef1f6a4554aa01e761bba249e69978f0b66b",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16421510983956935382F264EDF8E6B1E47EE911A4F463926944D780B35D.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/16421510983956935382/F264EDF8E6B1E47EE911A4F463926944D780B35D/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-02-809b284a.jpg",
+          "sourceSha256": "1b864a79e3ad36c0e211c9a39d9c3a5c124b3d38f8211df1001f7fc553e69d97",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "JPEG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1663481101377186418E08A84BB1A1455C23386A856EBD36249046A0FCC.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481101377186418/E08A84BB1A1455C23386A856EBD36249046A0FCC/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-03-e8be6197.jpg",
+          "sourceSha256": "9614e0dce7badfc872afac73db1b2d9720572381891db9a826283ad5397eab7e",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300139617503AAD6E7BDAF4B0CBF683731418C31515FCA4C.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730013961/7503AAD6E7BDAF4B0CBF683731418C31515FCA4C/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347520,
+            "index": 20,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 4
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "Last Bastion",
+      "slug": "last-bastion",
+      "sortOrder": 1,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/last-bastion__candidate-01-bd662e06.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/last-bastion__candidate-01-bd662e06.jpg",
+          "sourceSha256": "20a57f61bb37da1c611a589c81398dd2763779da1f2f87103a353ec7b0c0b982",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc14573035960055427309431DDD40B2DA882F3A8C26DFC5E220367739C50E.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/14573035960055427309/431DDD40B2DA882F3A8C26DFC5E220367739C50E/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/last-bastion__candidate-02-83cdcf63.png",
+          "sourceSha256": "5ec99e171c5dd516b39aa76a0f499b94658b991c882109079126aee89641f61c",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc10152291765273742207CEF9E9B4CE4D4C03046D849340AAE49D6513120F.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/10152291765273742207/CEF9E9B4CE4D4C03046D849340AAE49D6513120F/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/last-bastion__candidate-03-a940d019.jpg",
+          "sourceSha256": "19605b8342108b94207e59a2abf4efc235002f73f546b4ea6b08e9446035c768",
+          "sourceWidth": 2052,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc13706794672428182454BBF499BE2511889596CBC53876A33B2AB4DA7F04.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/13706794672428182454/BBF499BE2511889596CBC53876A33B2AB4DA7F04/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347525,
+            "index": 25,
+            "columns": 5,
+            "rows": 6,
+            "column": 0,
+            "row": 5
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "The Deepwrought Scholarate",
+      "slug": "the-deepwrought-scholarate",
+      "sortOrder": 2,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-01-67741d21.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-01-67741d21.jpg",
+          "sourceSha256": "97e9e297fc937e87cdd2e1d5b73fa8cb2c87d5f4e66af4b4ca2db792532f649f",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc181063620269501363429B4D593B8B5F9E5558BA90F452DE956ACA055181.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/18106362026950136342/9B4D593B8B5F9E5558BA90F452DE956ACA055181/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-02-b1b1c54b.jpg",
+          "sourceSha256": "21f0d39e7cae937f413e8403aceb6c16fbb370c502f90499ed12ac645ef9fa2f",
+          "sourceWidth": 2052,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc124055617806200104505346F61AE6EA18DEDCE7276698E92CFCD4081A06.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/12405561780620010450/5346F61AE6EA18DEDCE7276698E92CFCD4081A06/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-03-593719d9.png",
+          "sourceSha256": "1a6b7bfaa1ab698ea26006fc0e74026188508b3391c5959261617a38aa90799b",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1609004181856777593142AEBAD8BF233EA832C91F40A4CEF218FDCFDBF2.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/16090041818567775931/42AEBAD8BF233EA832C91F40A4CEF218FDCFDBF2/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347526,
+            "index": 26,
+            "columns": 5,
+            "rows": 6,
+            "column": 1,
+            "row": 5
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "The Crimson Rebellion",
+      "slug": "the-crimson-rebellion",
+      "sortOrder": 3,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-01-28b542d0.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-01-28b542d0.jpg",
+          "sourceSha256": "32bbca50423ff8de84906b30c41228d5a0b5bcb80edad69d32392f2819d47c7b",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc15832219826494375557C69B15F7F35E29B498E3CA21029D921C4555B9FD.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/15832219826494375557/C69B15F7F35E29B498E3CA21029D921C4555B9FD/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-02-d0ddf618.png",
+          "sourceSha256": "3c1180ff39e31efd1a6216dc399e4015e72fdc1f31cdee464b510b277bf93163",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc11285361168245357170A9617B947EC26ED640659BF5A4D6988D34DB0273.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/11285361168245357170/A9617B947EC26ED640659BF5A4D6988D34DB0273/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-03-2bc8880e.jpg",
+          "sourceSha256": "2812ad60b57e6a19e84944b8354dcf8a93878bfe9d0d312d4fbf9fc9735df756",
+          "sourceWidth": 3229,
+          "sourceHeight": 1488,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc1655775060647024692243218244E1F1CD5C793BDDA0B0F01C21C8B5F22F.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/16557750606470246922/43218244E1F1CD5C793BDDA0B0F01C21C8B5F22F/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347527,
+            "index": 27,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 5
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "The Ral Nel Consortium",
+      "slug": "the-ral-nel-consortium",
+      "sortOrder": 4,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-01-d9d3a0dd.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-01-d9d3a0dd.jpg",
+          "sourceSha256": "51300e07a98cf2e5bf18854e8e1eaa76ba7fd00dbaf6ec53fd46ce8820273d50",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc17701014731659371251375D8B60BD2F483BCD5DB4E892F35868033DE1F0.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/17701014731659371251/375D8B60BD2F483BCD5DB4E892F35868033DE1F0/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-02-1fff3f45.png",
+          "sourceSha256": "02defc47567262d9bec96de9a4ab1c6af9266afad1512ad9729e24daad81820c",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc11281269869585435017402A29AE10AA89EEA802653E94BB5BCF67D74475.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/11281269869585435017/402A29AE10AA89EEA802653E94BB5BCF67D74475/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-03-198d8fb0.jpg",
+          "sourceSha256": "e14993cc64de3ffd1d75cd137ab394a73e1018ce7de7cd9b191a5099b6d86b68",
+          "sourceWidth": 2052,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16203321460504644692A8FD203C592D5387A44CC8CE9AA21429CDAF59B1.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/16203321460504644692/A8FD203C592D5387A44CC8CE9AA21429CDAF59B1/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347528,
+            "index": 28,
+            "columns": 5,
+            "rows": 6,
+            "column": 3,
+            "row": 5
+          }
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "The Firmament / The Obsidian",
+      "slug": "the-firmament-the-obsidian",
+      "sortOrder": 5,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-01-a1ad9f9f.jpg",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-01-a1ad9f9f.jpg",
+          "sourceSha256": "359f35aba382a905a5d8845594c2ea4f3bdf0ae62c39ad3a1d09d406fbc2bd35",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc13230580348614801264805CA5598B757348AEF319C5AD12FC059BAA35EC.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/13230580348614801264/805CA5598B757348AEF319C5AD12FC059BAA35EC/"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-02-9da8cb58.jpg",
+          "sourceSha256": "0c4eadfdd0b23c99090caef47b3ec31067b30f3a60350bbfc2a99f3d07825d56",
+          "sourceWidth": 2052,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc15419312466650514449BE284572975627C5714EEAAC621BECA81932FF50.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/15419312466650514449/BE284572975627C5714EEAAC621BECA81932FF50/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347529,
+            "index": 29,
+            "columns": 5,
+            "rows": 6,
+            "column": 4,
+            "row": 5
+          }
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-04-7ad2074a.png",
+          "sourceSha256": "7a60fcbc00b732bb74af901e6dd2dfd06d6688d8ec5dda5ccc0aeb48c683f87f",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc9664391950754602778A0AB3EA90646F868CB4362D1E8ACBC77D0182FE4.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9664391950754602778/A0AB3EA90646F868CB4362D1E8ACBC77D0182FE4/"
+        }
+      ]
+    },
+    {
+      "contentSet": "thunders-edge",
+      "name": "The Council Keleres",
+      "slug": "the-council-keleres",
+      "sortOrder": 6,
+      "selectedSource": null,
+      "finalCrop": null,
+      "status": "NEEDS_MANUAL_REVIEW",
+      "previewCandidateIndex": 1,
+      "previewSourcePath": "docs/tts-assets-review/candidates/the-council-keleres__candidate-01-4d1a5a68.png",
+      "previewRoiPixels": {
+        "x": 0,
+        "y": 205,
+        "width": 310,
+        "height": 275
+      },
+      "previewWarning": "Lower-left token-face region only. Contains token art, colored background, border and sometimes another token edge. Not an approved isolated symbol or final crop.",
+      "candidates": [
+        {
+          "index": 1,
+          "sourcePath": "docs/tts-assets-review/candidates/the-council-keleres__candidate-01-4d1a5a68.png",
+          "sourceSha256": "5158875ee617e3182140a0e983946e682bd292781eb27f3ab943e60bdcacc859",
+          "sourceWidth": 512,
+          "sourceHeight": 512,
+          "imageFormat": "PNG",
+          "assetType": "Textura de fichas",
+          "historicalCachePath": "Mods/Images/httpsrawgithubusercontentcomSomberlordti4ttsassetsmainkelerestokenspng.png",
+          "sourceUrl": "https://raw.githubusercontent.com/Somberlord/ti4-tts-assets/main/keleres_tokens.png"
+        },
+        {
+          "index": 2,
+          "sourcePath": "docs/tts-assets-review/candidates/the-council-keleres__candidate-02-7e05892a.png",
+          "sourceSha256": "fae6cf60451db6e1e4af661e777a7d005638172e8aa3d4a12ea55b813ddaa291",
+          "sourceWidth": 500,
+          "sourceHeight": 400,
+          "imageFormat": "PNG",
+          "assetType": "Retrato / botão de facção",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc10933270101559823436D34CE27BF4B4420181CE2A7F7ADD7964F08E884D.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/10933270101559823436/D34CE27BF4B4420181CE2A7F7ADD7964F08E884D/"
+        },
+        {
+          "index": 3,
+          "sourcePath": "docs/tts-assets-review/candidates/the-council-keleres__candidate-03-b61f554c.jpg",
+          "sourceSha256": "0906d94a7fcf8650b31b89886a3859ce4d47649fc50e6e2276dbfdb8e68b909e",
+          "sourceWidth": 2048,
+          "sourceHeight": 1024,
+          "imageFormat": "JPEG",
+          "assetType": "Textura de tile",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc16634817147300148478B1CD5823DD5D07B09A00CDA51CB3CA442D58094.jpg",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/1663481714730014847/8B1CD5823DD5D07B09A00CDA51CB3CA442D58094/"
+        },
+        {
+          "index": 4,
+          "sourcePath": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+          "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+          "sourceWidth": 7090,
+          "sourceHeight": 4962,
+          "imageFormat": "PNG",
+          "assetType": "Ficha de referência / emblema",
+          "historicalCachePath": "Mods/Images/httpssteamusercontentaakamaihdnetugc941102381415639158963466CC2D8D1FF42F319121A4994B6B7EA8ADF22.png",
+          "sourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/9411023814156391589/63466CC2D8D1FF42F319121A4994B6B7EA8ADF22/",
+          "atlas": {
+            "cardId": 347507,
+            "index": 7,
+            "columns": 5,
+            "rows": 6,
+            "column": 2,
+            "row": 1
+          }
+        }
+      ]
+    }
+  ]
+}

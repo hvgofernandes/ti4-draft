@@ -1,0 +1,709 @@
+{
+  "counts": {
+    "catalog": 64,
+    "mappedSources": 64,
+    "isolated": 64,
+    "outputs": 64,
+    "readyForReview": 62,
+    "needsManualReview": 2
+  },
+  "sourceKinds": {
+    "atlas": 30,
+    "ds": 34
+  },
+  "warningsEntries": 40,
+  "warningCodes": {
+    "LOW_SOURCE_RESOLUTION": 30,
+    "TINY_FRAGMENTS_REVIEW": 30,
+    "SMALL_ATLAS_ICON": 7,
+    "ALTERNATE_TOKEN_SHEET_EXISTS": 1,
+    "MULTIPLE_LARGE_COMPONENTS_REVIEW": 12,
+    "COMBINED_FACTION_IDENTITY": 1,
+    "KELERES_REFERENCE_USES_MENTAK_VARIANT": 1,
+    "foreground_near_crop_boundary": 1,
+    "source_glow_requires_review": 1,
+    "RECTANGULAR_BACKGROUND_REVIEW": 1
+  },
+  "alphaOccupancyMedian": 0.19305,
+  "outliers": [
+    {
+      "slug": "the-argent-flight",
+      "reasons": [
+        "alpha area below half the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          104,
+          103,
+          408,
+          409
+        ],
+        "aspectRatio": 0.9935,
+        "visibleArea": 25361,
+        "weightedAlphaArea": 23255.11,
+        "alphaOccupancy": 0.0887,
+        "bboxOccupancy": 0.3549,
+        "density": 0.2726,
+        "alphaFringeRatio": 0.1275,
+        "softAlphaRatio": 0.1662,
+        "componentCount": 183,
+        "largeComponentCount": 6,
+        "tinyComponentCount": 177,
+        "components": [
+          {
+            "area": 6011,
+            "bbox": [
+              204,
+              103,
+              270,
+              258
+            ],
+            "centroid": [
+              236.96,
+              180.97
+            ]
+          },
+          {
+            "area": 5689,
+            "bbox": [
+              104,
+              282,
+              215,
+              398
+            ],
+            "centroid": [
+              154.88,
+              331.77
+            ]
+          },
+          {
+            "area": 5574,
+            "bbox": [
+              255,
+              290,
+              408,
+              368
+            ],
+            "centroid": [
+              325.65,
+              330.03
+            ]
+          },
+          {
+            "area": 2709,
+            "bbox": [
+              283,
+              194,
+              341,
+              270
+            ],
+            "centroid": [
+              316.45,
+              236.25
+            ]
+          },
+          {
+            "area": 2645,
+            "bbox": [
+              119,
+              208,
+              201,
+              266
+            ],
+            "centroid": [
+              162.71,
+              236.93
+            ]
+          },
+          {
+            "area": 2512,
+            "bbox": [
+              214,
+              340,
+              266,
+              409
+            ],
+            "centroid": [
+              240.21,
+              370.7
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              223,
+              113,
+              225,
+              114
+            ],
+            "centroid": [
+              223.5,
+              113.0
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              241,
+              129,
+              243,
+              130
+            ],
+            "centroid": [
+              241.5,
+              129.0
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              325,
+              201,
+              327,
+              202
+            ],
+            "centroid": [
+              325.5,
+              201.0
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              313,
+              211,
+              315,
+              212
+            ],
+            "centroid": [
+              313.5,
+              211.0
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              153,
+              213,
+              155,
+              214
+            ],
+            "centroid": [
+              153.5,
+              213.0
+            ]
+          },
+          {
+            "area": 2,
+            "bbox": [
+              307,
+              215,
+              309,
+              216
+            ],
+            "centroid": [
+              307.5,
+              215.0
+            ]
+          }
+        ],
+        "warnings": [
+          "MULTIPLE_LARGE_COMPONENTS_REVIEW",
+          "TINY_FRAGMENTS_REVIEW"
+        ]
+      }
+    },
+    {
+      "slug": "the-free-systems-compact",
+      "reasons": [
+        "alpha area above twice the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          71,
+          71,
+          440,
+          440
+        ],
+        "aspectRatio": 1.0,
+        "visibleArea": 107321,
+        "weightedAlphaArea": 106493.95,
+        "alphaOccupancy": 0.4062,
+        "bboxOccupancy": 0.5194,
+        "density": 0.7882,
+        "alphaFringeRatio": 0.012,
+        "softAlphaRatio": 0.0148,
+        "componentCount": 1,
+        "largeComponentCount": 1,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 107321,
+            "bbox": [
+              71,
+              71,
+              440,
+              440
+            ],
+            "centroid": [
+              255.0,
+              255.0
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "slug": "the-li-zho-dynasty",
+      "reasons": [
+        "alpha area below half the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          71,
+          86,
+          440,
+          425
+        ],
+        "aspectRatio": 1.0885,
+        "visibleArea": 29089,
+        "weightedAlphaArea": 25246.51,
+        "alphaOccupancy": 0.0963,
+        "bboxOccupancy": 0.4772,
+        "density": 0.2325,
+        "alphaFringeRatio": 0.158,
+        "softAlphaRatio": 0.2631,
+        "componentCount": 1,
+        "largeComponentCount": 1,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 29089,
+            "bbox": [
+              71,
+              86,
+              440,
+              425
+            ],
+            "centroid": [
+              254.51,
+              240.29
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "slug": "the-nivyn-star-kings",
+      "reasons": [
+        "alpha area below half the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          77,
+          71,
+          434,
+          440
+        ],
+        "aspectRatio": 0.9675,
+        "visibleArea": 25446,
+        "weightedAlphaArea": 22816.96,
+        "alphaOccupancy": 0.087,
+        "bboxOccupancy": 0.5025,
+        "density": 0.1932,
+        "alphaFringeRatio": 0.1704,
+        "softAlphaRatio": 0.1981,
+        "componentCount": 13,
+        "largeComponentCount": 13,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 3995,
+            "bbox": [
+              199,
+              205,
+              310,
+              315
+            ],
+            "centroid": [
+              253.11,
+              258.16
+            ]
+          },
+          {
+            "area": 2262,
+            "bbox": [
+              217,
+              71,
+              248,
+              203
+            ],
+            "centroid": [
+              236.79,
+              149.41
+            ]
+          },
+          {
+            "area": 2232,
+            "bbox": [
+              261,
+              71,
+              292,
+              203
+            ],
+            "centroid": [
+              271.15,
+              149.56
+            ]
+          },
+          {
+            "area": 2129,
+            "bbox": [
+              311,
+              266,
+              434,
+              295
+            ],
+            "centroid": [
+              362.17,
+              276.03
+            ]
+          },
+          {
+            "area": 2058,
+            "bbox": [
+              311,
+              224,
+              434,
+              253
+            ],
+            "centroid": [
+              361.91,
+              242.32
+            ]
+          },
+          {
+            "area": 1985,
+            "bbox": [
+              77,
+              224,
+              197,
+              253
+            ],
+            "centroid": [
+              147.14,
+              242.35
+            ]
+          },
+          {
+            "area": 1961,
+            "bbox": [
+              77,
+              266,
+              197,
+              295
+            ],
+            "centroid": [
+              147.27,
+              276.4
+            ]
+          },
+          {
+            "area": 1940,
+            "bbox": [
+              219,
+              318,
+              247,
+              440
+            ],
+            "centroid": [
+              236.61,
+              366.1
+            ]
+          },
+          {
+            "area": 1936,
+            "bbox": [
+              262,
+              317,
+              290,
+              440
+            ],
+            "centroid": [
+              271.42,
+              365.99
+            ]
+          },
+          {
+            "area": 1312,
+            "bbox": [
+              299,
+              144,
+              367,
+              214
+            ],
+            "centroid": [
+              331.42,
+              181.36
+            ]
+          },
+          {
+            "area": 1238,
+            "bbox": [
+              142,
+              146,
+              211,
+              216
+            ],
+            "centroid": [
+              177.36,
+              182.01
+            ]
+          },
+          {
+            "area": 1234,
+            "bbox": [
+              299,
+              303,
+              366,
+              372
+            ],
+            "centroid": [
+              330.69,
+              334.78
+            ]
+          }
+        ],
+        "warnings": [
+          "MULTIPLE_LARGE_COMPONENTS_REVIEW"
+        ]
+      }
+    },
+    {
+      "slug": "the-veldyr-sovereignty",
+      "reasons": [
+        "alpha area above twice the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          71,
+          71,
+          440,
+          440
+        ],
+        "aspectRatio": 1.0,
+        "visibleArea": 107329,
+        "weightedAlphaArea": 106511.27,
+        "alphaOccupancy": 0.4063,
+        "bboxOccupancy": 0.5194,
+        "density": 0.7883,
+        "alphaFringeRatio": 0.0123,
+        "softAlphaRatio": 0.0145,
+        "componentCount": 1,
+        "largeComponentCount": 1,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 107329,
+            "bbox": [
+              71,
+              71,
+              440,
+              440
+            ],
+            "centroid": [
+              255.0,
+              255.0
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "slug": "the-cheiran-hordes",
+      "reasons": [
+        "alpha area above twice the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          71,
+          73,
+          440,
+          438
+        ],
+        "aspectRatio": 1.011,
+        "visibleArea": 132619,
+        "weightedAlphaArea": 131876.09,
+        "alphaOccupancy": 0.5031,
+        "bboxOccupancy": 0.5138,
+        "density": 0.9847,
+        "alphaFringeRatio": 0.0029,
+        "softAlphaRatio": 0.0121,
+        "componentCount": 1,
+        "largeComponentCount": 1,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 132619,
+            "bbox": [
+              71,
+              73,
+              440,
+              438
+            ],
+            "centroid": [
+              254.92,
+              254.59
+            ]
+          }
+        ],
+        "warnings": [
+          "RECTANGULAR_BACKGROUND_REVIEW"
+        ]
+      }
+    },
+    {
+      "slug": "the-monks-of-kolume",
+      "reasons": [
+        "alpha area above twice the population median"
+      ],
+      "metrics": {
+        "empty": false,
+        "width": 512,
+        "height": 512,
+        "bounds": [
+          71,
+          71,
+          440,
+          440
+        ],
+        "aspectRatio": 1.0,
+        "visibleArea": 107305,
+        "weightedAlphaArea": 106539.62,
+        "alphaOccupancy": 0.4064,
+        "bboxOccupancy": 0.5194,
+        "density": 0.7881,
+        "alphaFringeRatio": 0.0118,
+        "softAlphaRatio": 0.0141,
+        "componentCount": 1,
+        "largeComponentCount": 1,
+        "tinyComponentCount": 0,
+        "components": [
+          {
+            "area": 107305,
+            "bbox": [
+              71,
+              71,
+              440,
+              440
+            ],
+            "centroid": [
+              255.0,
+              255.0
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    }
+  ],
+  "resolutionLimited": [
+    "the-arborec",
+    "the-barony-of-letnev",
+    "the-clan-of-saar",
+    "the-embers-of-muaat",
+    "the-emirates-of-hacan",
+    "the-federation-of-sol",
+    "the-ghosts-of-creuss",
+    "the-l1z1x-mindnet",
+    "the-mentak-coalition",
+    "the-naalu-collective",
+    "the-nekro-virus",
+    "sardakk-norr",
+    "the-universities-of-jol-nar",
+    "the-winnu",
+    "the-xxcha-kingdom",
+    "the-yin-brotherhood",
+    "the-yssaril-tribes",
+    "the-argent-flight",
+    "the-empyrean",
+    "the-mahact-gene-sorcerers",
+    "the-naaz-rokha-alliance",
+    "the-nomad",
+    "the-titans-of-ul",
+    "the-vuilraith-cabal",
+    "last-bastion",
+    "the-deepwrought-scholarate",
+    "the-crimson-rebellion",
+    "the-ral-nel-consortium",
+    "the-firmament-the-obsidian",
+    "the-council-keleres"
+  ],
+  "decision": "Keep the approved baseline. Outliers require human comparison; do not distort or invent detail.",
+  "population": {
+    "alphaOccupancy": {
+      "min": 0.087,
+      "median": 0.19305,
+      "max": 0.5031
+    },
+    "bboxOccupancy": {
+      "min": 0.1999,
+      "median": 0.3567,
+      "max": 0.5194
+    },
+    "density": {
+      "min": 0.1932,
+      "median": 0.5740000000000001,
+      "max": 0.9847
+    },
+    "aspectRatio": {
+      "min": 0.5329,
+      "median": 1.0,
+      "max": 1.7243
+    },
+    "weightedAlphaArea": {
+      "min": 22816.96,
+      "median": 50606.835,
+      "max": 131876.09
+    }
+  },
+  "byContentSet": {
+    "base": {
+      "count": 17,
+      "alphaOccupancyMedian": 0.1673
+    },
+    "discordant-stars": {
+      "count": 34,
+      "alphaOccupancyMedian": 0.2256
+    },
+    "pok": {
+      "count": 7,
+      "alphaOccupancyMedian": 0.1586
+    },
+    "thunders-edge": {
+      "count": 6,
+      "alphaOccupancyMedian": 0.2056
+    }
+  }
+}

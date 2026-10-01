@@ -38,3 +38,9 @@ git diff --check
 ```
 
 O teste SQL requer três usuários anônimos locais, criados pelo teste JavaScript, e usa `ROLLBACK`. O painel visual com catálogo, fontes, progresso e resultados está em [docs/phase-3.1-progress.html](docs/phase-3.1-progress.html); abra o arquivo diretamente no navegador.
+
+## Fase 3.1.6: preparação dos símbolos
+
+A [galeria de QA](docs/faction-assets-qa/index.html) e o [manifesto](docs/faction-assets-qa/faction-assets-manifest.json) registram os 64 slugs do catálogo. O pipeline reproduzível fica em [scripts/faction-assets](scripts/faction-assets); seus parâmetros e bloqueios estão no [README da galeria](docs/faction-assets-qa/README.md). Abra a galeria pelo Vite em `http://127.0.0.1:5173/docs/faction-assets-qa/`.
+
+Os símbolos oficiais são extraídos do atlas preservado; os sources Discordant Stars foram localizados no acervo local. A galeria compara fonte, isolamento e normalização, com hashes, parâmetros, métricas e alertas. Os PNGs são candidatos aguardando revisão visual humana. Esta etapa não altera banco ou interface principal.

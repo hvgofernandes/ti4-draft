@@ -1,0 +1,2449 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "docs/tts-assets-review/tts-faction-assets-report.json",
+  "sourceReportSha256": "af922aec6b8401e68f931ff7d6c7ac04ff14d94cd37b3aaa388d7e6002a9d799",
+  "mapping": "docs/faction-assets-qa/official-mapping.json",
+  "mappingSha256": "2709ff223e85ec66b89f912d346ef84df888fd71a5ae7bda54b62328a8386cd9",
+  "limitations": [
+    "READY_FOR_REVIEW means ready for human visual inspection, not approved for production.",
+    "GrabCut produces binary alpha; inspect edges/halos at zoom on light, dark and checkerboard backgrounds.",
+    "Atlas emblem resolution is 99\u2013171 px wide before later card normalization; enlargement cannot restore lost detail.",
+    "Seven icons with largest source side below 140 px were compared with larger token-sheet emblems. Token segmentation lost part of Ghosts and retained background for Yssaril; other token images had textured/JPEG backgrounds without a clear sharpness gain. The atlas was retained consistently and SMALL_ATLAS_ICON flags the seven candidates."
+  ],
+  "factions": [
+    {
+      "slug": "the-arborec",
+      "name": "The Arborec",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-arborec.png",
+      "intermediateSha256": "ecf0b7ecf7b486de9451608bd3d9f1d01b562bee10a6b6f9ff546daecb0a3d6f",
+      "intermediateWidth": 139,
+      "intermediateHeight": 153,
+      "crop": [
+        1190,
+        0,
+        1415,
+        190
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347500,
+        "atlasIndex": 0,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          0,
+          1415,
+          190
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          60,
+          28,
+          189,
+          171
+        ],
+        "intermediateCropInOriginal": [
+          1245,
+          23,
+          1384,
+          176
+        ],
+        "foregroundPixels": 13863,
+        "alphaCoverage": 0.324281,
+        "foregroundComponents": [
+          {
+            "x": 60,
+            "y": 28,
+            "width": 129,
+            "height": 143,
+            "area": 13863
+          }
+        ],
+        "outputWidth": 139,
+        "outputHeight": 153
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-barony-of-letnev",
+      "name": "The Barony of Letnev",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-barony-of-letnev.png",
+      "intermediateSha256": "9626faf9fd185cae01b9c80a9f63f2f0239eac59202b7fc68d642e2d0c4f16cc",
+      "intermediateWidth": 160,
+      "intermediateHeight": 162,
+      "crop": [
+        6862,
+        827,
+        7087,
+        1017
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347509,
+        "atlasIndex": 9,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          827,
+          7087,
+          1017
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          48,
+          24,
+          198,
+          176
+        ],
+        "intermediateCropInOriginal": [
+          6905,
+          846,
+          7065,
+          1008
+        ],
+        "foregroundPixels": 8269,
+        "alphaCoverage": 0.193427,
+        "foregroundComponents": [
+          {
+            "x": 48,
+            "y": 24,
+            "width": 150,
+            "height": 152,
+            "area": 8269
+          }
+        ],
+        "outputWidth": 160,
+        "outputHeight": 162
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-clan-of-saar",
+      "name": "The Clan of Saar",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-clan-of-saar.png",
+      "intermediateSha256": "8f98bd5027c1b9a2f30ae7eae0bd80e31779c2b61b00885d95703e47b301cdfb",
+      "intermediateWidth": 153,
+      "intermediateHeight": 145,
+      "crop": [
+        2608,
+        2481,
+        2833,
+        2671
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347516,
+        "atlasIndex": 16,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          2481,
+          2833,
+          2671
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          54,
+          30,
+          197,
+          165
+        ],
+        "intermediateCropInOriginal": [
+          2657,
+          2506,
+          2810,
+          2651
+        ],
+        "foregroundPixels": 15033,
+        "alphaCoverage": 0.351649,
+        "foregroundComponents": [
+          {
+            "x": 54,
+            "y": 30,
+            "width": 143,
+            "height": 135,
+            "area": 15033
+          }
+        ],
+        "outputWidth": 153,
+        "outputHeight": 145
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-embers-of-muaat",
+      "name": "The Embers of Muaat",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-embers-of-muaat.png",
+      "intermediateSha256": "ad936793701942730e9b36aae64e558f5e4463ede3b1a04a288f9080f8181977",
+      "intermediateWidth": 109,
+      "intermediateHeight": 163,
+      "crop": [
+        4026,
+        0,
+        4251,
+        190
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347502,
+        "atlasIndex": 2,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          0,
+          4251,
+          190
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          73,
+          30,
+          172,
+          183
+        ],
+        "intermediateCropInOriginal": [
+          4094,
+          25,
+          4203,
+          188
+        ],
+        "foregroundPixels": 9376,
+        "alphaCoverage": 0.219322,
+        "foregroundComponents": [
+          {
+            "x": 73,
+            "y": 30,
+            "width": 99,
+            "height": 153,
+            "area": 9376
+          }
+        ],
+        "outputWidth": 109,
+        "outputHeight": 163
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-emirates-of-hacan",
+      "name": "The Emirates of Hacan",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-emirates-of-hacan.png",
+      "intermediateSha256": "aba569d80df13923d767273f7e20156ce3d92d9689464a86a8ac8c07b20ebe77",
+      "intermediateWidth": 141,
+      "intermediateHeight": 136,
+      "crop": [
+        1190,
+        827,
+        1415,
+        1017
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347505,
+        "atlasIndex": 5,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          827,
+          1415,
+          1017
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          65,
+          40,
+          196,
+          166
+        ],
+        "intermediateCropInOriginal": [
+          1250,
+          862,
+          1391,
+          998
+        ],
+        "foregroundPixels": 9617,
+        "alphaCoverage": 0.224959,
+        "foregroundComponents": [
+          {
+            "x": 65,
+            "y": 40,
+            "width": 131,
+            "height": 126,
+            "area": 9617
+          }
+        ],
+        "outputWidth": 141,
+        "outputHeight": 136
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-federation-of-sol",
+      "name": "The Federation of Sol",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-federation-of-sol.png",
+      "intermediateSha256": "8c2d81b37641cebb8e2287edb91a2e1b27f0de6c25c29a9b4659fa765c252623",
+      "intermediateWidth": 158,
+      "intermediateHeight": 133,
+      "crop": [
+        5444,
+        2481,
+        5669,
+        2671
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347518,
+        "atlasIndex": 18,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          2481,
+          5669,
+          2671
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          47,
+          36,
+          195,
+          159
+        ],
+        "intermediateCropInOriginal": [
+          5486,
+          2512,
+          5644,
+          2645
+        ],
+        "foregroundPixels": 13463,
+        "alphaCoverage": 0.314924,
+        "foregroundComponents": [
+          {
+            "x": 47,
+            "y": 36,
+            "width": 148,
+            "height": 123,
+            "area": 13463
+          }
+        ],
+        "outputWidth": 158,
+        "outputHeight": 133
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-ghosts-of-creuss",
+      "name": "The Ghosts of Creuss",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-ghosts-of-creuss.png",
+      "intermediateSha256": "31ef5ffd3efb550e68509870efc4d98c6f8a884d5da716b4f564b6d4694cd307",
+      "intermediateWidth": 136,
+      "intermediateHeight": 143,
+      "crop": [
+        6862,
+        0,
+        7087,
+        190
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347504,
+        "atlasIndex": 4,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "ALTERNATE_TOKEN_SHEET_EXISTS",
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          0,
+          7087,
+          190
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          66,
+          28,
+          192,
+          161
+        ],
+        "intermediateCropInOriginal": [
+          6923,
+          23,
+          7059,
+          166
+        ],
+        "foregroundPixels": 10444,
+        "alphaCoverage": 0.244304,
+        "foregroundComponents": [
+          {
+            "x": 66,
+            "y": 28,
+            "width": 126,
+            "height": 133,
+            "area": 10444
+          }
+        ],
+        "outputWidth": 136,
+        "outputHeight": 143
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-l1z1x-mindnet",
+      "name": "The L1Z1X Mindnet",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-l1z1x-mindnet.png",
+      "intermediateSha256": "62caa61783b95df9b6f5fbdbdfe5e387eca52e40c77086173416f2434776ce02",
+      "intermediateWidth": 171,
+      "intermediateHeight": 124,
+      "crop": [
+        5444,
+        827,
+        5669,
+        1017
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347508,
+        "atlasIndex": 8,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          827,
+          5669,
+          1017
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          46,
+          36,
+          207,
+          150
+        ],
+        "intermediateCropInOriginal": [
+          5485,
+          858,
+          5656,
+          982
+        ],
+        "foregroundPixels": 10949,
+        "alphaCoverage": 0.256117,
+        "foregroundComponents": [
+          {
+            "x": 46,
+            "y": 36,
+            "width": 161,
+            "height": 114,
+            "area": 10949
+          }
+        ],
+        "outputWidth": 171,
+        "outputHeight": 124
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-mentak-coalition",
+      "name": "The Mentak Coalition",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-mentak-coalition.png",
+      "intermediateSha256": "501e36e1f4cedfe6fe8f771bcd51f64f9c51e8a770d33ac45470c3402fbddf7c",
+      "intermediateWidth": 153,
+      "intermediateHeight": 148,
+      "crop": [
+        2608,
+        1654,
+        2833,
+        1844
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347511,
+        "atlasIndex": 11,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          1654,
+          2833,
+          1844
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          59,
+          18,
+          202,
+          156
+        ],
+        "intermediateCropInOriginal": [
+          2662,
+          1667,
+          2815,
+          1815
+        ],
+        "foregroundPixels": 11853,
+        "alphaCoverage": 0.277263,
+        "foregroundComponents": [
+          {
+            "x": 59,
+            "y": 18,
+            "width": 143,
+            "height": 138,
+            "area": 11853
+          }
+        ],
+        "outputWidth": 153,
+        "outputHeight": 148
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-naalu-collective",
+      "name": "The Naalu Collective",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-naalu-collective.png",
+      "intermediateSha256": "7e5ee252dfa4a1d02c2da762460423907f3c801ab8613bcf94dca859b4425ca2",
+      "intermediateWidth": 149,
+      "intermediateHeight": 111,
+      "crop": [
+        4026,
+        1654,
+        4251,
+        1844
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347512,
+        "atlasIndex": 12,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          1654,
+          4251,
+          1844
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          60,
+          40,
+          199,
+          141
+        ],
+        "intermediateCropInOriginal": [
+          4081,
+          1689,
+          4230,
+          1800
+        ],
+        "foregroundPixels": 9989,
+        "alphaCoverage": 0.233661,
+        "foregroundComponents": [
+          {
+            "x": 60,
+            "y": 40,
+            "width": 139,
+            "height": 101,
+            "area": 9989
+          }
+        ],
+        "outputWidth": 149,
+        "outputHeight": 111
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-nekro-virus",
+      "name": "The Nekro Virus",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-nekro-virus.png",
+      "intermediateSha256": "d00b541ee7d29d57fb0a64315a74220dbf988a9b391aaf1ecae95878591e0716",
+      "intermediateWidth": 156,
+      "intermediateHeight": 162,
+      "crop": [
+        6862,
+        1654,
+        7087,
+        1844
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347514,
+        "atlasIndex": 14,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          1654,
+          7087,
+          1844
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          48,
+          25,
+          194,
+          177
+        ],
+        "intermediateCropInOriginal": [
+          6905,
+          1674,
+          7061,
+          1836
+        ],
+        "foregroundPixels": 9287,
+        "alphaCoverage": 0.21724,
+        "foregroundComponents": [
+          {
+            "x": 48,
+            "y": 25,
+            "width": 146,
+            "height": 152,
+            "area": 9287
+          }
+        ],
+        "outputWidth": 156,
+        "outputHeight": 162
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "sardakk-norr",
+      "name": "Sardakk N'orr",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/sardakk-norr.png",
+      "intermediateSha256": "bcfec749b457f6d60293de334f157486a41b4ec42f86d45274bf2c381e6ae565",
+      "intermediateWidth": 129,
+      "intermediateHeight": 166,
+      "crop": [
+        4026,
+        2481,
+        4251,
+        2671
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347517,
+        "atlasIndex": 17,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          2481,
+          4251,
+          2671
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          64,
+          21,
+          183,
+          177
+        ],
+        "intermediateCropInOriginal": [
+          4085,
+          2497,
+          4214,
+          2663
+        ],
+        "foregroundPixels": 8039,
+        "alphaCoverage": 0.188047,
+        "foregroundComponents": [
+          {
+            "x": 64,
+            "y": 21,
+            "width": 119,
+            "height": 156,
+            "area": 8039
+          }
+        ],
+        "outputWidth": 129,
+        "outputHeight": 166
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-universities-of-jol-nar",
+      "name": "The Universities of Jol-Nar",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-universities-of-jol-nar.png",
+      "intermediateSha256": "a687e7271aa656345b6c8e495c20f52573579d76859730fca041245ebeb1c32e",
+      "intermediateWidth": 139,
+      "intermediateHeight": 134,
+      "crop": [
+        2608,
+        827,
+        2833,
+        1017
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347506,
+        "atlasIndex": 6,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          827,
+          2833,
+          1017
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          55,
+          35,
+          184,
+          159
+        ],
+        "intermediateCropInOriginal": [
+          2658,
+          857,
+          2797,
+          991
+        ],
+        "foregroundPixels": 12022,
+        "alphaCoverage": 0.281216,
+        "foregroundComponents": [
+          {
+            "x": 55,
+            "y": 35,
+            "width": 129,
+            "height": 124,
+            "area": 12022
+          }
+        ],
+        "outputWidth": 139,
+        "outputHeight": 134
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-winnu",
+      "name": "The Winnu",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-winnu.png",
+      "intermediateSha256": "2bfacd43bcd71ea39c334c95693f6e4081c80e5d34ac818fde30aa3880d8cc94",
+      "intermediateWidth": 166,
+      "intermediateHeight": 151,
+      "crop": [
+        2608,
+        3308,
+        2833,
+        3498
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347521,
+        "atlasIndex": 21,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          3308,
+          2833,
+          3498
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          48,
+          29,
+          204,
+          170
+        ],
+        "intermediateCropInOriginal": [
+          2651,
+          3332,
+          2817,
+          3483
+        ],
+        "foregroundPixels": 12122,
+        "alphaCoverage": 0.283556,
+        "foregroundComponents": [
+          {
+            "x": 145,
+            "y": 29,
+            "width": 27,
+            "height": 28,
+            "area": 596
+          },
+          {
+            "x": 80,
+            "y": 30,
+            "width": 27,
+            "height": 27,
+            "area": 589
+          },
+          {
+            "x": 65,
+            "y": 30,
+            "width": 124,
+            "height": 140,
+            "area": 8623
+          },
+          {
+            "x": 48,
+            "y": 86,
+            "width": 27,
+            "height": 26,
+            "area": 583
+          },
+          {
+            "x": 177,
+            "y": 86,
+            "width": 27,
+            "height": 27,
+            "area": 595
+          },
+          {
+            "x": 145,
+            "y": 141,
+            "width": 27,
+            "height": 27,
+            "area": 574
+          },
+          {
+            "x": 81,
+            "y": 142,
+            "width": 26,
+            "height": 26,
+            "area": 562
+          }
+        ],
+        "outputWidth": 166,
+        "outputHeight": 151
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-xxcha-kingdom",
+      "name": "The Xxcha Kingdom",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-xxcha-kingdom.png",
+      "intermediateSha256": "b137f75c293578c9a7c4d386ba49e0f99cbac6f18f173bbe5a72d9d56c244020",
+      "intermediateWidth": 162,
+      "intermediateHeight": 149,
+      "crop": [
+        4026,
+        3308,
+        4251,
+        3498
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347522,
+        "atlasIndex": 22,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          3308,
+          4251,
+          3498
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          48,
+          28,
+          200,
+          167
+        ],
+        "intermediateCropInOriginal": [
+          4069,
+          3331,
+          4231,
+          3480
+        ],
+        "foregroundPixels": 10963,
+        "alphaCoverage": 0.256444,
+        "foregroundComponents": [
+          {
+            "x": 48,
+            "y": 28,
+            "width": 152,
+            "height": 139,
+            "area": 10963
+          }
+        ],
+        "outputWidth": 162,
+        "outputHeight": 149
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-yin-brotherhood",
+      "name": "The Yin Brotherhood",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-yin-brotherhood.png",
+      "intermediateSha256": "765ffd1c51ade952253a9c4f22b7f1c60246399d0c999188e0115bb2a4dfd970",
+      "intermediateWidth": 149,
+      "intermediateHeight": 151,
+      "crop": [
+        5444,
+        3308,
+        5669,
+        3498
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347523,
+        "atlasIndex": 23,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          3308,
+          5669,
+          3498
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          55,
+          26,
+          194,
+          167
+        ],
+        "intermediateCropInOriginal": [
+          5494,
+          3329,
+          5643,
+          3480
+        ],
+        "foregroundPixels": 13230,
+        "alphaCoverage": 0.309474,
+        "foregroundComponents": [
+          {
+            "x": 55,
+            "y": 26,
+            "width": 139,
+            "height": 141,
+            "area": 13230
+          }
+        ],
+        "outputWidth": 149,
+        "outputHeight": 151
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-yssaril-tribes",
+      "name": "The Yssaril Tribes",
+      "contentSet": "base",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-yssaril-tribes.png",
+      "intermediateSha256": "e1c671280a56fd6ae4d52e08e40c0c3f38fbbde386830b30a32a3284dc407e95",
+      "intermediateWidth": 140,
+      "intermediateHeight": 148,
+      "crop": [
+        6862,
+        3308,
+        7087,
+        3498
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347524,
+        "atlasIndex": 24,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          3308,
+          7087,
+          3498
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          58,
+          26,
+          188,
+          164
+        ],
+        "intermediateCropInOriginal": [
+          6915,
+          3329,
+          7055,
+          3477
+        ],
+        "foregroundPixels": 13061,
+        "alphaCoverage": 0.30552,
+        "foregroundComponents": [
+          {
+            "x": 58,
+            "y": 26,
+            "width": 130,
+            "height": 138,
+            "area": 13061
+          }
+        ],
+        "outputWidth": 140,
+        "outputHeight": 148
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-argent-flight",
+      "name": "The Argent Flight",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-argent-flight.png",
+      "intermediateSha256": "51e69cc451c2a1dae0d8a96ba8229f4dba46f20666d749e5af9de2efc1a260c2",
+      "intermediateWidth": 162,
+      "intermediateHeight": 163,
+      "crop": [
+        2608,
+        0,
+        2833,
+        190
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347501,
+        "atlasIndex": 1,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          0,
+          2833,
+          190
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          60,
+          9,
+          212,
+          162
+        ],
+        "intermediateCropInOriginal": [
+          2663,
+          4,
+          2825,
+          167
+        ],
+        "foregroundPixels": 5813,
+        "alphaCoverage": 0.135977,
+        "foregroundComponents": [
+          {
+            "x": 111,
+            "y": 9,
+            "width": 31,
+            "height": 77,
+            "area": 1399
+          },
+          {
+            "x": 150,
+            "y": 55,
+            "width": 28,
+            "height": 37,
+            "area": 618
+          },
+          {
+            "x": 68,
+            "y": 62,
+            "width": 40,
+            "height": 28,
+            "area": 602
+          },
+          {
+            "x": 60,
+            "y": 99,
+            "width": 55,
+            "height": 57,
+            "area": 1325
+          },
+          {
+            "x": 136,
+            "y": 103,
+            "width": 76,
+            "height": 38,
+            "area": 1298
+          },
+          {
+            "x": 116,
+            "y": 128,
+            "width": 24,
+            "height": 34,
+            "area": 571
+          }
+        ],
+        "outputWidth": 162,
+        "outputHeight": 163
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-empyrean",
+      "name": "The Empyrean",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-empyrean.png",
+      "intermediateSha256": "d5296dab91eb945be8e9a58bd7827c29c04df70fc6390137583542d547814ac3",
+      "intermediateWidth": 155,
+      "intermediateHeight": 146,
+      "crop": [
+        5444,
+        0,
+        5669,
+        190
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347503,
+        "atlasIndex": 3,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          0,
+          5669,
+          190
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          53,
+          29,
+          198,
+          165
+        ],
+        "intermediateCropInOriginal": [
+          5492,
+          24,
+          5647,
+          170
+        ],
+        "foregroundPixels": 12034,
+        "alphaCoverage": 0.281497,
+        "foregroundComponents": [
+          {
+            "x": 53,
+            "y": 29,
+            "width": 145,
+            "height": 136,
+            "area": 12034
+          }
+        ],
+        "outputWidth": 155,
+        "outputHeight": 146
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-mahact-gene-sorcerers",
+      "name": "The Mahact Gene-Sorcerers",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-mahact-gene-sorcerers.png",
+      "intermediateSha256": "f2673cd3cb258655182658184eab2cb10785c165f844fb527d689bc0bcabd4ce",
+      "intermediateWidth": 152,
+      "intermediateHeight": 129,
+      "crop": [
+        1190,
+        1654,
+        1415,
+        1844
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347510,
+        "atlasIndex": 10,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          1654,
+          1415,
+          1844
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          55,
+          34,
+          197,
+          153
+        ],
+        "intermediateCropInOriginal": [
+          1240,
+          1683,
+          1392,
+          1812
+        ],
+        "foregroundPixels": 7635,
+        "alphaCoverage": 0.178596,
+        "foregroundComponents": [
+          {
+            "x": 88,
+            "y": 34,
+            "width": 31,
+            "height": 119,
+            "area": 2526
+          },
+          {
+            "x": 132,
+            "y": 34,
+            "width": 32,
+            "height": 118,
+            "area": 2517
+          },
+          {
+            "x": 176,
+            "y": 61,
+            "width": 21,
+            "height": 81,
+            "area": 1297
+          },
+          {
+            "x": 55,
+            "y": 62,
+            "width": 21,
+            "height": 80,
+            "area": 1295
+          }
+        ],
+        "outputWidth": 152,
+        "outputHeight": 129
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-naaz-rokha-alliance",
+      "name": "The Naaz-Rokha Alliance",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-naaz-rokha-alliance.png",
+      "intermediateSha256": "fe5497e733b4ca00f7698e92bad3af36ba1f933cb1b2e0e634b37c4143dd4cbe",
+      "intermediateWidth": 131,
+      "intermediateHeight": 150,
+      "crop": [
+        5444,
+        1654,
+        5669,
+        1844
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347513,
+        "atlasIndex": 13,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          1654,
+          5669,
+          1844
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          67,
+          29,
+          188,
+          169
+        ],
+        "intermediateCropInOriginal": [
+          5506,
+          1678,
+          5637,
+          1828
+        ],
+        "foregroundPixels": 10393,
+        "alphaCoverage": 0.243111,
+        "foregroundComponents": [
+          {
+            "x": 67,
+            "y": 29,
+            "width": 121,
+            "height": 140,
+            "area": 10393
+          }
+        ],
+        "outputWidth": 131,
+        "outputHeight": 150
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-nomad",
+      "name": "The Nomad",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-nomad.png",
+      "intermediateSha256": "11753baee29ef4144fef345e19d8cc8be14e62815dc3484fab271d0ac13d7285",
+      "intermediateWidth": 158,
+      "intermediateHeight": 168,
+      "crop": [
+        1190,
+        2481,
+        1415,
+        2671
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347515,
+        "atlasIndex": 15,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          2481,
+          1415,
+          2671
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          54,
+          19,
+          202,
+          177
+        ],
+        "intermediateCropInOriginal": [
+          1239,
+          2495,
+          1397,
+          2663
+        ],
+        "foregroundPixels": 15012,
+        "alphaCoverage": 0.351158,
+        "foregroundComponents": [
+          {
+            "x": 54,
+            "y": 19,
+            "width": 148,
+            "height": 158,
+            "area": 15012
+          }
+        ],
+        "outputWidth": 158,
+        "outputHeight": 168
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-titans-of-ul",
+      "name": "The Titans of Ul",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-titans-of-ul.png",
+      "intermediateSha256": "3df625b3019d9b50bc349e3ead8478ed40a06cd0ae1a9943a7c84b7a2c8d46f8",
+      "intermediateWidth": 148,
+      "intermediateHeight": 148,
+      "crop": [
+        6862,
+        2481,
+        7087,
+        2671
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347519,
+        "atlasIndex": 19,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          2481,
+          7087,
+          2671
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          59,
+          28,
+          197,
+          166
+        ],
+        "intermediateCropInOriginal": [
+          6916,
+          2504,
+          7064,
+          2652
+        ],
+        "foregroundPixels": 11297,
+        "alphaCoverage": 0.264257,
+        "foregroundComponents": [
+          {
+            "x": 59,
+            "y": 28,
+            "width": 55,
+            "height": 135,
+            "area": 1735
+          },
+          {
+            "x": 89,
+            "y": 28,
+            "width": 108,
+            "height": 138,
+            "area": 9562
+          }
+        ],
+        "outputWidth": 148,
+        "outputHeight": 148
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-vuilraith-cabal",
+      "name": "The Vuil'Raith Cabal",
+      "contentSet": "pok",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-vuilraith-cabal.png",
+      "intermediateSha256": "fd7b4cb259f7bd2bfbd6c019826f89ce22dd0708c0e227472d2ff1a043adce15",
+      "intermediateWidth": 128,
+      "intermediateHeight": 121,
+      "crop": [
+        1190,
+        3308,
+        1415,
+        3498
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347520,
+        "atlasIndex": 20,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "SMALL_ATLAS_ICON"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          3308,
+          1415,
+          3498
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          53,
+          65,
+          171,
+          176
+        ],
+        "intermediateCropInOriginal": [
+          1238,
+          3368,
+          1366,
+          3489
+        ],
+        "foregroundPixels": 7357,
+        "alphaCoverage": 0.172094,
+        "foregroundComponents": [
+          {
+            "x": 53,
+            "y": 65,
+            "width": 118,
+            "height": 111,
+            "area": 7357
+          }
+        ],
+        "outputWidth": 128,
+        "outputHeight": 121
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "last-bastion",
+      "name": "Last Bastion",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/last-bastion.png",
+      "intermediateSha256": "e4b4ebbc40c94eb30160a20fb98e34f88164ba117e941fcefd72a1ab1590bc47",
+      "intermediateWidth": 120,
+      "intermediateHeight": 171,
+      "crop": [
+        1190,
+        4135,
+        1415,
+        4325
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347525,
+        "atlasIndex": 25,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          1190,
+          4135,
+          1415,
+          4325
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          75,
+          16,
+          185,
+          177
+        ],
+        "intermediateCropInOriginal": [
+          1260,
+          4146,
+          1380,
+          4317
+        ],
+        "foregroundPixels": 9542,
+        "alphaCoverage": 0.223205,
+        "foregroundComponents": [
+          {
+            "x": 75,
+            "y": 16,
+            "width": 110,
+            "height": 161,
+            "area": 9542
+          }
+        ],
+        "outputWidth": 120,
+        "outputHeight": 171
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-deepwrought-scholarate",
+      "name": "The Deepwrought Scholarate",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-deepwrought-scholarate.png",
+      "intermediateSha256": "49d83b4c167792aada92c124fde3af75eb50488fae47951ee25c965c285fbb0a",
+      "intermediateWidth": 149,
+      "intermediateHeight": 150,
+      "crop": [
+        2608,
+        4135,
+        2833,
+        4325
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347526,
+        "atlasIndex": 26,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          2608,
+          4135,
+          2833,
+          4325
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          59,
+          28,
+          198,
+          168
+        ],
+        "intermediateCropInOriginal": [
+          2662,
+          4158,
+          2811,
+          4308
+        ],
+        "foregroundPixels": 15201,
+        "alphaCoverage": 0.355579,
+        "foregroundComponents": [
+          {
+            "x": 59,
+            "y": 28,
+            "width": 139,
+            "height": 140,
+            "area": 15201
+          }
+        ],
+        "outputWidth": 149,
+        "outputHeight": 150
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-crimson-rebellion",
+      "name": "The Crimson Rebellion",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-crimson-rebellion.png",
+      "intermediateSha256": "a1186a36387e72226ebf509f479c29a315c2eee52540332563310fd57c7a77ff",
+      "intermediateWidth": 147,
+      "intermediateHeight": 163,
+      "crop": [
+        4026,
+        4135,
+        4251,
+        4325
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347527,
+        "atlasIndex": 27,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          4135,
+          4251,
+          4325
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          59,
+          21,
+          196,
+          174
+        ],
+        "intermediateCropInOriginal": [
+          4080,
+          4151,
+          4227,
+          4314
+        ],
+        "foregroundPixels": 12789,
+        "alphaCoverage": 0.299158,
+        "foregroundComponents": [
+          {
+            "x": 59,
+            "y": 21,
+            "width": 137,
+            "height": 153,
+            "area": 12789
+          }
+        ],
+        "outputWidth": 147,
+        "outputHeight": 163
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-ral-nel-consortium",
+      "name": "The Ral Nel Consortium",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-ral-nel-consortium.png",
+      "intermediateSha256": "03df54eb4c84f4cb8e3fbd91fcc810dc201017566bc056dfda306d976301040b",
+      "intermediateWidth": 99,
+      "intermediateHeight": 177,
+      "crop": [
+        5444,
+        4135,
+        5669,
+        4325
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347528,
+        "atlasIndex": 28,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [],
+      "metrics": {
+        "atlasCrop": [
+          5444,
+          4135,
+          5669,
+          4325
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          82,
+          13,
+          171,
+          180
+        ],
+        "intermediateCropInOriginal": [
+          5521,
+          4143,
+          5620,
+          4320
+        ],
+        "foregroundPixels": 7943,
+        "alphaCoverage": 0.185801,
+        "foregroundComponents": [
+          {
+            "x": 82,
+            "y": 13,
+            "width": 89,
+            "height": 167,
+            "area": 7943
+          }
+        ],
+        "outputWidth": 99,
+        "outputHeight": 177
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-firmament-the-obsidian",
+      "name": "The Firmament / The Obsidian",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-firmament-the-obsidian.png",
+      "intermediateSha256": "5a9a77b68dcd297c796fefd6f9b3b09a48e101b5d18f7781201988730c0f8d80",
+      "intermediateWidth": 154,
+      "intermediateHeight": 152,
+      "crop": [
+        6862,
+        4135,
+        7087,
+        4325
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347529,
+        "atlasIndex": 29,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "COMBINED_FACTION_IDENTITY"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          6862,
+          4135,
+          7087,
+          4325
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          52,
+          24,
+          196,
+          166
+        ],
+        "intermediateCropInOriginal": [
+          6909,
+          4154,
+          7063,
+          4306
+        ],
+        "foregroundPixels": 14163,
+        "alphaCoverage": 0.331298,
+        "foregroundComponents": [
+          {
+            "x": 52,
+            "y": 24,
+            "width": 144,
+            "height": 142,
+            "area": 14163
+          }
+        ],
+        "outputWidth": 154,
+        "outputHeight": 152
+      },
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-council-keleres",
+      "name": "The Council Keleres",
+      "contentSet": "thunders-edge",
+      "sourceKind": "atlas",
+      "original": "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png",
+      "originalSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "source": "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png",
+      "sourceSha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115",
+      "sourceWidth": 7090,
+      "sourceHeight": 4962,
+      "intermediate": "assets/factions/intermediate/official/the-council-keleres.png",
+      "intermediateSha256": "2b72a8ff639fcee8f6d485a8e445a59b156f233dc6456c6724888ca0d92f420e",
+      "intermediateWidth": 157,
+      "intermediateHeight": 169,
+      "crop": [
+        4026,
+        827,
+        4251,
+        1017
+      ],
+      "method": "OpenCV GrabCut rectangle initialization (8 iterations), connected-component noise cutoff <100 px",
+      "parameters": {
+        "atlasCardId": 347507,
+        "atlasIndex": 7,
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "minComponentArea": 100,
+        "alpha": "binary",
+        "marginPixels": 5
+      },
+      "warnings": [
+        "KELERES_REFERENCE_USES_MENTAK_VARIANT"
+      ],
+      "metrics": {
+        "atlasCrop": [
+          4026,
+          827,
+          4251,
+          1017
+        ],
+        "grabCutRect": [
+          28,
+          8,
+          188,
+          175
+        ],
+        "localForegroundBBox": [
+          50,
+          20,
+          197,
+          179
+        ],
+        "intermediateCropInOriginal": [
+          4071,
+          842,
+          4228,
+          1011
+        ],
+        "foregroundPixels": 14855,
+        "alphaCoverage": 0.347485,
+        "foregroundComponents": [
+          {
+            "x": 50,
+            "y": 20,
+            "width": 147,
+            "height": 159,
+            "area": 14855
+          }
+        ],
+        "outputWidth": 157,
+        "outputHeight": 169
+      },
+      "status": "READY_FOR_REVIEW"
+    }
+  ]
+}

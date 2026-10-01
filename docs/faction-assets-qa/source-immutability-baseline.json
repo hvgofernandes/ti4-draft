@@ -1,0 +1,2165 @@
+{
+  "scope": "before final extraction/build validation",
+  "files": {
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Chei-Sheet-Front.png": {
+      "bytes": 27200602,
+      "sha256": "e48ad0d09d5d55ceda2602c6327fa36b9f377f13d1bff8b7cbab1fc404515052"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Edyn-Sheet-Front.png": {
+      "bytes": 31694106,
+      "sha256": "85db3f3d08e23105e47845c31b12ebb4bdde10f4fb8586bb7f5a37571e91df2f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Free-Sheet-Front.png": {
+      "bytes": 71081948,
+      "sha256": "69b58525e99c70c404fd5bf1e46c7c50b461c41acee189b939707cc7e7dc3691"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Ghot-Sheet-Front.png": {
+      "bytes": 47063250,
+      "sha256": "63484150a1adad4d77ea1e43c35abe279b25104e2111d2d9b12b2df0f713fade"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Gled-Sheet-Front.png": {
+      "bytes": 48898861,
+      "sha256": "f84c8ffd86c33e75bee04ac05b7928f5850c7346bc1328a2263a6ad26427276c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Kolu-Sheet-Front.png": {
+      "bytes": 44210308,
+      "sha256": "712f0f7406cc280c4a393f3817065187a19b8ceba870398676c6665a678fef15"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Kyro-Sheet-Front.png": {
+      "bytes": 26850289,
+      "sha256": "1eab40b763205181fbf9703c58d74a02379d027df14c5e5f2f312d2f1ab2a7ef"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/LiZh-Sheet-Front.png": {
+      "bytes": 74181008,
+      "sha256": "0d7bbaed18ebf8bdcfbb78f8decd8f81813c63f5d01c01ac854afbc74277715a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Mirv-Sheet-Front.png": {
+      "bytes": 70206151,
+      "sha256": "d935cc84d73c5d895738a8e92ea90d910f7d4a94c6311c726ca93d03bbb3f75d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Mort-Sheet-Front.png": {
+      "bytes": 71712934,
+      "sha256": "6445c7e9e331ab935d053b71681f4c5c6a28a12e588d24197d2fcc01c0daa18c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Myko-Sheet-Front.png": {
+      "bytes": 73585478,
+      "sha256": "4fd01a89969bfdeb53d48cd14bd01fa24bec2776251e5a57fdf7cbb7eac86006"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Noka-Sheet-Front.png": {
+      "bytes": 28886827,
+      "sha256": "640087238f27698bd61a06601f736baa552397bc655dd50d8daf182e205b4703"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Rhod-Sheet-Front.png": {
+      "bytes": 72220496,
+      "sha256": "ba50e3258f5a609b294c68a24bf88bf8de206ded71c67e8ac13fe568dc102e8f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Tnel-Sheet-Front.png": {
+      "bytes": 76358235,
+      "sha256": "2bc1f5c99793cacb0890839cf4fe5ac6e2c37d2eb6cd462c2861b13e05a47c14"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Vade-Sheet-Front.png": {
+      "bytes": 73704919,
+      "sha256": "2b79ca8eb6963e90ee380b7053e9007ed0f75051ad7ace15f1106466b059d4ab"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Vayl-Sheet-Front.png": {
+      "bytes": 74685339,
+      "sha256": "73c5f6b00f5a5b05a4d99c572a41e1f7cec11f89184e55863ab49dbdd7e6c6d8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Veldyr-Sheet-Front.png": {
+      "bytes": 72218548,
+      "sha256": "e963ed63ddd19219bea7e13f1fa872f601bff72809d2fd7c22a5af09ce87689f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/1 Faction Sheets/Zeli-Sheet-Front.png": {
+      "bytes": 47094034,
+      "sha256": "980d89d3fcf244d03d62530918f35f339366ca6acc2d0d44345ebdeb79b53579"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Axis B.png": {
+      "bytes": 548929,
+      "sha256": "d9ba958c79dc6968dd49d6a6b232a38914898543c64d784294da615c54d0cdc1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Axis Y.png": {
+      "bytes": 548905,
+      "sha256": "625d19ec78038d3e3311519b1952f0bea0fb8ee0ce957e7f01a8e68c4da58a93"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/back/Olra bb.png": {
+      "bytes": 529967,
+      "sha256": "299195a88d573d0a1557213162eec7c9b48e36dfd6b6daa2fbe4dc60e80df15f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Bent Y.png": {
+      "bytes": 575396,
+      "sha256": "cee093fe36a313ed03dcfaec82dc7bdabdb680b9fa9f7d8b18b9e05071ee9053"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Celd R.png": {
+      "bytes": 569374,
+      "sha256": "3d4f558877f455490aba6741793b7c3d512d6960a5500ad7695792a95c3bfdc9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Celd U.png": {
+      "bytes": 271569,
+      "sha256": "27ee24ea1bf1f6fbfa4e5e3a9d2e9ef33d1acfc6f700301d47d86bc8b76fae20"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Chei R.png": {
+      "bytes": 543576,
+      "sha256": "d5960d8002723efef135a71204a03a8c3c23e938749f5efba6d37f763f0b83dd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Chei U.png": {
+      "bytes": 357331,
+      "sha256": "8dfbdcfd1e6869c273360857404af9fd1e961407d7c0a27f64d66ff2b697b742"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Cymi U.png": {
+      "bytes": 320255,
+      "sha256": "1234ff6a4eac0ef291baafc49ba58f1c5ecd6c3a201b65a24850cf6914ef4dd2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Cymi Y.png": {
+      "bytes": 493312,
+      "sha256": "9189c6df80bc975acfe6a2aab740a5df95d3713fe84fbe2736cf821487831d72"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/DihM U.png": {
+      "bytes": 277296,
+      "sha256": "721e6d1c110c86109f344b20197d51eee12cffd44007f12e15278212ad6905f8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/DihM Y.png": {
+      "bytes": 572818,
+      "sha256": "bf18096a3bb97d696df4cfb2a971134f9fbc9fcf25fdccda99c47255fac2ce6d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Edyn G.png": {
+      "bytes": 482079,
+      "sha256": "24e65383e896de93ed1add5a6dab14676268729985174cd071686c5e0a3b21d2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Edyn Y.png": {
+      "bytes": 570491,
+      "sha256": "571972313acc56d0d667809632464a61a07fa1faa00f7b58877912ce4bb46df7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Flor G.png": {
+      "bytes": 580678,
+      "sha256": "6b0e5cfd87318d75438bec166b2ab71f01e68146c805eb7a5b4849e0e1be1385"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Flor U.png": {
+      "bytes": 365313,
+      "sha256": "04d4cd8e909c434d66d1776c179d871dc65f6934eb32b44313b5ed0bffda517f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Free G.png": {
+      "bytes": 555284,
+      "sha256": "37cf2bc549f9c1fe778effdceb74477b68d9da7e6cf5a050c33eb5ea1ab5e875"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Free Y.png": {
+      "bytes": 552358,
+      "sha256": "fea887acc55494d01d0d86ad97cc82c4c148c6e45e3262b1f4d97c860daf550a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ghem G.png": {
+      "bytes": 563972,
+      "sha256": "daabc5c9af2df05ffe8cb522c8f1a1bb432ceac9afdd0f6a047beb989c1fbd44"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ghem U.png": {
+      "bytes": 263191,
+      "sha256": "4910420c50821f713e61c3f05f2542855df59548240f58f04d13ddeb97d29990"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ghot G.png": {
+      "bytes": 556396,
+      "sha256": "b29feab32e6d3260c356eeeff4006cb666b5221309fd8acb8f4b3b430a17dabb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ghot Y.png": {
+      "bytes": 546903,
+      "sha256": "8c39d13ad8832748cb818bdfb3cc8f9ef8fde3a436efadfce1d06e11b83f68d8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Gled B.png": {
+      "bytes": 369167,
+      "sha256": "09d7896412a67de8a73202abe8452171ba299f8a4778cd033692c82acc1b8c43"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Gled U.png": {
+      "bytes": 327004,
+      "sha256": "27ddafec73d08c1d3326295e77fde2413c00d436b97939046b82e049789d9778"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ilyx G.png": {
+      "bytes": 554702,
+      "sha256": "63d8edbad9af15131e2e74dfaa1ce71462a3462262dfee47b42529eb163e2cbe"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ilyx Y.png": {
+      "bytes": 549413,
+      "sha256": "1664ad9b65f1daf0c16d701186ffde5ee6fbbc598dbad3c09034611ef9baa297"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kjal U.png": {
+      "bytes": 342497,
+      "sha256": "1e92b1068c2f05e49f2b37014e316f1a3ae2321d007c715be8cf9a07d30df3a6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Koll B.png": {
+      "bytes": 564984,
+      "sha256": "a35817c8d775175a09a3f62427a3cd9a61d6481b48ec7c0421dcdeeb727dd040"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kolu G.png": {
+      "bytes": 314060,
+      "sha256": "0bd8b35f3872f8057b0cd4e9e8a49c74160dad11d00acb880b4494babcaea7de"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kolu R.png": {
+      "bytes": 480949,
+      "sha256": "526648eb322983320978549dd99af974d1d24d2d5f08d6dd04a0a9ab53ced515"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kort G.png": {
+      "bytes": 554194,
+      "sha256": "4050e81e70e5b7067dbe5911530a97fe2945452d5d13b5a86ad2cc8db9ce1d2f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kort R.png": {
+      "bytes": 556076,
+      "sha256": "559b86478fefcade9cfeade65db59d03910812286bfc16584f49d2357071ce84"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kyro G.png": {
+      "bytes": 450448,
+      "sha256": "eaae90e41eb90bf9f277f7ccfd8cd41bf3fc20b274990514b97acb51f971a0d5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Kyro Y.png": {
+      "bytes": 369497,
+      "sha256": "77fbb2ad975adf2158b8b649d0f6560af432d17b44a96db2d53c7dc924389618"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Lane B.png": {
+      "bytes": 568369,
+      "sha256": "f9bfb0701d5f6cee5160f8795a721c2edd5b2b01150a44bc225e304506d90c8c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Lane R.png": {
+      "bytes": 568782,
+      "sha256": "2568e8434614dcb60a25af6f082fab42986cbfe3b65b53b97135086254379d29"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Lizh B.png": {
+      "bytes": 556982,
+      "sha256": "040757e505817c94a63e5127315f80ae3a636b9b953ab09d949457b3744c2ee1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Lizh U.png": {
+      "bytes": 353450,
+      "sha256": "be45ec77f410c0c98982bcccbd96be1066bc28ec2b390c9a671376b4427b7aca"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ltok G.png": {
+      "bytes": 555101,
+      "sha256": "74afe65caefe4fb74cb48a24e72a00d7b54a3570357ea32bb164f04e3f9c45fc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Ltok U.png": {
+      "bytes": 394382,
+      "sha256": "f03ccf0336be90d62e3e1ef80959a46961dfb40235ff2a178e1559c2f7132cfa"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Mirv R.png": {
+      "bytes": 546683,
+      "sha256": "f531148acf4e9a0a4a2f32ae3ec449bcabbb89d407306119d708cfae4b2dd633"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Mirv U.png": {
+      "bytes": 303722,
+      "sha256": "8e12d9850226d50f707eff029ba67ed8d8acb84ff6420c967164968ce5b0d2a3"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Mort R.png": {
+      "bytes": 565223,
+      "sha256": "e3e46750f07541abe27df6502582b4b5f320e21a0a75c05327799d1ca3dacb4f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Myko G.png": {
+      "bytes": 574635,
+      "sha256": "69764c0d850f59c274b810535cc1514763e29d5ed90747ee2bc36cc91f7485bb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Myko U.png": {
+      "bytes": 295686,
+      "sha256": "d3ec75239089417d4d031d8f33612193261db9db298cfb2cd7d880f50906ca76"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Nivy U.png": {
+      "bytes": 341536,
+      "sha256": "c17f19898c778a4a4b5e8c385ab9df2ac47760f841019b08b53ab5277cd0552a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Noka U.png": {
+      "bytes": 315356,
+      "sha256": "806f7d2fdf4060478ef25f7b395b3efd893d52eb449757393f187f07d173be38"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Rhod B.png": {
+      "bytes": 565279,
+      "sha256": "1960786c5f843a1793bf1d68460ecd6c21311f9a29caaa98862fdac076b5dd9e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Rhod Y.png": {
+      "bytes": 575934,
+      "sha256": "554b2be86496a8ced827df970930c4ba6d05bd36b4479bc55c28c9dd144c754b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/RohD Y.png": {
+      "bytes": 578551,
+      "sha256": "e1265088daa14f2f2ff5d244b143cccb02fe315407ea40c40d907a97628c1ec5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Tnel Y.png": {
+      "bytes": 556722,
+      "sha256": "d5f07780b59421d0090d7c477bce55b403b8eac4400e011c0fc98f1952970b17"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Vayl R.png": {
+      "bytes": 548698,
+      "sha256": "11da4c57f5570f55a11f2b63acc8c86bb229f03867e9e916650bec2a8dfeb0a2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Vayl U.png": {
+      "bytes": 318114,
+      "sha256": "cec124abebb49e0087f5a17b56272f0217e37b1e74996b82b8febed4965cc8f7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Veldyr R.png": {
+      "bytes": 369259,
+      "sha256": "9d468ab8f86a455e42034d1625f3f8bdcbf207755f7ca9fa413be1495ece80dc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Veldyr U.png": {
+      "bytes": 308237,
+      "sha256": "6411f566ccfe9a47d6bece625f6c670bb205ad417cae2b4c8bd8ffbb76263b69"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/2 Technology Cards/Zeli U.png": {
+      "bytes": 344261,
+      "sha256": "449eee94b45bd1bbd71577f045e69ee63d49ae20cb639c6d035ace78eead4881"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/- Back.png": {
+      "bytes": 2434967,
+      "sha256": "c2a45e4effd10776d73b3713f9b6aeae8236bddd45d401561ff529e33c730e20"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Axis 3.png": {
+      "bytes": 468565,
+      "sha256": "3cdf78a6c9ffb267080dedb060791676ccaf5bbc1d09c02a1430025e9b43869d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Bent 3.png": {
+      "bytes": 435200,
+      "sha256": "71eae9c161b3ee2d7b38bb476772747e0eb7d5a9b2342dd7193dbd1ddc8ead13"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Celd 3.png": {
+      "bytes": 509658,
+      "sha256": "c9e3af49d510214e51ffbd7dd4d298480778562d0c5a20748b9415b8d4d4789a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Chei 3.png": {
+      "bytes": 442822,
+      "sha256": "f71aba51f0fdb2d35d7079d849c2e29af2b961c95fc51ac69732d07c71f48d57"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Cymi 3.png": {
+      "bytes": 361979,
+      "sha256": "1f520d68af0806b06a3669ed1decd637b8dc5db5d3dedcbf9280c801c7733a9d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/DihM 3.png": {
+      "bytes": 496342,
+      "sha256": "0018e3ad1379690fd8691468293ab83f0e4c4d49aa5fd0af2ad19f5149e27304"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Edyn 3.png": {
+      "bytes": 423203,
+      "sha256": "3e22512267e92d2efe5ef231bb3d7553f2c4478aad49e1f30bbdec685e082567"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Flor 3.png": {
+      "bytes": 498329,
+      "sha256": "036f639f3d8e27302fb3a1854d4616b387d999e712f453347ed092287f12c536"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Free 3.png": {
+      "bytes": 471007,
+      "sha256": "97407cd1d50318fd379e42084d241ccd7199223774562cb699999d85081b3a47"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Ghem 3.png": {
+      "bytes": 434575,
+      "sha256": "1997309bee8e16290a3dbacfeb66fbaf573acf8356702630922f4b31341389b4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Ghot 3.png": {
+      "bytes": 482338,
+      "sha256": "d02d5921def3434c3cd5ae725aab2393106cba033be246211e5e8a23d65dca9e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Gled 3.png": {
+      "bytes": 425525,
+      "sha256": "3c0fdf3fac0a6135f95338809e55387e3e963c7623c3ff042871d65253797bf7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Ilyx 3.png": {
+      "bytes": 485279,
+      "sha256": "3372b98d41c5c84763cc7eff538fcbaa6ae29a5e6f4c2815896c2ccc4ada70e7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Kjal 3.png": {
+      "bytes": 493245,
+      "sha256": "e9a4237da34991774a06f706d1d09c8bf977fd43b4c3c6ab637786deb928c674"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Koll 3.png": {
+      "bytes": 478056,
+      "sha256": "5a0f84b64bfe407198e94e66f1d998f25cfb2e79bbd6d28aa2e76e41622d7e66"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Kolu 3.png": {
+      "bytes": 427868,
+      "sha256": "280187c35fed0cb972684ab730b54673a10a656569632a53bf5b6f72bcafcdb2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Kort 3.png": {
+      "bytes": 426300,
+      "sha256": "c5e93c682a2b5a289d9d3c6d57b3c09c2f939fd17dcbc68c18a862b6bf1fd370"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Kyro 3.png": {
+      "bytes": 419189,
+      "sha256": "2aaf15fb379332a6b36aaba399321cb711ead34679c35265cb08fa945d2015a4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Lane 3.png": {
+      "bytes": 474999,
+      "sha256": "640b5f41d505169cfc421ff38ff3f201f431aeec072d2b899a4350ba17839df5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/LiZh 3.png": {
+      "bytes": 507549,
+      "sha256": "8fcec523f24923ef9bfd27ba14068740154747d03cac92963f6b96e7865a4a15"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Ltok 3.png": {
+      "bytes": 510976,
+      "sha256": "9616d82f5985f0a81a7907ca70304f0744870218552353cdc2bb0944c3d733e7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Mirv 3.png": {
+      "bytes": 427086,
+      "sha256": "f0c804a5bb27c0cf9b4e51ed7341c954f868c9d93335a8e6c6309735d995ea20"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Mort 3.png": {
+      "bytes": 360236,
+      "sha256": "de74274ecd1df7368c4b1c4b03b6e08893952eee614d2ed57439cf8b5f488e3e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Myko 3.png": {
+      "bytes": 511275,
+      "sha256": "ea6725986f3ab0f3175aa3d49d48c84451d75bfa6b4c26178396503d029c2f0d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Nivy 3.png": {
+      "bytes": 411594,
+      "sha256": "562acaf8ba2b6da3613d4c68d8f14b83d6f7dc74eb9826520355ba5e9254c5ff"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Noka 3.png": {
+      "bytes": 495245,
+      "sha256": "b38f7bbf4bfbc040cd44bb500a737c8ffb7695bec4a7809420f1ace6d5311dbf"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Olra 3.png": {
+      "bytes": 517492,
+      "sha256": "5b26f686e77021fafc672effad8dce1c04a90437500929d46614646398de636b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Rhod 3.png": {
+      "bytes": 481845,
+      "sha256": "316b3b98c8108bd3361df176fc16cab4bec6dc78596948fdf78e1c05c319a0f9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/RohD 3.png": {
+      "bytes": 396031,
+      "sha256": "de727445d874f3e29c30adbc85797b33eabc34cfe1002b4310060fc201d04306"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Tnel 3.png": {
+      "bytes": 479225,
+      "sha256": "333c76aad2ad12ef4cb8b50ae42867d96b56216513d7cc13f2c4dc036b1832ca"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Vade 3.png": {
+      "bytes": 560592,
+      "sha256": "8c299b3b8d02e6b30f755843120cef88ac1b6be623c28bb088cce0d447253006"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Vayl 3.png": {
+      "bytes": 536878,
+      "sha256": "5e4be16650a8bd1604cd62c688601d5860e209d71e1ebbe7ebc7d83ac6e11b66"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Veldyr 3.1.png": {
+      "bytes": 445808,
+      "sha256": "679ae2cc0146f7282e3edb2f7703bd787a9450368cbf483f54518c318e770adb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Veldyr 3.2.png": {
+      "bytes": 453955,
+      "sha256": "0460d7e2206d4338b5855da9088d8bd636daf70cdd6e81348cc294ef90ba8d25"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Veldyr 3.3.png": {
+      "bytes": 456716,
+      "sha256": "d2ed8513269c960604842d8275a023b7d96de1dcc1b292cd52654a38e1506301"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Veldyr 3.4.png": {
+      "bytes": 457595,
+      "sha256": "cec788223b73c2cdf146650f3a459fad13357ecb3b946433655f4b684bb26fc6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/3 Promissory Notes/Zeli 3.png": {
+      "bytes": 494375,
+      "sha256": "6ac3336e44eb931dd09294f83585a8a9e1ccf867850cc07e81374c5631c68ca1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Axis 4.1.jpg": {
+      "bytes": 189727,
+      "sha256": "bd1299493ce6d4fdabf4c90e5240c008ea068c7d60feaefc5e76d827a6694ebb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Bent 4.1.png": {
+      "bytes": 516643,
+      "sha256": "5d5c96c76e0a85c412d4783d42e3b4ba0c0099aced034f303f878a0c25011873"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Bent 4.2.png": {
+      "bytes": 634017,
+      "sha256": "5b2600c53c7be2916a7a4e615fab9e5f42c949312fa60245a145775a4a109c80"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Celd 4.1.jpg": {
+      "bytes": 189012,
+      "sha256": "50481a76e2f62b3d7fff177bee889fd941213395e1d5a6eff1fd85ee2a0bd771"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Celd 4.2.jpg": {
+      "bytes": 191403,
+      "sha256": "2f05b9da727616bcf821d1cb1a00e3cf0ef0ded45fb2262453c18eb8b8fdfcfc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Chei 4.1.png": {
+      "bytes": 537781,
+      "sha256": "5d9057b3cce49912826531362cfb729cdba2325a57208b588ab9c102efd437af"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Chei 4.2.png": {
+      "bytes": 548223,
+      "sha256": "65d7a994889b62ee7967eaa27a5e5121728b3f8f63a09f567385d1b30c1037f2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Cymi 4.1.jpg": {
+      "bytes": 192758,
+      "sha256": "d7ee49e2c1283687a87ed244eab14307c09eee2713cc09513d26ac283127a884"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/DihM 4.1.jpg": {
+      "bytes": 192547,
+      "sha256": "2204c0b1f2a9561ae11d7e6cbd523a8a70123b05eef8b461195db45046abb559"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Edyn 4.1.png": {
+      "bytes": 561845,
+      "sha256": "4c25d18ef84af5d623e2c64a5ddbef5a20b74edee8047259aac8b0ac8cde3781"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Edyn 4.2.png": {
+      "bytes": 555819,
+      "sha256": "3838edbd0a6a8d58036927617e04bbf499a0dde16d3b3c219db4789a3c80f3ae"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Edyn 4.3.png": {
+      "bytes": 543060,
+      "sha256": "c9ef47b2933ec2387fea7b7f6cc30b3a746cb2b98ec59528584b9d05beba9e96"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Flor 4.1.jpg": {
+      "bytes": 190189,
+      "sha256": "8915c09b5dff44b549f44556d2e71884db8654cc3cb9216e1ddb5b52b519f4f7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Flor 4.2.jpg": {
+      "bytes": 192668,
+      "sha256": "e0530f3b83c75ce322cc0edf07e4226fbe77b1647ef74436630a9f5c8fa91a7a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Free 4.1.jpg": {
+      "bytes": 185227,
+      "sha256": "3890c6a17a6964a2db3637f3984cfffac0c87e9055fe22b0106edbe4dd0a7a2e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Free 4.2.jpg": {
+      "bytes": 180700,
+      "sha256": "56bcdf5e986ba59c0304f4d345580e12004c6ef4d045ba7e4a8477d36239a1d2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Free 4.3.jpg": {
+      "bytes": 192734,
+      "sha256": "1dfa2faa94bd480472efbff3423df775815b1e92040531ea86be57d51fa93877"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ghem 4.1.jpg": {
+      "bytes": 184740,
+      "sha256": "3f245648866d1f0a3261aba8ef9cd91443b03ee2fc04c92eb26c6c9cb1318a8c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ghem 4.2.jpg": {
+      "bytes": 204504,
+      "sha256": "3be4ba606a32a3647b06632f5c905dc926d7b9e775df708ab764d8e649a564ae"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ghot 4.1.png": {
+      "bytes": 434088,
+      "sha256": "2c732e4ac82ee75344b670c92fba733f45cc18630e0c6172ac53eb9f780a5715"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Gled 4.1.png": {
+      "bytes": 647761,
+      "sha256": "da3f209d9fe07b16cdbb7a38c5353cb2bc2bf4e6ff77fdde1504d912f35f7733"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ilyx 4.1.jpg": {
+      "bytes": 176732,
+      "sha256": "cbe5dcb5a41b21f9641c5337ee7da37f0db5568fa7455e3b9851a088986de4ef"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ilyx 4.2.jpg": {
+      "bytes": 181419,
+      "sha256": "b8fcddb592c70c48dbc95333df28537c6a5305ed524c5ee1e478ad7381be6429"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kjal 4.1.png": {
+      "bytes": 678171,
+      "sha256": "3fa08405e2c4a28fc040eac39a95e7224702ddf1a0240729f298eabff0825b97"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kjal 4.2.png": {
+      "bytes": 610152,
+      "sha256": "7b524919b4eed9b6a1548e885066732616b7314d3e0d8de4f257ec74dc598f6a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Koll 4.1.jpg": {
+      "bytes": 182964,
+      "sha256": "7bf98801190864c62f795aeacd0c41f223edf4cdcaee3b514ee2494780a1f22b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kolu 4.1.png": {
+      "bytes": 566358,
+      "sha256": "ee592237ec6f0a2b3922611f7422d48c112475d6c0412f97c02f1894f9e546c3"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kolu 4.2.png": {
+      "bytes": 566607,
+      "sha256": "3bf87b21ab4398e5b07d9ae66043db12efa48073cee4f8217052759bf686200e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kort 4.1.jpg": {
+      "bytes": 169661,
+      "sha256": "9532ed06418e4e151020a452808335eca5f4b750a2fcb031c07c5f6d9efefe18"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kort 4.2.jpg": {
+      "bytes": 172171,
+      "sha256": "4c5e97c074f4f3e73b2b96b8446597821fabe8c3c9bba194521d952bbca9884b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Kyro 4.1.png": {
+      "bytes": 625193,
+      "sha256": "bad57dcd9b902e7d7c6e70e1ee896d60c372b6bdcd355f43ebfc7b262addf00a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Lane 4.1.png": {
+      "bytes": 588570,
+      "sha256": "9cca831252667dc6416754b812b4493a29a642b0ddf9eaa2690255f42096fce0"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Lane 4.2.png": {
+      "bytes": 619577,
+      "sha256": "53c95bde2c3caa59728ece158fbf2ea1ebd1d2f602ae7fa74c5c4b7acc91f3c7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Lizh 4.1.jpg": {
+      "bytes": 177746,
+      "sha256": "3df3cf5dd8a4936b27f78b03ee7ed953dc9bda95dfa57737b51f0ab3d9dfc636"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Lizh 4.2.jpg": {
+      "bytes": 162559,
+      "sha256": "50bce32ee87bb65dbbee3de77004aa44407c6230ce4cdd64da22222e02f73785"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Lizh 4.3.jpg": {
+      "bytes": 166807,
+      "sha256": "f331021ae1bcbd4f3e9e2cf3525b182105a48ca589cd5d7aa58bf270a828d202"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Ltok 4.1.jpg": {
+      "bytes": 172736,
+      "sha256": "abcfac3ba7ae052f069f8ae72510efb36372ee29cd47822c25e79a64b37f0707"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Mirv 4.2.jpg": {
+      "bytes": 171068,
+      "sha256": "73b86ba9f6339ac15cdd39833f8105aabfa15289f8cbb078e98678fe398e79ef"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Miv 4.1.jpg": {
+      "bytes": 177518,
+      "sha256": "c043f71c635a9cb1c9e0e099b75584aa7cd095af87e744dca4e6198a14ffa68d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Mort 4.1.jpg": {
+      "bytes": 300121,
+      "sha256": "7993a995a2b51711414bb8f8d040c2425befa4ba29cb655ad98d24d66607a535"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Mort 4.2.jpg": {
+      "bytes": 180421,
+      "sha256": "808df3653d36707c6da64fecadb081e376b2992e21adb6e16eef85814b8b1a84"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Myko 4.1.jpg": {
+      "bytes": 182090,
+      "sha256": "f364bf69ff6032442731932bdddd242f0f2e524c7c0e332b9d14f0ea97e2ec83"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Nivy 4.1.jpg": {
+      "bytes": 171199,
+      "sha256": "5bc6952a96825509ec7063448305ef75c8c5923a24bd76ad7175f297f563a4b3"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Noka 4.1.png": {
+      "bytes": 566971,
+      "sha256": "815d524b2ac756204a1f1fe2e0d0f4718478cb17fdf4b915393ae8c236e9c001"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Noka 4.2.png": {
+      "bytes": 538007,
+      "sha256": "df4d0164f92fdcff4fcd3fb0083b14eb81eb58399e492c8fd604a05a58fd5c2d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Olra 4.1.jpg": {
+      "bytes": 198843,
+      "sha256": "81469a25742330e964b5b537891e2bd54ed58bcba63939b1a0ce6bacfa76ad44"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Rhod 4.1.jpg": {
+      "bytes": 172352,
+      "sha256": "52eb914689f7d36b37b7b31d348650696826d8b2c7aaded79f808f7f2ae052ac"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Rhod 4.2.jpg": {
+      "bytes": 210728,
+      "sha256": "f672132717d00830c612ee6c7ba3731925181511c952a78d3751c761aa32e609"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/RohD 4.1.jpg": {
+      "bytes": 192406,
+      "sha256": "63f56ad79d62cac814181c5b98d8550cf25415fde63182f660dac0c8801bc886"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Tnel 4.1.jpg": {
+      "bytes": 197304,
+      "sha256": "79bbedc4b01099120a9879005f1a4202ce70701f1fc70c3907bb066494ad0cae"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Vade 4.1.jpg": {
+      "bytes": 172482,
+      "sha256": "111b3f2634e93aa58347cdffc52e442e785e7c6ea9a35cf7a79dcf872dad0210"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Vade 4.2.jpg": {
+      "bytes": 173813,
+      "sha256": "f9587dc2e874f4638b3302db2fd7b8ac7708f0bdb2600174b8475969dcd78802"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Vayl 4.1.jpg": {
+      "bytes": 186659,
+      "sha256": "1c0f69992882a4c331eb05195aa77dca83754c269cfa5a8bcf1785599d930d4c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Veldyr 4.1.jpg": {
+      "bytes": 196618,
+      "sha256": "4fb780331d3c2162de2194e385bf3d696eb0e534da10f6b5164087b0ed41ae6c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Zeli 4.1.jpg": {
+      "bytes": 182390,
+      "sha256": "18422105fce94eb2a92d1e7cacb0811ac6710f390a55dc4c2e516dff3e0322d9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/4 Planet Cards/Zeli 4.2.jpg": {
+      "bytes": 176193,
+      "sha256": "c45cf04c19ff62fc2368b2258301c164ebc15ba23951d1bd996f721a44bdddc0"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Augurs 5.png": {
+      "bytes": 2396612,
+      "sha256": "66d532d524e31da28c04f71aa25730fe78ae4d918b794f992e208243f036d4d7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Axis 5.png": {
+      "bytes": 2633879,
+      "sha256": "545e3ae4ef2302c6d2fab17304bb4895c35bab5f5e7f686ff5d78d141b042da8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Bentor 5.png": {
+      "bytes": 2412801,
+      "sha256": "c1b10878f78c072b91775ee2f6167a1b81d6a5e02569bc26d3eceedaeb1e5ef6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Celdauri 5.png": {
+      "bytes": 2428489,
+      "sha256": "76aba306f62661c6442205ce4c11bb67ee296aa123f7c3217bcc6f2fded21adc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Cheiran 5.png": {
+      "bytes": 2212870,
+      "sha256": "664f503c7cdbbb45dfe318a1fbd795dd805c28d8cd6824f977655ec13a3ad468"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Copy of GoM_5-2.png": {
+      "bytes": 2332803,
+      "sha256": "06fab8330140c8d617681bf23bc4ce8ffab8eea5cdce10612e994fe297dee80e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Dihmohn 5.png": {
+      "bytes": 2353421,
+      "sha256": "efff87281c819d2c2be4c577c96fade27ab080dd62397e325b9f6b10f6908dfe"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Edyn 5.png": {
+      "bytes": 2230580,
+      "sha256": "19340c08e880a984fb6370fec0a28b94f5605bd2069ed835bb571c37b40cf808"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Florzen 5.png": {
+      "bytes": 2397610,
+      "sha256": "fff0dd7843f7e586980cfbc87b050e19fda455089254eeca41c5533908cdd6e6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/FSC 5.png": {
+      "bytes": 2568142,
+      "sha256": "d1034813d379fe1f2123d0ee1b54169fdc3de8073d8f976d9825b85cb8b64100"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Ghemina 5.png": {
+      "bytes": 2384882,
+      "sha256": "7b0d57ee574ef7828411f6884369911ed48796f449ca826546e3a844aa9a66b5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Ghot 5.png": {
+      "bytes": 2214541,
+      "sha256": "317be119ffb86de67ad28b8029816dfcc67edc351441ed5831dcc6f8a052896a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Gled 5.png": {
+      "bytes": 2358722,
+      "sha256": "3cabe32be32afd1b6d8497c976c468a644503f634308c3ddebf77ee45a310b11"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/GoM_5-2.png": {
+      "bytes": 2332803,
+      "sha256": "06fab8330140c8d617681bf23bc4ce8ffab8eea5cdce10612e994fe297dee80e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Kjal 5.png": {
+      "bytes": 2558013,
+      "sha256": "293827355cc87bf1a8b8f9a3c077e952ded0a6166556fa2a30069b3d9cb076ed"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Kollecc 5.png": {
+      "bytes": 2285750,
+      "sha256": "1d6fcd8925592de1dc9b22e6b0d3f36449854412a0ff8ac22b3a535a888c358c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Kolu 5.png": {
+      "bytes": 2154820,
+      "sha256": "4b2be5152c12019ee95697f65678611babca8fa83cd0d1559cc2b797e6793fd8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/KT 5.png": {
+      "bytes": 2338523,
+      "sha256": "51763bf1ec6bc2aa34b7f2d54344392bf668e6708d4ac469b0e4ac592fcf4b3f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Kyro 5.png": {
+      "bytes": 2329199,
+      "sha256": "4d89b7d8802c326d4f6145c851a7057186007932cdfd70d175b2c1ec4a2b4df5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Lane 5.png": {
+      "bytes": 2430455,
+      "sha256": "4dd7103aeb7bdc6e98aea556deae7f4e5088168a1f5468b9f10c107693f7a70a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/LTK 5.png": {
+      "bytes": 2329686,
+      "sha256": "b73b6f1366cf090e9d48020df642a86c4f313c595e39a661bc56c4ef23a6e3f9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/LZD 5.png": {
+      "bytes": 2447274,
+      "sha256": "542bf8898181331bc4f35f3a61d063d48de01333895e14e2c76ec0172decb184"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/MM 5.png": {
+      "bytes": 2299322,
+      "sha256": "d2229a26f09b7c755574f76d92bcd9d37a955de3066401efb94d46580d48f4bb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/MP 5.png": {
+      "bytes": 2381136,
+      "sha256": "60c9a72341df983c7338ad743bfe31d5b3b2779da88be4ddc530591a524519bd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Nokar 5.png": {
+      "bytes": 2143942,
+      "sha256": "57a9daf4f16c16abf8c52f945ec77be7327a1c95b2d42ebac56d02a450a3ee6b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/NSK 5.1.png": {
+      "bytes": 2414202,
+      "sha256": "6a81f5188d2a8350f9ec786490631a520ea37b9448f29b531728f940daa75bed"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Olradin 5.png": {
+      "bytes": 2886544,
+      "sha256": "5d64e143fb7ffd40cdfbe63baa02785ee557314a2daf30504180705d68d59ce4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Roh_Dhna 5.png": {
+      "bytes": 2323522,
+      "sha256": "b21c7609977f4a51d7381aa6aeb15d769139b8b957546b1ad6857b9c64b97b27"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/SoC 5.png": {
+      "bytes": 2347501,
+      "sha256": "96e79311d406f5c1ea988705e1a92eec9287c9657d11ea0fdf23566277411bdd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/TS 5.1.png": {
+      "bytes": 2371258,
+      "sha256": "4ce6729d52caada2fa2f7baadf25944da664dbf0a1570d5660c56602623e7f4e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Vaden 5.png": {
+      "bytes": 2334819,
+      "sha256": "d505bd5ea932dbcc312eb11e8662ad5609f21eafd026d260f0d40d5c3daf9134"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Veldyr 5.png": {
+      "bytes": 2363365,
+      "sha256": "53c62e1a3f4c34fcabce37bd253578a3b65600f7aa3f041939a7f14c416f63c8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/VS 5.png": {
+      "bytes": 2369737,
+      "sha256": "8da8ba7f9566c297bc1a503aa3eca7a1f0077bc168ec245febceac9c0f96bf45"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/Zelian 5.png": {
+      "bytes": 2628422,
+      "sha256": "79033b170fb607fc27b278e0e346b89055b0d9ca2bb4c7eaf7fa65e2510d608a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/5 HS Tiles/ZR 5.png": {
+      "bytes": 2413179,
+      "sha256": "53f3e61ef35393a6d768f5b2397c43ea6df07a6e5c1fbd3bce974b67c5c3f81c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/6 Leaders & Mechs/Back/free ab.png": {
+      "bytes": 3701130,
+      "sha256": "871e118c57b0df8326c3b5ec8e842d4d5304ea88f3953ff10df3e6c7c810b7d4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/6 Leaders & Mechs/Back/lane ab.png": {
+      "bytes": 3269376,
+      "sha256": "c364600db8c334edec415f4bcde9e388a8d0fc9321d2962e41e3450458524f63"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/6 Leaders & Mechs/Back/olra cb.png": {
+      "bytes": 4370838,
+      "sha256": "9c5f0e874a1163555ffc93f48cec135c03762f62a7da6a028e2b43ee61368c29"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/6 Leaders & Mechs/Mechs/Ltok mech.png": {
+      "bytes": 298422,
+      "sha256": "2fcea51d4bb6638f19aa4e3f1481a8899d83ef2774c2d17683ca4b2a7ed69af9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Axis 7.1.png": {
+      "bytes": 283890,
+      "sha256": "693761405894b5f4eefcea45922a3d1b42cd41b6a96f4c3833f69107cf79b9b9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Bent Token.png": {
+      "bytes": 327948,
+      "sha256": "3ad5bf0a488a9cb3cc19d93fa1604d881fa355d4a6227d7699bf3d5f826b0ff1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Celdauri 7.1.png": {
+      "bytes": 291476,
+      "sha256": "69b96f9046a7c9796fc49062bf108d71a9fdfb2c259b743e9a3e5b07ec60480d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Cheir Token.jpg": {
+      "bytes": 72136,
+      "sha256": "b72cdf3742636b0980b8cec024033b0bce5a4164db7159c7f09d38f774ad6364"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Dihmohn 7.1.png": {
+      "bytes": 281133,
+      "sha256": "a5eb2d547c76504a0fa0c4467c709305f5c75eec4d0cf3c0722ee187b5ea5474"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Edyn Token.png": {
+      "bytes": 303723,
+      "sha256": "63a9bc76ca8aab63b3523ea461e88ff14623a150d923c42b021202116b415d32"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Florzen 7.1.png": {
+      "bytes": 293570,
+      "sha256": "c13a3a5826f764a7e02c909fee21e6028cee0191e486cc93ddaf33fb525a6e62"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/FSC 7.1.png": {
+      "bytes": 260833,
+      "sha256": "3a638552b2a6741d212a2eea50a5d81849987335795c99f7e2898052d2806698"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Ghemina 7.1.png": {
+      "bytes": 268830,
+      "sha256": "868eff6474e0e0f8951ce7594eb3ef4bc6e370d700c7d13ac905620ca6b5fc2f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Ghot Token.png": {
+      "bytes": 322380,
+      "sha256": "ecee0cb04d606f4759c622003258e898053242a7b4f8820ca3f802c3a69c1b6e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Gledge Token.png": {
+      "bytes": 306289,
+      "sha256": "fae9b3ab8efcb9bd8daed8dbb7035c324684ee7752b64e73be37f6d26bcca6ed"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/GoM 7.1.png": {
+      "bytes": 277876,
+      "sha256": "39264534ad37afc50b124f7daabf39b029138783faa3dcd23fe6f92bbcdfa382"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Ilyxum 7.1.png": {
+      "bytes": 275655,
+      "sha256": "409ad7eef5b114ae70030f70fd4634e143b06645fb3c71080525a704dbb4070d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Kjal Token.png": {
+      "bytes": 249298,
+      "sha256": "81d590e220a64cb23391843dd92740d8304723b8859f46984a87d6f4e5ecb5d0"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Kollecc 7.1.png": {
+      "bytes": 273823,
+      "sha256": "98d2bf7feb65042ee894ae9dbcb6d9594b9b31999e0cdabcc11a7674bc6e3d21"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/KT 7.1.png": {
+      "bytes": 257835,
+      "sha256": "94ec2d9d6a7dbbbd0ff763a45c7d8de1aea8498e26735f70e0b0bd671f057468"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Kyro Token.png": {
+      "bytes": 321275,
+      "sha256": "7bfc3b724312cb1cb404029ca0808e28948c7d376395a612dd9dfa1f5075b79f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Lane token.png": {
+      "bytes": 321962,
+      "sha256": "fea1ac352d04b0478dc8b75f7e193bd686b4ac30ad2461a1fc2365840ccd83d1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/LTK 7.1.png": {
+      "bytes": 272063,
+      "sha256": "ec658c88789b95a3e06a510bb44b6f279f6be149f487d53989a34acadfb9fe77"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/LZD 7.1.png": {
+      "bytes": 276140,
+      "sha256": "addcac5f0431f44202939ccdffe1ccebc0509ccdc481268298e0d0b5bd8c7429"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/MM 7.1.png": {
+      "bytes": 283228,
+      "sha256": "deb84145cf3c4aab6ef4389538d895bb1351e1fb6df7424e8edc394a39630812"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Monk Token.jpg": {
+      "bytes": 112212,
+      "sha256": "686b862cef067639ba87f0c052ffe8b789e9b98d71638cdeb023c503c371bfbc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/MP 7.1.png": {
+      "bytes": 268978,
+      "sha256": "c1ea7e2074a3bfa4e1e281443e3c4bae110da4474577c293922d899e3c4ad9ca"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Noka Token.png": {
+      "bytes": 325651,
+      "sha256": "314e1f7b5de79273fc38a910b04b5f031c29e3350c704aba6b94b002e7b8833e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/NSK 7.1.png": {
+      "bytes": 200888,
+      "sha256": "0920838a794b04fa963e17a2525774178e15b28b99e2151fbfb05110e8347cdb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Olradin 7.1.jpg": {
+      "bytes": 106449,
+      "sha256": "b27b4473ac3a42e11f0d06b01bcda7944119ec4aa70c295dd592d82890cb9af2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Roh_Dhna 7.1.png": {
+      "bytes": 287173,
+      "sha256": "ea5c4514e754fcc84d9c40ba74c0d4be5d77daa8a84340e83bcabade772e871d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/SoC 7.1.png": {
+      "bytes": 222096,
+      "sha256": "723e5dc1080fd1f9c70233d054c5a9c9bc8a173de027ed395d0b3616759191f0"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/TS 7.1.png": {
+      "bytes": 282831,
+      "sha256": "85a3f7f1d8b0242b42f562702d7f1b2dc204689fc9a5acfdaa368b5a2990cf87"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Vaden 7.1.png": {
+      "bytes": 283111,
+      "sha256": "0a661255d3156a5f65c957d35bbb75108aca5f90105f91283e8efea51553a8bf"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Veldyr 7.1.png": {
+      "bytes": 257527,
+      "sha256": "70c5b4bd149857374d3128525190797244ea2dd2e18e120fa484ee2815e0b798"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/VS 7.1.png": {
+      "bytes": 279693,
+      "sha256": "9eacea0bcb7496680404d816ed622062747df32c39a3bedc38454cdbf5ca446e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/Zelian 7.1.png": {
+      "bytes": 278286,
+      "sha256": "61022263186393ebc7439634bd4b94dfa6698bcb5b739c411172ddcbf1ccfec8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/7 Tokens/ZR 7.1.png": {
+      "bytes": 289526,
+      "sha256": "91c5e84cfa098123912236bfb4a14fb4aa153eba79a566a37d4310cebcbff8d5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/8 Miscellaneous/cards/Olra C2.png": {
+      "bytes": 332187,
+      "sha256": "fee9686b8c71e1bbdfb93be4df81e6c4e1ca66f321ecec19b61622c20a1e5335"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/8 Miscellaneous/MM Tile.png": {
+      "bytes": 3092918,
+      "sha256": "eba9d1cb338bc85c5c2e465024fe74b202bd6681ae40bf36d4861aa4a0079fb5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/8 Miscellaneous/tokens/Veldyr Back.jpg": {
+      "bytes": 141625,
+      "sha256": "f760b96cb3454be3ef1d31c8f902602a784764b8d05b31b017e4ea3acdfa88c2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/8 Miscellaneous/Zelian Asteroid_Tile.png": {
+      "bytes": 2545594,
+      "sha256": "d4d3cb396cd7c2b66f3a3d8eae7529354117ee7deec62788037e4e56c3b9750e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Axis.png": {
+      "bytes": 5791291,
+      "sha256": "114aae732b7bb2aabe763c962275fbcfd92a871d372764e2f741a6277cd25d9b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Bentor.png": {
+      "bytes": 5471337,
+      "sha256": "dd19479e31659621aa4c95032fa47fa9473377004d4df51488083abe66e68fab"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Celdauri-1.png": {
+      "bytes": 4848611,
+      "sha256": "f6e3b96803e54c493dcf5937fbf67e46a1a72b6213131e1021b11f044239f6a1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Celdauri-2.png": {
+      "bytes": 4835855,
+      "sha256": "e6776743803241ebe10cb13204c88945273102a916aa89934a76c74130093825"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Cheiran.png": {
+      "bytes": 5727119,
+      "sha256": "2bf691072969dc113465f4c6e39a95fd6a380f00132c1f51fe796b7fd2a93419"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Cymiae.png": {
+      "bytes": 5188042,
+      "sha256": "506938d701dbaedca0b6b843bfd270477f11eec5dc55f8817333f7f8a403a110"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Dih-Mohn.png": {
+      "bytes": 6346312,
+      "sha256": "c5140d846e67e342494edd57eaa3c2e24c69a2765c05d675ebacb3d83ef47698"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Edyn.png": {
+      "bytes": 5132078,
+      "sha256": "351c76e5d00cd535e5e2f17cb96f0f6f56e47b0277302afa7fd6e07ac12afc21"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Florzen.png": {
+      "bytes": 4862239,
+      "sha256": "545d7b4b2fe701d0e3e137d24fcf33d323b2c81e3f96a2ebb1b75ef6d862b42d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Free Systems.png": {
+      "bytes": 5272600,
+      "sha256": "d2d2c808a6458da5737b9afefbaa82ea9d102e59a2995a3a90d8592eed81f504"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Ghemina.png": {
+      "bytes": 6291782,
+      "sha256": "e42a0f95b4bb0022ce9e06b5d9d57afbbb4a956d2d8216d613337a779c1418d5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Ghoti.png": {
+      "bytes": 5113251,
+      "sha256": "49a2040a6a453aa5f45a5f37a33cd3edbdd5f9aa41fec0f395933e00dd255bb3"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Gledge.png": {
+      "bytes": 5087457,
+      "sha256": "4eeb4ba0d9993913d517b5d2ab1dbbca4adc3b00f05fac2c9bfbc2edbdd62340"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Ilyxum.png": {
+      "bytes": 5759419,
+      "sha256": "ab2a6d193dd3eb4f15fc7bb5f0bd7292626435372715205fbbbeb2971d2f683b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Kjalengard.png": {
+      "bytes": 5994673,
+      "sha256": "11e3815a4dd95b8a1351ad65df6d16c05a88d17c8e4e16d7e78aedacff3ed374"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Kollecc.png": {
+      "bytes": 5432960,
+      "sha256": "eed97ff69d2f5c89d2453f68bee2ba2da7b3ea93794ebe61cc15d33b7e049586"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Kolume.png": {
+      "bytes": 4672548,
+      "sha256": "0adc9a58dc1f748f1f8facf2fa78600bd2bfbf5f3ad8e183d5657a33eb17b8aa"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Kortali.png": {
+      "bytes": 6036444,
+      "sha256": "23dbd1c5cb9412736e5bdc0662053bea7d8d9b1a01fce9d1c405a6564578c109"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/kyro-alliance-front.png": {
+      "bytes": 6132506,
+      "sha256": "1726ebfc551c249ef33bacfacc12673fa6e428b02c6baacdfa64973d4c399540"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Lanefir.png": {
+      "bytes": 5016482,
+      "sha256": "ac5e340f6221c644de4f718170b789bbd3954949a197067404dae72c5d6f553c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Li-Zho.png": {
+      "bytes": 5766048,
+      "sha256": "b22facb555c76f3aceb98f89b47bfbeeb26df3d5764c0149b273aed17bec6743"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/LTK-alliance-front.png": {
+      "bytes": 6313191,
+      "sha256": "0e7be2f9b35a7a63e6d835fab636c080f17feb464ea85de8236f54ab6a6d48f4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Mirveda.png": {
+      "bytes": 6106635,
+      "sha256": "88fc88d89e57b705d85fafd8c8b9b678a7c67f6b8ea52ad09a9d1caa2c92ac19"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Mortheus.png": {
+      "bytes": 5910199,
+      "sha256": "116e63c292a2d8d1fc9d7d9e11dbef4557b8f9701eb0c874f013ad7906ad68f7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Myko.png": {
+      "bytes": 6203091,
+      "sha256": "b1e00cb58c456b7015d3e2d89c559eb50bb14609994d7ea919ce72210db2eb21"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Nivyn-alliance-front.png": {
+      "bytes": 5953616,
+      "sha256": "0a2fd73da431ac42187c35262f50388f28642bcbf8be3a67163496a286f42dd6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Nokar.png": {
+      "bytes": 5765738,
+      "sha256": "53986a212723eae0d0f225fc2f55ee4d3ece68c5ba8ef539fb4ac15ebe8ceb5b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Olradin.png": {
+      "bytes": 5419605,
+      "sha256": "82d909e6682ea67c485a443f677b8862bd703d47941f4b75ae715da40506713d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Rhodun.png": {
+      "bytes": 4992193,
+      "sha256": "25887b66d5531199b39be1c7534a8f95b978fe48024cdc5a05e041f0453eb56a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Roh_Dhna.png": {
+      "bytes": 5290747,
+      "sha256": "0e0964be8d8c19fad5a6caf9a72e5cc6ca5072704f061d674cfcdb524b337fcd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Tnelis.png": {
+      "bytes": 5909922,
+      "sha256": "4486cd7bf73f7e6390a923c8394a391930486c992e9ac97fd0299bce1edf128d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Vaden.png": {
+      "bytes": 5099018,
+      "sha256": "e101b7702dc9e1994533890873da05391c434b7b4ded6518b350dbc73d68b704"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Vaylerian.png": {
+      "bytes": 5569945,
+      "sha256": "3318ef499691e0a46b62557ed013903ec49dce840d19ed55a69dcd9cd51ed4ad"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Veldyr.png": {
+      "bytes": 5494875,
+      "sha256": "9c1820f8c2de1f44f2a486b62c9195783b60df989a964bd090812490d7de11a1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Zelian.png": {
+      "bytes": 5283411,
+      "sha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Axis BR BT.jpg": {
+      "bytes": 233143,
+      "sha256": "3abdf8591ee8506c817ee7f63346215bc2aaf0de81006addba7eb6ba32031892"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Bentor GB BT.jpg": {
+      "bytes": 234502,
+      "sha256": "82aa764268efb1ae2d55205f87b174d110e0765cfa3237333a02013fb6b82a2a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/BT Extras/Commodity GLEdge front.png": {
+      "bytes": 100813,
+      "sha256": "75499da016ca0793236c384a06096b3264b30119d49c455ea603440a4b5e22f6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/BT Extras/Commodity Roh-Dhna front.png": {
+      "bytes": 100813,
+      "sha256": "75499da016ca0793236c384a06096b3264b30119d49c455ea603440a4b5e22f6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/BT Extras/GLEdge Dhonraz I.jpg": {
+      "bytes": 224085,
+      "sha256": "d17389ca9f20cafc677097638413eb7e1a7a19e9e2b54cfeca81cca1c094ee1d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/BT Extras/GLEdge Dhonraz II.jpg": {
+      "bytes": 239914,
+      "sha256": "4927ef35fe8cb6fe7bc49dcdb1ee883f008981a44b23f4153c1e9a4f3b1d688f"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/BT Extras/GLEdge Dhonraz III Back.jpg": {
+      "bytes": 187727,
+      "sha256": "885026a608ad85877bad659d034874b896e1b8cf8a495d723a2fdd7bbb052bdb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Celdauri YR BT.jpg": {
+      "bytes": 238369,
+      "sha256": "17dc9070a8c4ae42978b98e29bbfbaf881ac4308d1feb0c448352bbe7afbbd9c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Cheiran BR BT.jpg": {
+      "bytes": 208051,
+      "sha256": "ad16d71c786c157d6b874fd6fda624a33825cb2f1364d343d828d15624f569f2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Cymiae YR BT.jpg": {
+      "bytes": 232311,
+      "sha256": "9511c1a4f328271e5fa6f0570c5731b601af599d1e983f515ae0700b71dff38a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Dih-Mohn BY BT.jpg": {
+      "bytes": 230606,
+      "sha256": "29bb7ff101eb6d75a28be3f1abc531adb6dc57804a710b93e502d77396880d46"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Edyn GB BT.jpg": {
+      "bytes": 228560,
+      "sha256": "de87c93868fd4ad77a532bd14abb7b8b4423a3ff3e0348231ec6bb7b9cb74d43"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Florzen GB BT.jpg": {
+      "bytes": 244474,
+      "sha256": "8512103d14628c940f6e8687adeb3e7c2b6a7c15d335efa73e2e619834e20a0e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/FSC GY BT.jpg": {
+      "bytes": 248731,
+      "sha256": "9a409f9825ca6ecff8edaccda010de685e4950a81007d50b815104f54c55339c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Ghemina GR BT.jpg": {
+      "bytes": 212434,
+      "sha256": "fd7beae9fb03512a252b21616136583afa1ff533c9a17108b1a663a9586ad0ec"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Ghoti GB BT.jpg": {
+      "bytes": 443157,
+      "sha256": "acd7facb6f4be8e6c62b106fd9117e9ca2a5ac3b1d116f8e8a78045a5acbd173"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/GLEdge BY BT.jpg": {
+      "bytes": 216315,
+      "sha256": "d6ba93059a816989a162b667d3617b6c9ac21bc5b9312261db6820081875111b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Ilyxum GY BT.jpg": {
+      "bytes": 169613,
+      "sha256": "fa2d655022a4b665a6dced67e4071113b2cc83c0fe388a33e515d5e33770bdfd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Kjalengard GR BT.jpg": {
+      "bytes": 201974,
+      "sha256": "36f49182545863d7769103ac1465e217071ce318d9324edc75bd848776c04389"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Kollecc GB BT.jpg": {
+      "bytes": 209258,
+      "sha256": "765d13357e72942b0176fb6febf2f6ae97dcf76afd94f1a6be45b1b67d8ebdee"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Kolume BY BT.jpg": {
+      "bytes": 203614,
+      "sha256": "13504ba951b1933085c56885c1ccf1cb543a4e0fa0ec6e4fd1a961f51dce9c64"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Kortali BR BT.jpg": {
+      "bytes": 161662,
+      "sha256": "2584714df9dd739a5b4dbb63912028082702f2d80c76b36582ba1e99083d0586"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Kyro YR BT.jpg": {
+      "bytes": 238426,
+      "sha256": "44294cace473f73a57027df3485fe39a6b907f3190f277fe1871ef6f67120964"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/L_tokk Khrask GY BT.jpg": {
+      "bytes": 208622,
+      "sha256": "58fbf3fb8f3cfd4fbac0f1998cac28573542b7b17a36f17a6013175dc21df1e6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Lanefir GR BT.jpg": {
+      "bytes": 201973,
+      "sha256": "9569a3f028272fd25e623c7759e07ee960ef52adbb4e60e3374df709d454d009"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Li-Zho GR BT.jpg": {
+      "bytes": 220996,
+      "sha256": "5fe63966ae4a159636f4ebe779ed7580497959014aff2795f96c435b491728d3"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Mirveda BY BT.jpg": {
+      "bytes": 173314,
+      "sha256": "2a389bb20c5496ea54c9daef2b27182b44408d0c8f4ddb3ac962ba8e83d5034b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Mortheus YR BT.jpg": {
+      "bytes": 215704,
+      "sha256": "24fca9bc087351a095cdf054d2079b0f5125c3c5af00bcff761a77e53f6a103e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Myko GY BT.jpg": {
+      "bytes": 244804,
+      "sha256": "29a271566586ae192edeee7d0b724f1d1994706638a67d88a5b06058a0d0cd98"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Nivyn BR BT.jpg": {
+      "bytes": 188061,
+      "sha256": "caa9db2338bfcab8e92b737976a40ced38836d0fef7b214d94641ddf96cf0cc0"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Nokar YR BT.jpg": {
+      "bytes": 232073,
+      "sha256": "527d9f285003b1e9a7735479e06a8ce36e7383291d76f46c1d79ff47be07595d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Olradin GR BT.jpg": {
+      "bytes": 242339,
+      "sha256": "176a1f319a173140635672e0aa74e8e957b068f1623ccd9990e379abe70bee3b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Rhodun YR BT.jpg": {
+      "bytes": 199071,
+      "sha256": "8f33693aae6f9f1c1d6f5d0ff3e20e928d37c124c7bf5e3317252c160b09ccee"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Roh_Dhna BY BT.jpg": {
+      "bytes": 173965,
+      "sha256": "810953bb6d40860d47039b666f16b2cfa24230719a8520e6862ce73c7a7a9fff"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Tnelis BR BT.jpg": {
+      "bytes": 220499,
+      "sha256": "1e2240ccb4ee97fc1a086113ddb89b8ae7d507474744feb25b66972ba7575831"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Vaden GR BT.jpg": {
+      "bytes": 219620,
+      "sha256": "2c058698ba130809cad089e8ec41e0c4058be234b01fccfe93fc9afd26d53f7c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Vaylerian BR BT.jpg": {
+      "bytes": 195920,
+      "sha256": "e5efcc2bcda789e608d403ff23a10c7cdaaaa9224b99e9b2a24003dfae2da9ab"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Veldyr BY BT.jpg": {
+      "bytes": 205368,
+      "sha256": "07b699491b6ef350087acd06fb5597ec8ffc69338ecda9f9e4b284527052dbc9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS BTs/Zelian GR BT.jpg": {
+      "bytes": 237787,
+      "sha256": "a9b0aba52f2c62686c20a3be43f17fb7053af973c033d9dc018c47981aaef4ab"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/flor-mech-front.png": {
+      "bytes": 341451,
+      "sha256": "cc9d8267edd9a0042489575f00a977b5a223bdd267a418f8bbd33776757b3bb9"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/free-technology-g-back.png": {
+      "bytes": 744887,
+      "sha256": "6b958b3d9f76000968de7975ee68e1afb44745a402a1ea979c27b12679ef2424"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/kolu-mech-front.png": {
+      "bytes": 285706,
+      "sha256": "f816aa7aa4c85f3d44085e3c8afb00d5904b9e9425b83ce06be05bc83fa499c4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/lizh-trap-5-back.png": {
+      "bytes": 419712,
+      "sha256": "94c6dcd371cc36f964eb2343336215a91540bab7bbc1229052e0fdf2aca05e01"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/lizh-trap-5-front.png": {
+      "bytes": 102186,
+      "sha256": "2afd3d232126d5ffb898c5ceb0df164996f13aa04aad4df2efc6aada7c240e29"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/olra-policy-1-back.png": {
+      "bytes": 114048,
+      "sha256": "e45316bed98ab30def85e4f76a876ea36734f3c3054935829b2c469f769e5e69"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/DS Resized Files/Cards/Mini American/olra-policy-3-back.png.png": {
+      "bytes": 119994,
+      "sha256": "7e038bf07b1094cd50af140846b6ed4b780eb5c28c3b3cd9f3ab8794c76cd7fd"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Axis R.png": {
+      "bytes": 21798531,
+      "sha256": "52b30b30bfd3241bd0d00c17a9952109b2ad1473305f381740f77a8bdf8271c7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Bent R.png": {
+      "bytes": 20713041,
+      "sha256": "4ad17a7b382ce337383844e600927c6e349896821e3547101e03932254ad2343"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Celd R.png": {
+      "bytes": 23402346,
+      "sha256": "42edc1a8441225c808d3bfae1fa3e4234e223f56d3124659d31bf72cbcbf8280"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Chei R.png": {
+      "bytes": 20107926,
+      "sha256": "627c7599fa59c4f3ac9843c8ea33ec8de273ba3ba83ca45b32eee81065063e7e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Cymi R.png": {
+      "bytes": 14349672,
+      "sha256": "b9a158ed407a34c2e5532a1c73abc97f2c32c225ffb46158a0c7705c5ce89b29"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/DihM R.png": {
+      "bytes": 22827996,
+      "sha256": "12427e5cc5d1e6b9ba84819dd77ae52bc2a48035e3dba7b57f4455f70736b9ed"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Edyn R.png": {
+      "bytes": 15444172,
+      "sha256": "c8c562aba7bfac7174d128274fa524b27488efc36806b220f10493330310d12d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Flor R.png": {
+      "bytes": 21710719,
+      "sha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Free R.png": {
+      "bytes": 21582887,
+      "sha256": "8d64d9a8c315685554929d9c20fba1aedc054865232911e7303ca535f9213d99"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ghem R.png": {
+      "bytes": 20275905,
+      "sha256": "ce2082d6aa4b5de505c180bb139f1c132ee57bfbdba6c2b7b33f37a97746db0d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ghot R.png": {
+      "bytes": 19935834,
+      "sha256": "b06a27d162cd9eb2eccfe03a432016724ef29b9f5c52a892f9b2ed639f8773d7"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/GLEd R.png": {
+      "bytes": 21236316,
+      "sha256": "2933c2d196e7bd8b8acf6b0a2fe5d59999a5b9a64b3b58dadde11e768c9ff8e1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Ilyx R.png": {
+      "bytes": 20984532,
+      "sha256": "2af1107623996399f4ece3beea1f962b564746b830e4260e70bf61b816383258"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kjal R.png": {
+      "bytes": 21716648,
+      "sha256": "7b19e21db0c8dae9c967c2ab2618119460c7c756843ad608a9a73a28d3f5cb60"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Koll R.png": {
+      "bytes": 19170078,
+      "sha256": "b5c97013cf9f7598eee3d7954d29d04a0a53b3eb4390ff0df0904585ff7cd7db"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kolu R.png": {
+      "bytes": 16755445,
+      "sha256": "8057860d1f6eb26d889378aae1d2d8725b04207ff9f570a2a4df600b032535fc"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kort R.png": {
+      "bytes": 14562248,
+      "sha256": "6b12ddb2c3e1248646a73eeea971c5e52568edc17dade7d9ff8a9d34369971d8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Kyro R.png": {
+      "bytes": 16419786,
+      "sha256": "f8761532673fe99cce2db09ab628c948fe8b03ef01c2ea9e72b285ecc1f6de9d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Lane R.png": {
+      "bytes": 21221125,
+      "sha256": "e8ba957b18670140db86b570cc67563dafb098f04e643bfeebcab2e7a8a65432"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/LiZh R.png": {
+      "bytes": 21934636,
+      "sha256": "82e66c473ce63ed1bed58c9c037c58e195204df58f90db2916a0b8d51bab6963"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/LTok R.png": {
+      "bytes": 21305768,
+      "sha256": "8ef44447fe75ca8a900e322d8f0993e5e6917a46b832b1becea70e2f2c26356a"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Mirv R.png": {
+      "bytes": 21657754,
+      "sha256": "55260f0f25261cd06983ecb4568c9f57aad1e44116e6cfdca95db0f8e1e07d8d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Mort R.png": {
+      "bytes": 21280623,
+      "sha256": "f365bad3818a4a468174688662d8e95014d81df16b6930a2d6f18f81236ad2e5"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Myko R.png": {
+      "bytes": 21218006,
+      "sha256": "58e56783daf164d3c14ed1250ba82f34efc4563829af2312ef0f57b8ef24e324"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Nivy R.png": {
+      "bytes": 14069013,
+      "sha256": "6be39d40c6f572e4079452453e1cc8848e1523d9a81d502d7a77c00dd7192d3c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Noka R.png": {
+      "bytes": 21622384,
+      "sha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Olra R.png": {
+      "bytes": 22410371,
+      "sha256": "14aa7dd75fb5dabd9f1f827a63be1cf0fbb5d599ecfce74129eb840d1a66ec68"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Rhod R.png": {
+      "bytes": 22885020,
+      "sha256": "2177c6a942a6ed8daf11c1dadfb44b6d5fc8fd648d28bbdd13007f14052084e6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/RohD R.png": {
+      "bytes": 23233161,
+      "sha256": "7f183a37b685de71bd43779942b98c9a24e809bb9d6848796705bb33e246288d"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Tnel R.png": {
+      "bytes": 22693111,
+      "sha256": "76ac8ae0fe76b555cea0827ba16f575c3fbacec3e3e66394e657ef0106e4f6c2"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vade R.png": {
+      "bytes": 23112490,
+      "sha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vayl R.png": {
+      "bytes": 21903398,
+      "sha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Veld R.png": {
+      "bytes": 21569616,
+      "sha256": "d28259c93aea9ddb7ffc3c6493c79034f6e55130f52ccf42621a646671d7d21c"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/axis-order-back.jpg": {
+      "bytes": 1103676,
+      "sha256": "2f2e72c31fda68e77d1afacd1c3314cf8433b8670ab948f8a9f6c53a8f9783ff"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Axis_Carrier.jpg": {
+      "bytes": 438156,
+      "sha256": "a522a373ed93d509a023ac34cc900c5f1202e41f8d9d8b4669500dda0a5df023"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Axis_Cruiser.jpg": {
+      "bytes": 433054,
+      "sha256": "80ddc7675a74240f2a35969e612cd6654c4afb3d261078adf62fab0f37267daa"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Axis_Destroyer.jpg": {
+      "bytes": 441333,
+      "sha256": "a3ae3d32eaacf8f44b563ffe59410e5311d655afcd9ce8e4e2de2e1215f9a906"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Axis_Dreadnought.jpg": {
+      "bytes": 456107,
+      "sha256": "506bfa55698f8fec3831dff84bc76043a366c6514a38489438e9855899288286"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/kyro-alliance-front.png": {
+      "bytes": 6132506,
+      "sha256": "1726ebfc551c249ef33bacfacc12673fa6e428b02c6baacdfa64973d4c399540"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Kyro.png": {
+      "bytes": 7063126,
+      "sha256": "6bc8505edb4723887238760bdb004f68a67f7d6ea001fab7978d1301345a4a97"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/L_tokk.png": {
+      "bytes": 7626568,
+      "sha256": "b0cec366782242cfaa8ae35fdc5123f2166a8d5c4d5d0d4f71a2929bdf28a15b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/ltok-alliance-front.png": {
+      "bytes": 6313191,
+      "sha256": "0e7be2f9b35a7a63e6d835fab636c080f17feb464ea85de8236f54ab6a6d48f4"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/nivy-alliance-front.png": {
+      "bytes": 5953616,
+      "sha256": "0a2fd73da431ac42187c35262f50388f28642bcbf8be3a67163496a286f42dd6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Nivyn.png": {
+      "bytes": 9431328,
+      "sha256": "da4ff9f397dbf3174b02e68afdf03088a106fe0d8039b5dc8fd76d77c0a70980"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Olra mb.png": {
+      "bytes": 462869,
+      "sha256": "214b70666f43ed881c3f910579540ab9a11a3317cd6d2a64004dafdeebe05d33"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/MBPrint 1 Errata/Olra mech.png": {
+      "bytes": 433690,
+      "sha256": "a2e1664d306e64e2c7e9fa5b43c3785d465d057356d4b53439cbb5af4850059b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Cards/exploration/unspace-cultural-distinguished admiral-front.png": {
+      "bytes": 345415,
+      "sha256": "e5f4d7678d74c10d54d4e8291ddca2edff546db2a2b3a9a21ecb9798edc16bf6"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Cards/exploration/unspace-frontier-suspicious wreckage-front.png": {
+      "bytes": 283109,
+      "sha256": "805919ab9ed519a143ccb0bfcaa10605e7248e8ef51582687094a79852c08448"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4269-Domna-front.png": {
+      "bytes": 1721321,
+      "sha256": "27c31f83e9b4292317f736ea97ad14f577ef726967e00f378b526bd944b26128"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4271-Empty-front.png": {
+      "bytes": 977354,
+      "sha256": "b4d6fe962236fdd2224131acd14e6717c254516d4aed2f7e0c64f444dd2c0d9e"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4272-Nebula-gate-front.png": {
+      "bytes": 1754478,
+      "sha256": "5aa3cf9adf776ae375db729794422f6c1fe2d913e0c4f20cdc5b927e34f73335"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4273-Asteroid-Nebula-front.png": {
+      "bytes": 1694901,
+      "sha256": "b4f1f0c5b39a29bdc1fa6326e9ea3ed3bde8b7f15ed5046a2879902643f671e8"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4274-Asteroid-rift-front.png": {
+      "bytes": 1532765,
+      "sha256": "e76ec879382d6678e78d638d19cfdf0c46d763a164ecfa53b7346d37cf43e6cb"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4275-Rift-gate-front.png": {
+      "bytes": 1432755,
+      "sha256": "a6e4baf7825723bdf964ee172a900773220467e301f7709865c84fe250ec632b"
+    },
+    "imports/discordant-stars/Discordant Stars/Files/Uncharted Space/Tiles - Red/unspace-tile-4276-Nova-gate-front.png": {
+      "bytes": 1844381,
+      "sha256": "8b0714ffc03ba1c59490e20690ae21a5f7b43d0dd6cb79c399dfe756010062fb"
+    },
+    "imports/discordant-stars/Discordant Stars/Rules Clarifications.pdf": {
+      "bytes": 298000,
+      "sha256": "7db117c69684c07c19f79ad0618a6ce8acf98ff8078e9f07b378b0a13de69145"
+    },
+    "assets/factions/source/discordant-stars/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "assets/factions/source/discordant-stars/rohdhna-mechatronics.png": {
+      "bytes": 23233161,
+      "sha256": "7f183a37b685de71bd43779942b98c9a24e809bb9d6848796705bb33e246288d"
+    },
+    "assets/factions/source/discordant-stars/the-augurs-of-ilyxum.png": {
+      "bytes": 20984532,
+      "sha256": "2af1107623996399f4ece3beea1f962b564746b830e4260e70bf61b816383258"
+    },
+    "assets/factions/source/discordant-stars/the-bentor-conglomerate.png": {
+      "bytes": 20713041,
+      "sha256": "4ad17a7b382ce337383844e600927c6e349896821e3547101e03932254ad2343"
+    },
+    "assets/factions/source/discordant-stars/the-berserkers-of-kjalengard.png": {
+      "bytes": 21716648,
+      "sha256": "7b19e21db0c8dae9c967c2ab2618119460c7c756843ad608a9a73a28d3f5cb60"
+    },
+    "assets/factions/source/discordant-stars/the-celdauri-trade-confederation.png": {
+      "bytes": 23402346,
+      "sha256": "42edc1a8441225c808d3bfae1fa3e4234e223f56d3124659d31bf72cbcbf8280"
+    },
+    "assets/factions/source/discordant-stars/the-cheiran-hordes.png": {
+      "bytes": 20107926,
+      "sha256": "627c7599fa59c4f3ac9843c8ea33ec8de273ba3ba83ca45b32eee81065063e7e"
+    },
+    "assets/factions/source/discordant-stars/the-dih-mohn-flotilla.png": {
+      "bytes": 22827996,
+      "sha256": "12427e5cc5d1e6b9ba84819dd77ae52bc2a48035e3dba7b57f4455f70736b9ed"
+    },
+    "assets/factions/source/discordant-stars/the-edyn-mandate.png": {
+      "bytes": 15444172,
+      "sha256": "c8c562aba7bfac7174d128274fa524b27488efc36806b220f10493330310d12d"
+    },
+    "assets/factions/source/discordant-stars/the-florzen-profiteers.png": {
+      "bytes": 21710719,
+      "sha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72"
+    },
+    "assets/factions/source/discordant-stars/the-free-systems-compact.png": {
+      "bytes": 21582887,
+      "sha256": "8d64d9a8c315685554929d9c20fba1aedc054865232911e7303ca535f9213d99"
+    },
+    "assets/factions/source/discordant-stars/the-ghemina-raiders.png": {
+      "bytes": 20275905,
+      "sha256": "ce2082d6aa4b5de505c180bb139f1c132ee57bfbdba6c2b7b33f37a97746db0d"
+    },
+    "assets/factions/source/discordant-stars/the-ghoti-wayfarers.png": {
+      "bytes": 19935834,
+      "sha256": "b06a27d162cd9eb2eccfe03a432016724ef29b9f5c52a892f9b2ed639f8773d7"
+    },
+    "assets/factions/source/discordant-stars/the-gledge-union.png": {
+      "bytes": 21236316,
+      "sha256": "2933c2d196e7bd8b8acf6b0a2fe5d59999a5b9a64b3b58dadde11e768c9ff8e1"
+    },
+    "assets/factions/source/discordant-stars/the-glimmer-of-mortheus.png": {
+      "bytes": 21280623,
+      "sha256": "f365bad3818a4a468174688662d8e95014d81df16b6930a2d6f18f81236ad2e5"
+    },
+    "assets/factions/source/discordant-stars/the-kollecc-society.png": {
+      "bytes": 19170078,
+      "sha256": "b5c97013cf9f7598eee3d7954d29d04a0a53b3eb4390ff0df0904585ff7cd7db"
+    },
+    "assets/factions/source/discordant-stars/the-kortali-tribunal.png": {
+      "bytes": 14562248,
+      "sha256": "6b12ddb2c3e1248646a73eeea971c5e52568edc17dade7d9ff8a9d34369971d8"
+    },
+    "assets/factions/source/discordant-stars/the-kyro-sodality.png": {
+      "bytes": 16419786,
+      "sha256": "f8761532673fe99cce2db09ab628c948fe8b03ef01c2ea9e72b285ecc1f6de9d"
+    },
+    "assets/factions/source/discordant-stars/the-lanefir-remnants.png": {
+      "bytes": 21221125,
+      "sha256": "e8ba957b18670140db86b570cc67563dafb098f04e643bfeebcab2e7a8a65432"
+    },
+    "assets/factions/source/discordant-stars/the-li-zho-dynasty.png": {
+      "bytes": 21934636,
+      "sha256": "82e66c473ce63ed1bed58c9c037c58e195204df58f90db2916a0b8d51bab6963"
+    },
+    "assets/factions/source/discordant-stars/the-ltokk-khrask.png": {
+      "bytes": 21305768,
+      "sha256": "8ef44447fe75ca8a900e322d8f0993e5e6917a46b832b1becea70e2f2c26356a"
+    },
+    "assets/factions/source/discordant-stars/the-mirveda-protectorate.png": {
+      "bytes": 21657754,
+      "sha256": "55260f0f25261cd06983ecb4568c9f57aad1e44116e6cfdca95db0f8e1e07d8d"
+    },
+    "assets/factions/source/discordant-stars/the-monks-of-kolume.png": {
+      "bytes": 16755445,
+      "sha256": "8057860d1f6eb26d889378aae1d2d8725b04207ff9f570a2a4df600b032535fc"
+    },
+    "assets/factions/source/discordant-stars/the-myko-mentori.png": {
+      "bytes": 21218006,
+      "sha256": "58e56783daf164d3c14ed1250ba82f34efc4563829af2312ef0f57b8ef24e324"
+    },
+    "assets/factions/source/discordant-stars/the-nivyn-star-kings.png": {
+      "bytes": 14069013,
+      "sha256": "6be39d40c6f572e4079452453e1cc8848e1523d9a81d502d7a77c00dd7192d3c"
+    },
+    "assets/factions/source/discordant-stars/the-nokar-sellships.png": {
+      "bytes": 21622384,
+      "sha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e"
+    },
+    "assets/factions/source/discordant-stars/the-olradin-league.png": {
+      "bytes": 22410371,
+      "sha256": "14aa7dd75fb5dabd9f1f827a63be1cf0fbb5d599ecfce74129eb840d1a66ec68"
+    },
+    "assets/factions/source/discordant-stars/the-savages-of-cymiae.png": {
+      "bytes": 14349672,
+      "sha256": "b9a158ed407a34c2e5532a1c73abc97f2c32c225ffb46158a0c7705c5ce89b29"
+    },
+    "assets/factions/source/discordant-stars/the-shipwrights-of-axis.png": {
+      "bytes": 21798531,
+      "sha256": "52b30b30bfd3241bd0d00c17a9952109b2ad1473305f381740f77a8bdf8271c7"
+    },
+    "assets/factions/source/discordant-stars/the-tnelis-syndicate.png": {
+      "bytes": 22693111,
+      "sha256": "76ac8ae0fe76b555cea0827ba16f575c3fbacec3e3e66394e657ef0106e4f6c2"
+    },
+    "assets/factions/source/discordant-stars/the-vaden-banking-clans.png": {
+      "bytes": 23112490,
+      "sha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6"
+    },
+    "assets/factions/source/discordant-stars/the-vaylerian-scourge.png": {
+      "bytes": 21903398,
+      "sha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1"
+    },
+    "assets/factions/source/discordant-stars/the-veldyr-sovereignty.png": {
+      "bytes": 21569616,
+      "sha256": "d28259c93aea9ddb7ffc3c6493c79034f6e55130f52ccf42621a646671d7d21c"
+    },
+    "assets/factions/source/discordant-stars/the-zealots-of-rhodun.png": {
+      "bytes": 22885020,
+      "sha256": "2177c6a942a6ed8daf11c1dadfb44b6d5fc8fd648d28bbdd13007f14052084e6"
+    },
+    "assets/factions/source/discordant-stars/the-zelian-purifier.png": {
+      "bytes": 5283411,
+      "sha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782"
+    },
+    "assets/factions/source/official/last-bastion.jpg": {
+      "bytes": 93373,
+      "sha256": "20a57f61bb37da1c611a589c81398dd2763779da1f2f87103a353ec7b0c0b982"
+    },
+    "assets/factions/source/official/official-reference-atlas-4ac482e11a79.png": {
+      "bytes": 39447085,
+      "sha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115"
+    },
+    "assets/factions/source/official/sardakk-norr.jpg": {
+      "bytes": 138183,
+      "sha256": "1d448ff179697c9027cdf813d96cf099762d6270c0ffff1deaa9b860c991f97e"
+    },
+    "assets/factions/source/official/the-arborec.jpg": {
+      "bytes": 140660,
+      "sha256": "6a6ebeb9ae350512d8378b8000020b7ac6129b1e3219e1f5db3d5fde56fdbfd8"
+    },
+    "assets/factions/source/official/the-argent-flight.jpg": {
+      "bytes": 107600,
+      "sha256": "d330ac4a3d18cea460ada652b38cdb169bf8e1e5b7bf7b1752340dda9b1cd257"
+    },
+    "assets/factions/source/official/the-barony-of-letnev.jpg": {
+      "bytes": 138301,
+      "sha256": "5956a394d596fd9d164de376b822e410c3a35e21f3e91628a09c3db98cd506c1"
+    },
+    "assets/factions/source/official/the-clan-of-saar.jpg": {
+      "bytes": 147153,
+      "sha256": "b43c7e88e450accaa367d7b6a675294ea4c2896cc56f6d150f5fad5229164470"
+    },
+    "assets/factions/source/official/the-council-keleres.png": {
+      "bytes": 317996,
+      "sha256": "5158875ee617e3182140a0e983946e682bd292781eb27f3ab943e60bdcacc859"
+    },
+    "assets/factions/source/official/the-crimson-rebellion.jpg": {
+      "bytes": 95265,
+      "sha256": "32bbca50423ff8de84906b30c41228d5a0b5bcb80edad69d32392f2819d47c7b"
+    },
+    "assets/factions/source/official/the-deepwrought-scholarate.jpg": {
+      "bytes": 101286,
+      "sha256": "97e9e297fc937e87cdd2e1d5b73fa8cb2c87d5f4e66af4b4ca2db792532f649f"
+    },
+    "assets/factions/source/official/the-embers-of-muaat.jpg": {
+      "bytes": 140930,
+      "sha256": "d743290567852c50eb679e9431cd6dfd273648749e357ad5d4480252c9f54c0d"
+    },
+    "assets/factions/source/official/the-emirates-of-hacan.jpg": {
+      "bytes": 141654,
+      "sha256": "1e2c9f46ebac668784f4f9c91e1e9ca3f310c58787fe2507bcfb39c3ba1a79b6"
+    },
+    "assets/factions/source/official/the-empyrean.jpg": {
+      "bytes": 44314,
+      "sha256": "0d2cb029b5b0e8b1378f91eae8feab344e0521a5d14170a4748e9c795113effe"
+    },
+    "assets/factions/source/official/the-federation-of-sol.jpg": {
+      "bytes": 136844,
+      "sha256": "35d7b42c190dc6eaa2ba6f8399a95a3b05c9b098fa85b622b29e79f025e028b5"
+    },
+    "assets/factions/source/official/the-firmament-the-obsidian.jpg": {
+      "bytes": 93195,
+      "sha256": "359f35aba382a905a5d8845594c2ea4f3bdf0ae62c39ad3a1d09d406fbc2bd35"
+    },
+    "assets/factions/source/official/the-ghosts-of-creuss.jpg": {
+      "bytes": 111610,
+      "sha256": "2a28ef25de9e853eea8afa164fc6e0a17f7340ac05e5c66b7668330dfe889179"
+    },
+    "assets/factions/source/official/the-l1z1x-mindnet.jpg": {
+      "bytes": 134372,
+      "sha256": "7653eb000066c8b6b3d54b4b49f914653d9d1f804fd7286d82fcbe4501628a41"
+    },
+    "assets/factions/source/official/the-mahact-gene-sorcerers.jpg": {
+      "bytes": 43599,
+      "sha256": "47959bd072b78f24b76d7e097f0fd4bb1f984616704b29cce1a5aa8b282aed7a"
+    },
+    "assets/factions/source/official/the-mentak-coalition.jpg": {
+      "bytes": 139901,
+      "sha256": "21cd0069ff225e88bd9612b861b015ae2aae77feb54bd14d0cb8d6f7363c4693"
+    },
+    "assets/factions/source/official/the-naalu-collective.jpg": {
+      "bytes": 143735,
+      "sha256": "a9e7363c10d32dee92fc57056f9d232ef02737e4e81cb2cc3a4f566f41ec35aa"
+    },
+    "assets/factions/source/official/the-naaz-rokha-alliance.jpg": {
+      "bytes": 108632,
+      "sha256": "3afd3a5bf815b05d944260247f05ea5f74b6c494a2ff266fad687a1ccc2c2e70"
+    },
+    "assets/factions/source/official/the-nekro-virus.jpg": {
+      "bytes": 136034,
+      "sha256": "f51c8b741eb04da3cf1d3d73e18173e1e794beaf44982fcdaf2e07b24950cf31"
+    },
+    "assets/factions/source/official/the-nomad.jpg": {
+      "bytes": 109268,
+      "sha256": "99436aa8f1b6f164ad0fc09b09d013610ae49f0e75f3fa9388338b41b154068c"
+    },
+    "assets/factions/source/official/the-ral-nel-consortium.jpg": {
+      "bytes": 94085,
+      "sha256": "51300e07a98cf2e5bf18854e8e1eaa76ba7fd00dbaf6ec53fd46ce8820273d50"
+    },
+    "assets/factions/source/official/the-titans-of-ul.jpg": {
+      "bytes": 45638,
+      "sha256": "a086d27601243755f40d0dee2a83503dd8b9205a545ee86341fd4b128663a854"
+    },
+    "assets/factions/source/official/the-universities-of-jol-nar.jpg": {
+      "bytes": 143277,
+      "sha256": "3b2615f103082732bf37b2eb95d79a5fc6f0bd8fa4d3a075c837ae8502a4fbf2"
+    },
+    "assets/factions/source/official/the-vuilraith-cabal.jpg": {
+      "bytes": 108764,
+      "sha256": "0e5e36236fe1de4b4ea7b398a66fef1f6a4554aa01e761bba249e69978f0b66b"
+    },
+    "assets/factions/source/official/the-winnu.jpg": {
+      "bytes": 147062,
+      "sha256": "973853b19f8a37d045d9b933da09681b7178fd08e32395b1a3c5e91f22da2adf"
+    },
+    "assets/factions/source/official/the-xxcha-kingdom.jpg": {
+      "bytes": 135456,
+      "sha256": "bc41bd2a662fb894139842eb74c0b3a076e01fade72624473ebb3b476d9d3d8a"
+    },
+    "assets/factions/source/official/the-yin-brotherhood.jpg": {
+      "bytes": 133607,
+      "sha256": "e487d1d1c629bb914750c738c7f12cf076d1a98daa4032a70d08b1da42ebe392"
+    },
+    "assets/factions/source/official/the-yssaril-tribes.jpg": {
+      "bytes": 144259,
+      "sha256": "affc791bfc65c9db6b7ec733a82b246bbc26d0e3c69f32a501ae36d55915bad6"
+    },
+    "docs/tts-assets-review/candidates/last-bastion__candidate-01-bd662e06.jpg": {
+      "bytes": 93373,
+      "sha256": "20a57f61bb37da1c611a589c81398dd2763779da1f2f87103a353ec7b0c0b982"
+    },
+    "docs/tts-assets-review/candidates/last-bastion__candidate-02-83cdcf63.png": {
+      "bytes": 472879,
+      "sha256": "5ec99e171c5dd516b39aa76a0f499b94658b991c882109079126aee89641f61c"
+    },
+    "docs/tts-assets-review/candidates/last-bastion__candidate-03-a940d019.jpg": {
+      "bytes": 493092,
+      "sha256": "19605b8342108b94207e59a2abf4efc235002f73f546b4ea6b08e9446035c768"
+    },
+    "docs/tts-assets-review/candidates/official-reference-atlas-4ac482e11a79.png": {
+      "bytes": 39447085,
+      "sha256": "4ac482e11a794d461289213873873b59ceb5b75111cb0ccad1af9365037e2115"
+    },
+    "docs/tts-assets-review/candidates/sardakk-norr__candidate-01-a08e97fb.jpg": {
+      "bytes": 138183,
+      "sha256": "1d448ff179697c9027cdf813d96cf099762d6270c0ffff1deaa9b860c991f97e"
+    },
+    "docs/tts-assets-review/candidates/sardakk-norr__candidate-02-281588b9.jpg": {
+      "bytes": 47769,
+      "sha256": "2f9ee3daf1815b61a9780f0b08f2d53701d4b467455182216aacade3312c1cf0"
+    },
+    "docs/tts-assets-review/candidates/sardakk-norr__candidate-03-7b2aaa17.jpg": {
+      "bytes": 352936,
+      "sha256": "9b6ec7e8bcd168e4a45db12ee13268f9c0b96942e05abcfffbbd42fe03eb40ec"
+    },
+    "docs/tts-assets-review/candidates/the-arborec__candidate-01-91e7d8d4.jpg": {
+      "bytes": 140660,
+      "sha256": "6a6ebeb9ae350512d8378b8000020b7ac6129b1e3219e1f5db3d5fde56fdbfd8"
+    },
+    "docs/tts-assets-review/candidates/the-arborec__candidate-02-1616b6b4.jpg": {
+      "bytes": 41022,
+      "sha256": "199eb03cca5cb294553542fb3586a07aac585cac1353ca73e444b506360f1546"
+    },
+    "docs/tts-assets-review/candidates/the-arborec__candidate-03-9f45cdd3.jpg": {
+      "bytes": 350961,
+      "sha256": "33f7f55ed4c4617bf7d8c6c18ca3293700d1660ef8d74149c6bbfb34849b9b01"
+    },
+    "docs/tts-assets-review/candidates/the-argent-flight__candidate-01-1551f465.jpg": {
+      "bytes": 107600,
+      "sha256": "d330ac4a3d18cea460ada652b38cdb169bf8e1e5b7bf7b1752340dda9b1cd257"
+    },
+    "docs/tts-assets-review/candidates/the-argent-flight__candidate-02-d0d2fb56.jpg": {
+      "bytes": 43951,
+      "sha256": "2239cf70491e54788208ba62f4b14adb05bd04cfaf8fa98750ca304f7478cb2e"
+    },
+    "docs/tts-assets-review/candidates/the-argent-flight__candidate-03-eac6a3c6.jpg": {
+      "bytes": 376327,
+      "sha256": "92e4b12bfe29012b25830bf3a8da957ee125374859725bfbf020a55c68fa3ad2"
+    },
+    "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-01-9fc3a455.jpg": {
+      "bytes": 138301,
+      "sha256": "5956a394d596fd9d164de376b822e410c3a35e21f3e91628a09c3db98cd506c1"
+    },
+    "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-02-bec0aebf.jpg": {
+      "bytes": 43870,
+      "sha256": "987a60771b5af18730c07dfb61e77a2dc8cc667252c06882ed76522755cd4936"
+    },
+    "docs/tts-assets-review/candidates/the-barony-of-letnev__candidate-03-5807acaf.jpg": {
+      "bytes": 350453,
+      "sha256": "eb60a54855c2c0f06f172b9585b2b35d76ac47e989d5e131670d023ee8b18b13"
+    },
+    "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-01-b634c124.jpg": {
+      "bytes": 147153,
+      "sha256": "b43c7e88e450accaa367d7b6a675294ea4c2896cc56f6d150f5fad5229164470"
+    },
+    "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-02-cef0fb99.jpg": {
+      "bytes": 40749,
+      "sha256": "440f6230e2c3fbc6c2fda2ad94b2bb39a5a793f0e80e2704a9e421d6a3cfe0dd"
+    },
+    "docs/tts-assets-review/candidates/the-clan-of-saar__candidate-03-59a85feb.jpg": {
+      "bytes": 357017,
+      "sha256": "5f63ab3383f667a053e277deca5ac4382a33517c725296f6babffeea40e90fb4"
+    },
+    "docs/tts-assets-review/candidates/the-council-keleres__candidate-01-4d1a5a68.png": {
+      "bytes": 317996,
+      "sha256": "5158875ee617e3182140a0e983946e682bd292781eb27f3ab943e60bdcacc859"
+    },
+    "docs/tts-assets-review/candidates/the-council-keleres__candidate-02-7e05892a.png": {
+      "bytes": 354043,
+      "sha256": "fae6cf60451db6e1e4af661e777a7d005638172e8aa3d4a12ea55b813ddaa291"
+    },
+    "docs/tts-assets-review/candidates/the-council-keleres__candidate-03-b61f554c.jpg": {
+      "bytes": 348084,
+      "sha256": "0906d94a7fcf8650b31b89886a3859ce4d47649fc50e6e2276dbfdb8e68b909e"
+    },
+    "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-01-28b542d0.jpg": {
+      "bytes": 95265,
+      "sha256": "32bbca50423ff8de84906b30c41228d5a0b5bcb80edad69d32392f2819d47c7b"
+    },
+    "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-02-d0ddf618.png": {
+      "bytes": 290004,
+      "sha256": "3c1180ff39e31efd1a6216dc399e4015e72fdc1f31cdee464b510b277bf93163"
+    },
+    "docs/tts-assets-review/candidates/the-crimson-rebellion__candidate-03-2bc8880e.jpg": {
+      "bytes": 793605,
+      "sha256": "2812ad60b57e6a19e84944b8354dcf8a93878bfe9d0d312d4fbf9fc9735df756"
+    },
+    "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-01-67741d21.jpg": {
+      "bytes": 101286,
+      "sha256": "97e9e297fc937e87cdd2e1d5b73fa8cb2c87d5f4e66af4b4ca2db792532f649f"
+    },
+    "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-02-b1b1c54b.jpg": {
+      "bytes": 405137,
+      "sha256": "21f0d39e7cae937f413e8403aceb6c16fbb370c502f90499ed12ac645ef9fa2f"
+    },
+    "docs/tts-assets-review/candidates/the-deepwrought-scholarate__candidate-03-593719d9.png": {
+      "bytes": 464621,
+      "sha256": "1a6b7bfaa1ab698ea26006fc0e74026188508b3391c5959261617a38aa90799b"
+    },
+    "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-01-1a112136.jpg": {
+      "bytes": 140930,
+      "sha256": "d743290567852c50eb679e9431cd6dfd273648749e357ad5d4480252c9f54c0d"
+    },
+    "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-02-b5a87a5e.jpg": {
+      "bytes": 39669,
+      "sha256": "4a47af6779f23dcdbe2188baf51ab9ec4fa8ed342089b3071b2b9d7ffc8bdbbc"
+    },
+    "docs/tts-assets-review/candidates/the-embers-of-muaat__candidate-03-6028be9f.jpg": {
+      "bytes": 353643,
+      "sha256": "786fd43779d83a0951efb87e14d1054dc8ad4dc5aa49a505809677befb0c1607"
+    },
+    "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-01-7888fc3b.jpg": {
+      "bytes": 141654,
+      "sha256": "1e2c9f46ebac668784f4f9c91e1e9ca3f310c58787fe2507bcfb39c3ba1a79b6"
+    },
+    "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-02-172d6b67.jpg": {
+      "bytes": 46460,
+      "sha256": "6bcb8cca5bd7698e5efc371814081520193951d6c211a4b8b2187503a92777af"
+    },
+    "docs/tts-assets-review/candidates/the-emirates-of-hacan__candidate-03-64322e3d.jpg": {
+      "bytes": 357962,
+      "sha256": "8215b56ccc881ed03ab80da3e22b2327fb164420f01f7832cf1ef4a7e144229c"
+    },
+    "docs/tts-assets-review/candidates/the-empyrean__candidate-01-53be43ca.jpg": {
+      "bytes": 44314,
+      "sha256": "0d2cb029b5b0e8b1378f91eae8feab344e0521a5d14170a4748e9c795113effe"
+    },
+    "docs/tts-assets-review/candidates/the-empyrean__candidate-02-a77aa6ac.jpg": {
+      "bytes": 37323,
+      "sha256": "5dfdcfe37583554fc5605bfba222354ec1bf65c57e06432d709f8fe7d82e4388"
+    },
+    "docs/tts-assets-review/candidates/the-empyrean__candidate-03-e54bf7e9.jpg": {
+      "bytes": 368481,
+      "sha256": "6d09e3cbe84aa4626e28c12e76c1968e5e3eddee7b107890aa9003b912239ba7"
+    },
+    "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-01-805305b3.jpg": {
+      "bytes": 136844,
+      "sha256": "35d7b42c190dc6eaa2ba6f8399a95a3b05c9b098fa85b622b29e79f025e028b5"
+    },
+    "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-02-20b4bbf8.jpg": {
+      "bytes": 43111,
+      "sha256": "7a99cfb9e6812f7dadcad8d875d5d24e4683478746ecf8c578668216b5c27808"
+    },
+    "docs/tts-assets-review/candidates/the-federation-of-sol__candidate-03-0ecc1b1c.jpg": {
+      "bytes": 333220,
+      "sha256": "47c81f68fbbf172698404d62e2c762793c562af79cc6218f412cdf930f58bdca"
+    },
+    "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-01-a1ad9f9f.jpg": {
+      "bytes": 93195,
+      "sha256": "359f35aba382a905a5d8845594c2ea4f3bdf0ae62c39ad3a1d09d406fbc2bd35"
+    },
+    "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-02-9da8cb58.jpg": {
+      "bytes": 431030,
+      "sha256": "0c4eadfdd0b23c99090caef47b3ec31067b30f3a60350bbfc2a99f3d07825d56"
+    },
+    "docs/tts-assets-review/candidates/the-firmament-the-obsidian__candidate-04-7ad2074a.png": {
+      "bytes": 444952,
+      "sha256": "7a60fcbc00b732bb74af901e6dd2dfd06d6688d8ec5dda5ccc0aeb48c683f87f"
+    },
+    "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-01-69ba1445.jpg": {
+      "bytes": 111610,
+      "sha256": "2a28ef25de9e853eea8afa164fc6e0a17f7340ac05e5c66b7668330dfe889179"
+    },
+    "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-02-e59f6d68.jpg": {
+      "bytes": 142878,
+      "sha256": "94492dc07aeffb80e6a72bf7dea3f29bbd3a78c7f25fa3cd544708bb64feda72"
+    },
+    "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-03-b989654d.jpg": {
+      "bytes": 38903,
+      "sha256": "47a6b9ecd562c16cb7f54e0739d436c959343340cb729ca424ffa317f4022f8f"
+    },
+    "docs/tts-assets-review/candidates/the-ghosts-of-creuss__candidate-04-272c8903.jpg": {
+      "bytes": 265550,
+      "sha256": "9ed542f7a28120c34dff6a28104aefd84850f0b24154dd9db52ef15be91ddf99"
+    },
+    "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-01-18a2c204.jpg": {
+      "bytes": 134372,
+      "sha256": "7653eb000066c8b6b3d54b4b49f914653d9d1f804fd7286d82fcbe4501628a41"
+    },
+    "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-02-b20aa9e1.jpg": {
+      "bytes": 40525,
+      "sha256": "83d131af9ead5bc47ff3254c74d2a44666aa030748b5dd2fcb02f6eda63acd64"
+    },
+    "docs/tts-assets-review/candidates/the-l1z1x-mindnet__candidate-03-8193b6e7.jpg": {
+      "bytes": 349999,
+      "sha256": "5bc82a8bcd4c6a467899d028e9d2f2ee73cf819287e4528662575873fef8f3da"
+    },
+    "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-01-94e6e0d8.jpg": {
+      "bytes": 43599,
+      "sha256": "47959bd072b78f24b76d7e097f0fd4bb1f984616704b29cce1a5aa8b282aed7a"
+    },
+    "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-02-6e691420.jpg": {
+      "bytes": 41058,
+      "sha256": "5a8c7fa604302b6bcd31fb68aef8afd2d3af133764534bdd83d79761de223cae"
+    },
+    "docs/tts-assets-review/candidates/the-mahact-gene-sorcerers__candidate-03-83bea1ff.jpg": {
+      "bytes": 368682,
+      "sha256": "86d25dd3a0185d23578e3aa0d394762af0cfb96b046e610604fe67909103bbb8"
+    },
+    "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-01-a7665d05.jpg": {
+      "bytes": 139901,
+      "sha256": "21cd0069ff225e88bd9612b861b015ae2aae77feb54bd14d0cb8d6f7363c4693"
+    },
+    "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-02-1a7ff0ce.jpg": {
+      "bytes": 43023,
+      "sha256": "200ec8fa22e0d2665e90024de369c588b3f1e7baeb6a65cb79f5f034009caa8b"
+    },
+    "docs/tts-assets-review/candidates/the-mentak-coalition__candidate-03-b61f554c.jpg": {
+      "bytes": 348084,
+      "sha256": "0906d94a7fcf8650b31b89886a3859ce4d47649fc50e6e2276dbfdb8e68b909e"
+    },
+    "docs/tts-assets-review/candidates/the-naalu-collective__candidate-01-402598c2.jpg": {
+      "bytes": 143735,
+      "sha256": "a9e7363c10d32dee92fc57056f9d232ef02737e4e81cb2cc3a4f566f41ec35aa"
+    },
+    "docs/tts-assets-review/candidates/the-naalu-collective__candidate-02-cd16abff.jpg": {
+      "bytes": 39386,
+      "sha256": "c6e2f3845ac75d69f1baf27e16d11bdc69c9cc745a1ebdf404b4a34f14a731b8"
+    },
+    "docs/tts-assets-review/candidates/the-naalu-collective__candidate-03-30526066.jpg": {
+      "bytes": 356792,
+      "sha256": "c3165867653e652f61132e49a2bbbbf1cb3246ce1ba659bea2917e91cb572944"
+    },
+    "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-01-850b0ff2.jpg": {
+      "bytes": 108632,
+      "sha256": "3afd3a5bf815b05d944260247f05ea5f74b6c494a2ff266fad687a1ccc2c2e70"
+    },
+    "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-02-78c158ed.jpg": {
+      "bytes": 42695,
+      "sha256": "9fb9954909c84faca95b322355d0853a614f6b7771f18e5a386bcf289f9dde1e"
+    },
+    "docs/tts-assets-review/candidates/the-naaz-rokha-alliance__candidate-03-74c4854b.jpg": {
+      "bytes": 362794,
+      "sha256": "bc9badbd24a7e4633c9ddf107179ab1088ac3f52f1806a1893d783506ec7ed72"
+    },
+    "docs/tts-assets-review/candidates/the-nekro-virus__candidate-01-ed7c4786.jpg": {
+      "bytes": 136034,
+      "sha256": "f51c8b741eb04da3cf1d3d73e18173e1e794beaf44982fcdaf2e07b24950cf31"
+    },
+    "docs/tts-assets-review/candidates/the-nekro-virus__candidate-02-5745c76a.jpg": {
+      "bytes": 39430,
+      "sha256": "de6861ded15ec9ce003387b9490bd5cfadcab81bc261aee9a98f111753772e54"
+    },
+    "docs/tts-assets-review/candidates/the-nekro-virus__candidate-03-9fa37690.jpg": {
+      "bytes": 308280,
+      "sha256": "2a655b7262eeba25e9e1d25bc9302420e3c9e58981821639639f492276afc171"
+    },
+    "docs/tts-assets-review/candidates/the-nomad__candidate-01-fff384be.jpg": {
+      "bytes": 109268,
+      "sha256": "99436aa8f1b6f164ad0fc09b09d013610ae49f0e75f3fa9388338b41b154068c"
+    },
+    "docs/tts-assets-review/candidates/the-nomad__candidate-02-1de2b8ef.jpg": {
+      "bytes": 39189,
+      "sha256": "54ce66e7c41c324a7aa92161fa0d0def7383f44e12d78b312817b558ebfb1a54"
+    },
+    "docs/tts-assets-review/candidates/the-nomad__candidate-03-456eb88c.jpg": {
+      "bytes": 308587,
+      "sha256": "48f4bcb949ebc385ade72d4de5b01f45bf4e47a8d0d4515f75b931b5f229aca4"
+    },
+    "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-01-d9d3a0dd.jpg": {
+      "bytes": 94085,
+      "sha256": "51300e07a98cf2e5bf18854e8e1eaa76ba7fd00dbaf6ec53fd46ce8820273d50"
+    },
+    "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-02-1fff3f45.png": {
+      "bytes": 439271,
+      "sha256": "02defc47567262d9bec96de9a4ab1c6af9266afad1512ad9729e24daad81820c"
+    },
+    "docs/tts-assets-review/candidates/the-ral-nel-consortium__candidate-03-198d8fb0.jpg": {
+      "bytes": 417826,
+      "sha256": "e14993cc64de3ffd1d75cd137ab394a73e1018ce7de7cd9b191a5099b6d86b68"
+    },
+    "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-01-ef9fe379.jpg": {
+      "bytes": 45638,
+      "sha256": "a086d27601243755f40d0dee2a83503dd8b9205a545ee86341fd4b128663a854"
+    },
+    "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-02-30aaf9e0.jpg": {
+      "bytes": 40342,
+      "sha256": "e9e4d10b0b94197916354bc54998f19b299eaea110b06ef61f5a399e56162028"
+    },
+    "docs/tts-assets-review/candidates/the-titans-of-ul__candidate-03-8489eabe.jpg": {
+      "bytes": 344641,
+      "sha256": "f13d2001997958ede7bc5be33003d6f9b9b1404196f7dfe452ce627055f9240e"
+    },
+    "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-01-92fc052a.jpg": {
+      "bytes": 143277,
+      "sha256": "3b2615f103082732bf37b2eb95d79a5fc6f0bd8fa4d3a075c837ae8502a4fbf2"
+    },
+    "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-02-065448eb.jpg": {
+      "bytes": 45493,
+      "sha256": "941c378de91e8a6460e5ff3ce76451be41a1a018f5663d9657c7de0af493bdc7"
+    },
+    "docs/tts-assets-review/candidates/the-universities-of-jol-nar__candidate-03-37801565.jpg": {
+      "bytes": 348683,
+      "sha256": "8474bda9f570409603d7f13a43023923fbb75ceb115268deed0ad3585535a457"
+    },
+    "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-01-67abd152.jpg": {
+      "bytes": 108764,
+      "sha256": "0e5e36236fe1de4b4ea7b398a66fef1f6a4554aa01e761bba249e69978f0b66b"
+    },
+    "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-02-809b284a.jpg": {
+      "bytes": 48556,
+      "sha256": "1b864a79e3ad36c0e211c9a39d9c3a5c124b3d38f8211df1001f7fc553e69d97"
+    },
+    "docs/tts-assets-review/candidates/the-vuilraith-cabal__candidate-03-e8be6197.jpg": {
+      "bytes": 319350,
+      "sha256": "9614e0dce7badfc872afac73db1b2d9720572381891db9a826283ad5397eab7e"
+    },
+    "docs/tts-assets-review/candidates/the-winnu__candidate-01-82a1023d.jpg": {
+      "bytes": 147062,
+      "sha256": "973853b19f8a37d045d9b933da09681b7178fd08e32395b1a3c5e91f22da2adf"
+    },
+    "docs/tts-assets-review/candidates/the-winnu__candidate-02-67cf150d.jpg": {
+      "bytes": 41367,
+      "sha256": "0482c8c441463472b427dd386acf252a92fe8b8082944ad92ff0dfd0f69919df"
+    },
+    "docs/tts-assets-review/candidates/the-winnu__candidate-03-a76f2099.jpg": {
+      "bytes": 351512,
+      "sha256": "3d563837a5f5f4714f2cd38b7e794bea09aeaf560ddbf8dcfff0230e2580d72f"
+    },
+    "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-01-dee2a75f.jpg": {
+      "bytes": 135456,
+      "sha256": "bc41bd2a662fb894139842eb74c0b3a076e01fade72624473ebb3b476d9d3d8a"
+    },
+    "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-02-7944ec8c.jpg": {
+      "bytes": 49247,
+      "sha256": "b1e558c099be329ec417acf2cbe42e2dda3815a415d9566aa06f63053f918b6f"
+    },
+    "docs/tts-assets-review/candidates/the-xxcha-kingdom__candidate-03-0d6ace7a.jpg": {
+      "bytes": 358437,
+      "sha256": "8b5f53e53088779dd52048ea6f5a8515b46d55cafd51ac111896b92eb33b5bb9"
+    },
+    "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-01-b258e7e7.jpg": {
+      "bytes": 133607,
+      "sha256": "e487d1d1c629bb914750c738c7f12cf076d1a98daa4032a70d08b1da42ebe392"
+    },
+    "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-02-15f86e2e.jpg": {
+      "bytes": 35809,
+      "sha256": "bf7a8772b1120ac609237649f06d1891926c80c3604078f90231b271fdb75765"
+    },
+    "docs/tts-assets-review/candidates/the-yin-brotherhood__candidate-03-9f3016a3.jpg": {
+      "bytes": 339808,
+      "sha256": "116854bbe0141bbeac24363652143e9061779d1af5eb8ef80cba3a6898872cff"
+    },
+    "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-01-2f0f5793.jpg": {
+      "bytes": 144259,
+      "sha256": "affc791bfc65c9db6b7ec733a82b246bbc26d0e3c69f32a501ae36d55915bad6"
+    },
+    "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-02-ba678be5.jpg": {
+      "bytes": 41242,
+      "sha256": "b064664376063e6e6056b36d0701bb29d4185bf91426ab711146542b07051bd7"
+    },
+    "docs/tts-assets-review/candidates/the-yssaril-tribes__candidate-03-c3b1e228.jpg": {
+      "bytes": 355135,
+      "sha256": "73280b2d19492d69d7698473e68ef846cd88e10395b57921321ffdf4dd89a1ff"
+    }
+  }
+}

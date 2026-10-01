@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "complete": true,
+  "sources": 64,
+  "isolated": 64,
+  "outputs": 64,
+  "missingSources": 0,
+  "candidateWarningEntries": 40,
+  "candidateWarningCodes": {
+    "LOW_SOURCE_RESOLUTION": 30,
+    "TINY_FRAGMENTS_REVIEW": 30,
+    "SMALL_ATLAS_ICON": 7,
+    "ALTERNATE_TOKEN_SHEET_EXISTS": 1,
+    "MULTIPLE_LARGE_COMPONENTS_REVIEW": 12,
+    "COMBINED_FACTION_IDENTITY": 1,
+    "KELERES_REFERENCE_USES_MENTAK_VARIANT": 1,
+    "foreground_near_crop_boundary": 1,
+    "source_glow_requires_review": 1,
+    "RECTANGULAR_BACKGROUND_REVIEW": 1
+  },
+  "missingFinals": [],
+  "sharedCandidateImages": [
+    {
+      "sha256": "0906d94a7fcf8650b31b89886a3859ce4d47649fc50e6e2276dbfdb8e68b909e",
+      "slugs": [
+        "the-council-keleres",
+        "the-mentak-coalition"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

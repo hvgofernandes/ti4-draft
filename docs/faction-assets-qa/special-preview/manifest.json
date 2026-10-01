@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "factions": [
+    {
+      "slug": "the-florzen-profiteers",
+      "source": "assets/factions/source/discordant-stars/the-florzen-profiteers.png",
+      "sourceSha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72",
+      "original": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Flor R.png",
+      "originalSha256": "f90f9efa0baf6d97012c55c05e2c077cbf81d13e9a1adf7c8d8646a33af3cd72",
+      "preview": "docs/faction-assets-qa/special-preview/the-florzen-profiteers.png",
+      "previewSha256": "b4209c0b7d09fb6fd6f12713a58fe939b12db26d4b658fc82d3aa1cc0afd92cb",
+      "method": "OpenCV GrabCut rectangle initialization with isolated-component cleanup and 1-pixel alpha smoothing",
+      "parameters": {
+        "rect": [
+          85,
+          150,
+          580,
+          590
+        ],
+        "iterations": 8,
+        "minimumComponentArea": 100,
+        "padding": 16
+      },
+      "metrics": {
+        "sourceCrop": [
+          5270,
+          100,
+          6030,
+          900
+        ],
+        "grabCutRectInCrop": [
+          85,
+          150,
+          580,
+          590
+        ],
+        "foregroundBBoxInCrop": [
+          105,
+          175,
+          644,
+          715
+        ],
+        "foregroundBBoxInSource": [
+          5375,
+          275,
+          5914,
+          815
+        ],
+        "foregroundPixels": 125785,
+        "foregroundComponents": [
+          {
+            "x": 105,
+            "y": 175,
+            "width": 353,
+            "height": 478,
+            "area": 63025
+          },
+          {
+            "x": 166,
+            "y": 364,
+            "width": 478,
+            "height": 351,
+            "area": 62760
+          }
+        ],
+        "outputWidth": 571,
+        "outputHeight": 572,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "padding": 16
+      },
+      "warnings": [],
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-vaylerian-scourge",
+      "source": "assets/factions/source/discordant-stars/the-vaylerian-scourge.png",
+      "sourceSha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1",
+      "original": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vayl R.png",
+      "originalSha256": "7a920b2538ec84ba96c2468520f5d22a6c49aeaa300022c969edfac99dcd39c1",
+      "preview": "docs/faction-assets-qa/special-preview/the-vaylerian-scourge.png",
+      "previewSha256": "eb38e86bf81b7e93e63baf32df9d22593d5d010541068cb974818db648aef3c5",
+      "method": "OpenCV GrabCut rectangle initialization with isolated-component cleanup and 1-pixel alpha smoothing",
+      "parameters": {
+        "rect": [
+          100,
+          120,
+          540,
+          620
+        ],
+        "iterations": 8,
+        "minimumComponentArea": 100,
+        "padding": 16
+      },
+      "metrics": {
+        "sourceCrop": [
+          5270,
+          100,
+          6030,
+          900
+        ],
+        "grabCutRectInCrop": [
+          100,
+          120,
+          540,
+          620
+        ],
+        "foregroundBBoxInCrop": [
+          100,
+          124,
+          640,
+          734
+        ],
+        "foregroundBBoxInSource": [
+          5370,
+          224,
+          5910,
+          834
+        ],
+        "foregroundPixels": 257477,
+        "foregroundComponents": [
+          {
+            "x": 100,
+            "y": 124,
+            "width": 540,
+            "height": 610,
+            "area": 257477
+          }
+        ],
+        "outputWidth": 572,
+        "outputHeight": 642,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "padding": 16
+      },
+      "warnings": [
+        "SOURCE_GLOW_REVIEW"
+      ],
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-vaden-banking-clans",
+      "source": "assets/factions/source/discordant-stars/the-vaden-banking-clans.png",
+      "sourceSha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6",
+      "original": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Vade R.png",
+      "originalSha256": "918ff79504a3c53365a8b93cec1ed6e26b3cf939812bcded203630365dea42c6",
+      "preview": "docs/faction-assets-qa/special-preview/the-vaden-banking-clans.png",
+      "previewSha256": "192e15e8a2aaedb79f134044159752843a4982ef1d64761d74dc323ebfc91b6c",
+      "method": "OpenCV GrabCut rectangle initialization with isolated-component cleanup and 1-pixel alpha smoothing",
+      "parameters": {
+        "rect": [
+          90,
+          190,
+          590,
+          570
+        ],
+        "iterations": 8,
+        "minimumComponentArea": 100,
+        "padding": 16
+      },
+      "metrics": {
+        "sourceCrop": [
+          5270,
+          100,
+          6030,
+          900
+        ],
+        "grabCutRectInCrop": [
+          90,
+          190,
+          590,
+          570
+        ],
+        "foregroundBBoxInCrop": [
+          129,
+          219,
+          660,
+          732
+        ],
+        "foregroundBBoxInSource": [
+          5399,
+          319,
+          5930,
+          832
+        ],
+        "foregroundPixels": 193286,
+        "foregroundComponents": [
+          {
+            "x": 401,
+            "y": 219,
+            "width": 259,
+            "height": 282,
+            "area": 21657
+          },
+          {
+            "x": 129,
+            "y": 249,
+            "width": 495,
+            "height": 483,
+            "area": 171629
+          }
+        ],
+        "outputWidth": 563,
+        "outputHeight": 545,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "padding": 16
+      },
+      "warnings": [],
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-zelian-purifier",
+      "source": "assets/factions/source/discordant-stars/the-zelian-purifier.png",
+      "sourceSha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782",
+      "original": "imports/discordant-stars/Discordant Stars/Files/Alliance Reference Cards/Zelian.png",
+      "originalSha256": "5834775a2c0738ae06bf7645da917477e495fb634f3474eb81ddbf6ef0a19782",
+      "preview": "docs/faction-assets-qa/special-preview/the-zelian-purifier.png",
+      "previewSha256": "00c4e27fa80691e311efedf7f3e1b2002d6b45c05ec35fed8fbfba50d61ef30d",
+      "method": "OpenCV GrabCut rectangle initialization with isolated-component cleanup and 1-pixel alpha smoothing",
+      "parameters": {
+        "rect": [
+          35,
+          65,
+          350,
+          350
+        ],
+        "iterations": 8,
+        "minimumComponentArea": 100,
+        "padding": 16
+      },
+      "metrics": {
+        "sourceCrop": [
+          170,
+          150,
+          580,
+          590
+        ],
+        "grabCutRectInCrop": [
+          35,
+          65,
+          350,
+          350
+        ],
+        "foregroundBBoxInCrop": [
+          57,
+          88,
+          378,
+          390
+        ],
+        "foregroundBBoxInSource": [
+          227,
+          238,
+          548,
+          540
+        ],
+        "foregroundPixels": 74067,
+        "foregroundComponents": [
+          {
+            "x": 57,
+            "y": 88,
+            "width": 321,
+            "height": 302,
+            "area": 74067
+          }
+        ],
+        "outputWidth": 353,
+        "outputHeight": 334,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "padding": 16
+      },
+      "warnings": [],
+      "status": "READY_FOR_REVIEW"
+    },
+    {
+      "slug": "the-nokar-sellships",
+      "source": "assets/factions/source/discordant-stars/the-nokar-sellships.png",
+      "sourceSha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e",
+      "original": "imports/discordant-stars/Discordant Stars/Files/Faction Reference Cards/Noka R.png",
+      "originalSha256": "d324248ff0dfa258c260068c863e3ae3655943ea81cbcc6b334168acb1b63e6e",
+      "preview": "docs/faction-assets-qa/special-preview/the-nokar-sellships.png",
+      "previewSha256": "c60aff0b653fd22070975a07329446011947bd7e01ce65296a9645d45b5d20b3",
+      "method": "OpenCV GrabCut rectangle initialization with isolated-component cleanup and 1-pixel alpha smoothing",
+      "parameters": {
+        "rect": [
+          100,
+          160,
+          570,
+          625
+        ],
+        "iterations": 8,
+        "minimumComponentArea": 100,
+        "padding": 16
+      },
+      "metrics": {
+        "sourceCrop": [
+          5270,
+          100,
+          6030,
+          900
+        ],
+        "grabCutRectInCrop": [
+          100,
+          160,
+          570,
+          625
+        ],
+        "foregroundBBoxInCrop": [
+          121,
+          190,
+          634,
+          780
+        ],
+        "foregroundBBoxInSource": [
+          5391,
+          290,
+          5904,
+          880
+        ],
+        "foregroundPixels": 215221,
+        "foregroundComponents": [
+          {
+            "x": 121,
+            "y": 190,
+            "width": 513,
+            "height": 590,
+            "area": 215221
+          }
+        ],
+        "outputWidth": 545,
+        "outputHeight": 622,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "padding": 16
+      },
+      "warnings": [],
+      "status": "READY_FOR_REVIEW"
+    }
+  ]
+}

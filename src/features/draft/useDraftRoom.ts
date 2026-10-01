@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { ContentSet, Draft, DraftRoomSnapshot, Faction, Pick, Player } from "../../domain/draft";
+import { loadRoomSnapshot } from "../../application/services";
+import type { ContentSet, Draft, DraftRoomSnapshot, Faction, MakePickResult, Pick, Player } from "../../domain/draft";
 import type { DraftGateway } from "../../application/ports";
 
 interface DraftRoomState {
@@ -17,7 +18,12 @@ export function useDraftRoom(
   gateway: DraftGateway,
   draftId: string,
   initialSnapshot: DraftRoomSnapshot,
-): DraftRoomState & { refresh: () => Promise<void> } {
+): DraftRoomState & {
+  refresh: () => Promise<void>;
+  makePick: (factionId: string) => Promise<MakePickResult>;
+  isPicking: boolean;
+  clearError: () => void;
+} {
   const [state, setState] = useState<DraftRoomState>(() => ({
     draft: initialSnapshot.draft,
     players: initialSnapshot.players,
@@ -29,99 +35,92 @@ export function useDraftRoom(
     error: null,
   }));
   const mounted = useRef(false);
-  const versions = useRef({ draft: 0, players: 0, picks: 0, content: 0 });
-
-  const loadEnabledContentSetIds = useCallback(async () => {
-    const version = versions.current.content;
-    try {
-      const enabledContentSetIds = await gateway.loadEnabledContentSetIds(draftId);
-      if (mounted.current && version === versions.current.content) {
-        setState((current) => ({ ...current, enabledContentSetIds, error: null }));
-      }
-    } catch (error) {
-      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
-    }
-  }, [draftId, gateway]);
-
-  const loadDraft = useCallback(async () => {
-    const version = versions.current.draft;
-    try {
-      const draft = await gateway.loadDraft(draftId);
-      if (mounted.current && version === versions.current.draft) {
-        setState((current) => ({ ...current, draft, error: null }));
-      }
-    } catch (error) {
-      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
-    }
-  }, [draftId, gateway]);
-
-  const loadPlayers = useCallback(async () => {
-    const version = versions.current.players;
-    try {
-      const players = await gateway.loadPlayers(draftId);
-      if (mounted.current && version === versions.current.players) {
-        setState((current) => ({ ...current, players, error: null }));
-      }
-    } catch (error) {
-      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
-    }
-  }, [draftId, gateway]);
-
-  const loadPicks = useCallback(async () => {
-    const version = versions.current.picks;
-    try {
-      const picks = await gateway.loadPicks(draftId);
-      if (mounted.current && version === versions.current.picks) {
-        setState((current) => ({ ...current, picks, error: null }));
-      }
-    } catch (error) {
-      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
-    }
-  }, [draftId, gateway]);
+  const refreshVersion = useRef(0);
+  const refreshTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const picking = useRef(false);
+  const [isPicking, setIsPicking] = useState(false);
 
   const refresh = useCallback(async () => {
-    await Promise.all([loadDraft(), loadPlayers(), loadPicks(), loadEnabledContentSetIds()]);
-    if (mounted.current) setState((current) => ({ ...current, loading: false }));
-  }, [loadDraft, loadPlayers, loadPicks, loadEnabledContentSetIds]);
+    const version = ++refreshVersion.current;
+    if (mounted.current) setState((current) => ({ ...current, loading: true }));
+    try {
+      const snapshot = await loadRoomSnapshot(gateway, draftId);
+      if (mounted.current && version === refreshVersion.current) {
+        setState({ ...snapshot, loading: false, error: null });
+      }
+    } catch (error) {
+      if (mounted.current && version === refreshVersion.current) {
+        setState((current) => ({ ...current, loading: false, error: messageOf(error) }));
+      }
+    }
+  }, [draftId, gateway]);
+
+  const scheduleRefresh = useCallback(() => {
+    if (refreshTimer.current !== null) return;
+    refreshTimer.current = setTimeout(() => {
+      refreshTimer.current = null;
+      void refresh();
+    }, 50);
+  }, [refresh]);
+
+  const makePick = useCallback(async (factionId: string): Promise<MakePickResult> => {
+    if (picking.current) throw new Error("Uma escolha já está sendo enviada.");
+    picking.current = true;
+    setIsPicking(true);
+    if (mounted.current) setState((current) => ({ ...current, error: null }));
+
+    try {
+      const result = await gateway.makePick(draftId, factionId);
+      await refresh();
+      return result;
+    } catch (error) {
+      // A stale client may lose a race for the turn or faction. Always reconcile
+      // with the server before returning the domain error to the UI.
+      await refresh();
+      if (mounted.current) setState((current) => ({ ...current, error: messageOf(error) }));
+      throw error;
+    } finally {
+      picking.current = false;
+      if (mounted.current) setIsPicking(false);
+    }
+  }, [draftId, gateway, refresh]);
+
+  const clearError = useCallback(() => {
+    if (mounted.current) setState((current) => ({ ...current, error: null }));
+  }, []);
 
   useEffect(() => {
     mounted.current = true;
     const unsubscribeDraft = gateway.subscribeToDraft(
       draftId,
-      (draft) => {
-        versions.current.draft += 1;
-        setState((current) => ({ ...current, draft, error: null }));
-        versions.current.content += 1;
-        void loadEnabledContentSetIds();
-      },
-      () => void refresh(),
+      () => scheduleRefresh(),
+      scheduleRefresh,
     );
     const unsubscribePlayers = gateway.subscribeToPlayers(
       draftId,
-      () => {
-        versions.current.players += 1;
-        void loadPlayers();
-      },
-      () => void loadPlayers(),
+      scheduleRefresh,
+      scheduleRefresh,
     );
     const unsubscribePicks = gateway.subscribeToPicks(
       draftId,
-      () => {
-        versions.current.picks += 1;
-        void loadPicks();
-      },
-      () => void loadPicks(),
+      scheduleRefresh,
+      scheduleRefresh,
     );
+    // Reconcile the server snapshot before Realtime becomes the sole source of
+    // changes. This covers a reload and events missed while a channel reconnects.
+    void refresh();
 
     return () => {
       mounted.current = false;
+      if (refreshTimer.current !== null) clearTimeout(refreshTimer.current);
+      refreshTimer.current = null;
       unsubscribeDraft();
       unsubscribePlayers();
       unsubscribePicks();
     };
-  }, [draftId, gateway, loadDraft, loadPlayers, loadPicks, loadEnabledContentSetIds, refresh]);
+  }, [draftId, gateway, refresh, scheduleRefresh]);
 
-  return { ...state, refresh };
+  return { ...state, refresh, makePick, isPicking, clearError };
 }
 
 function messageOf(error: unknown): string {

@@ -10,5 +10,5 @@
     "rootDir": ".",
     "outDir": ".test-build"
   },
-  "include": ["src/application/draftSelection.ts"]
+  "include": ["src/application/draftSelection.ts", "src/application/lobbyDiscovery.ts", "src/content/baseFactionQuickInfo.ts"]
 }

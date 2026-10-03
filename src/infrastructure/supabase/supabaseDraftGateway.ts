@@ -1,4 +1,4 @@
-import type { ContentSet, Draft, DraftMembership, Faction, MakePickResult, Pick, Player } from "../../domain/draft";
+import type { ContentSet, Draft, DraftMembership, Faction, JoinableDraft, MakePickResult, Pick, Player, PlayerProfile } from "../../domain/draft";
 import type { DraftGateway } from "../../application/ports";
 import { supabase } from "./client";
 
@@ -17,18 +17,38 @@ export class SupabaseDraftGateway implements DraftGateway {
     return requireData(data, error);
   }
 
-  async createDraft(playerName: string, playerCount: number): Promise<DraftMembership> {
+  async loadProfiles(draftId?: string): Promise<PlayerProfile[]> {
+    const { data, error } = await supabase.rpc("list_player_profiles", {
+      p_draft_id: draftId ?? undefined,
+    });
+    return requireData(data, error);
+  }
+
+  async listJoinableDrafts(): Promise<JoinableDraft[]> {
+    const { data, error } = await supabase.rpc("list_joinable_drafts");
+    return requireData(data, error);
+  }
+
+  async createDraft(profileId: string, playerCount: number): Promise<DraftMembership> {
     const { data, error } = await supabase.rpc("create_draft", {
-      p_player_name: playerName,
+      p_profile_id: profileId,
       p_player_count: playerCount,
     });
     return requireData(data, error);
   }
 
-  async joinDraft(code: string, playerName: string): Promise<DraftMembership> {
+  async joinDraft(code: string, profileId: string): Promise<DraftMembership> {
     const { data, error } = await supabase.rpc("join_draft", {
       p_code: code,
-      p_player_name: playerName,
+      p_profile_id: profileId,
+    });
+    return requireData(data, error);
+  }
+
+  async joinDraftById(draftId: string, profileId: string): Promise<DraftMembership> {
+    const { data, error } = await supabase.rpc("join_draft", {
+      p_draft_id: draftId,
+      p_profile_id: profileId,
     });
     return requireData(data, error);
   }
@@ -160,6 +180,19 @@ export class SupabaseDraftGateway implements DraftGateway {
         { event: "*", schema: "public", table: "picks", filter: `draft_id=eq.${draftId}` },
         onChange,
       )
+      .subscribe((status) => {
+        if (status === "SUBSCRIBED") onReconnect();
+      });
+
+    return () => {
+      void supabase.removeChannel(channel);
+    };
+  }
+
+  subscribeToLobby(onChange: () => void, onReconnect: () => void): () => void {
+    const channel = supabase
+      .channel("draft-discovery")
+      .on("postgres_changes", { event: "*", schema: "public", table: "draft_discovery_signals" }, onChange)
       .subscribe((status) => {
         if (status === "SUBSCRIBED") onReconnect();
       });

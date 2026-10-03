@@ -20,6 +20,24 @@ export type Player = {
   connected: boolean;
   joined_at: string;
   user_id: string | null;
+  profile_id?: string | null;
+};
+
+export type PlayerProfile = {
+  id: string;
+  name: string;
+  sort_order: number;
+  unavailable: boolean;
+};
+
+export type JoinableDraft = {
+  draft_id: string;
+  room_code: string;
+  host_profile_id: string | null;
+  host_name: string;
+  player_count: number;
+  capacity: number;
+  used_profile_ids: string[];
 };
 
 export type Pick = {

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TI4 Draft · Fase 3.2.1</title>
+  <style>
+    :root { color: #dce6ec; background: #080d12; font-family: Inter, system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at 75% 0, #18303c 0, transparent 32rem), #080d12; }
+    main { width: min(1180px, calc(100% - 32px)); margin: auto; padding: 48px 0 72px; }
+    h1, h2, h3, p { margin-top: 0; } h1 { max-width: 780px; font-size: clamp(32px, 6vw, 64px); line-height: .98; }
+    h2 { margin-top: 48px; font-size: 24px; } h3 { font-size: 15px; }
+    .eyebrow { display: block; margin-bottom: 10px; color: #75d3e7; font: 700 11px ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+    .lede, .muted { color: #98a9b5; line-height: 1.6; }
+    .comparison, .samples, .metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 28px 0; }
+    .metric, .panel, .modal { border: 1px solid #2d4653; border-radius: 14px; background: linear-gradient(145deg, #16232e, #0d141b); box-shadow: 0 18px 50px #0005; }
+    .metric, .panel { padding: 20px; } .metric strong { display: block; color: #92e0ef; font-size: 28px; }
+    .modal-wrap { display: grid; min-height: 590px; padding: 24px; place-items: center; border: 1px dashed #29424f; border-radius: 14px; background: #060a0ec7; }
+    .modal { width: min(100%, 520px); max-height: 550px; padding: 24px; overflow: auto; text-align: center; }
+    .modal.old { width: min(100%, 380px); }
+    .symbol { display: grid; width: 104px; height: 104px; margin: 0 auto 14px; place-items: center; }
+    .symbol img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 8px 12px #0008); }
+    .info { display: grid; gap: 15px; margin-top: 21px; text-align: left; }
+    .info section { display: grid; gap: 7px; } .info h3 { margin: 0; color: #86d8e9; font: 700 10px ui-monospace, monospace; letter-spacing: .13em; text-transform: uppercase; }
+    .info p, .info ul { margin: 0; color: #c1cbd4; font-size: 13px; line-height: 1.5; } .info ul { padding-left: 18px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; } .tags span { padding: 5px 8px; border: 1px solid #385968; border-radius: 999px; color: #b8e9f2; background: #132630; font: 10px ui-monospace, monospace; }
+    .actions { display: flex; gap: 8px; justify-content: center; margin-top: 22px; position: sticky; bottom: -24px; padding: 14px 0 0; background: linear-gradient(transparent, #0d141b 20%); }
+    button { padding: 10px 14px; border: 1px solid #426b7c; border-radius: 7px; color: #dce6ec; background: #182a34; } button.primary { color: #061015; background: #76cfe1; font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; } th, td { padding: 10px; border-bottom: 1px solid #233640; text-align: left; } th { color: #81d6e7; }
+    code { color: #b7e8f0; } .ok { color: #9bd6a4; }
+    @media (max-width: 760px) { .comparison, .samples, .metrics { grid-template-columns: 1fr; } .modal-wrap { min-height: auto; } main { width: min(100% - 20px, 680px); padding-top: 28px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">Fase 3.2.1 · acompanhamento</span>
+    <h1>Base Game Faction Quick Info</h1>
+    <p class="lede">Referência rápida no momento da confirmação. Os textos usam as fichas <strong>Faction Abilities</strong> encontradas no cache local do mod de Twilight Imperium IV.</p>
+
+    <div class="metrics">
+      <div class="metric"><strong id="coverage">—</strong><span>facções Base cobertas</span></div>
+      <div class="metric"><strong>0</strong><span>alterações no banco</span></div>
+      <div class="metric"><strong>Base</strong><span>escopo desta fase</span></div>
+      <div class="metric"><strong>Fallback</strong><span>demais content sets</span></div>
+    </div>
+
+    <h2>Modal anterior vs. novo</h2>
+    <div class="comparison">
+      <section><span class="eyebrow">Anterior</span><div class="modal-wrap"><div class="modal old"><div class="symbol"><img src="/faction-assets/base/the-federation-of-sol.png" alt="" /></div><span class="eyebrow">Base Game</span><h3>The Federation of Sol</h3><p class="muted">Confirmar esta facção?</p><div class="actions"><button>Cancelar</button><button class="primary">Confirmar escolha</button></div></div></div></section>
+      <section><span class="eyebrow">Novo</span><div class="modal-wrap" id="new-modal"></div></section>
+    </div>
+
+    <h2>Algumas facções Base</h2>
+    <div class="samples" id="samples"></div>
+
+    <h2>Conteúdo estruturado</h2>
+    <div class="panel"><p class="muted">Fonte única versionada em <code>src/content/baseFactionQuickInfo.ts</code>, relacionada pelo slug do catálogo.</p><pre><code>slug → { summary, style[], strengths[], attention[] }</code></pre></div>
+
+    <h2>Status das 17 facções</h2>
+    <div class="panel"><table><thead><tr><th>Slug</th><th>Resumo</th><th>Estilo</th><th>Listas</th></tr></thead><tbody id="status"></tbody></table></div>
+
+    <h2>Testes e pendências</h2>
+    <div class="panel"><ul class="muted"><li>Teste automatizado exige exatamente os 17 slugs Base e valida os limites de cada seção.</li><li>Teste automatizado garante fallback para slugs fora do Base Game.</li><li class="ok">TypeScript, build, 6 testes unitários e git diff --check: aprovados.</li><li>Conteúdo PoK, Thunder's Edge e Discordant Stars permanece fora desta fase.</li></ul></div>
+    <h2>Ensaio do componente real</h2>
+    <div class="panel"><p class="muted">Use os controles abaixo para validar o modal usado pela aplicação, incluindo o fallback e as ações de confirmação.</p><div id="modal-harness"></div></div>
+  </main>
+  <script type="module">
+    import { baseFactionQuickInfo } from "/src/content/baseFactionQuickInfo.ts";
+    const names = {
+      "the-federation-of-sol": "The Federation of Sol",
+      "the-ghosts-of-creuss": "The Ghosts of Creuss",
+      "the-nekro-virus": "The Nekro Virus",
+    };
+    function infoMarkup(slug, compact = false) {
+      const info = baseFactionQuickInfo[slug];
+      const name = names[slug] ?? slug;
+      return `<div class="modal"><div class="symbol"><img src="/faction-assets/base/${slug}.png" alt="" /></div><span class="eyebrow">Base Game</span><h3>${name}</h3><div class="info"><section><h3>Resumo</h3><p>${info.summary}</p></section><section><h3>Estilo</h3><div class="tags">${info.style.map(tag => `<span>${tag}</span>`).join("")}</div></section>${compact ? "" : `<section><h3>Pontos fortes</h3><ul>${info.strengths.map(item => `<li>${item}</li>`).join("")}</ul></section><section><h3>Atenção</h3><ul>${info.attention.map(item => `<li>${item}</li>`).join("")}</ul></section>`}</div>${compact ? "" : `<div class="actions"><button>Cancelar</button><button class="primary">Confirmar escolha</button></div>`}</div>`;
+    }
+    document.querySelector("#new-modal").innerHTML = infoMarkup("the-federation-of-sol");
+    document.querySelector("#samples").innerHTML = ["the-ghosts-of-creuss", "the-nekro-virus"].map(slug => `<div class="modal-wrap">${infoMarkup(slug, true)}</div>`).join("");
+    const entries = Object.entries(baseFactionQuickInfo);
+    document.querySelector("#coverage").textContent = `${entries.length}/17`;
+    document.querySelector("#status").innerHTML = entries.map(([slug, info]) => `<tr><td><code>${slug}</code></td><td class="ok">OK</td><td>${info.style.length} tags</td><td>${info.strengths.length} + ${info.attention.length}</td></tr>`).join("");
+  </script>
+  <script type="module" src="./preview.tsx"></script>
+</body>
+</html>

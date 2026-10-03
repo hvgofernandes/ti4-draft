@@ -1,4 +1,4 @@
-import type { ContentSet, Draft, DraftMembership, Faction, MakePickResult, Pick, Player } from "../domain/draft";
+import type { ContentSet, Draft, DraftMembership, Faction, JoinableDraft, MakePickResult, Pick, Player, PlayerProfile } from "../domain/draft";
 
 export interface AuthenticatedUser {
   id: string;
@@ -10,8 +10,11 @@ export interface AuthGateway {
 
 export interface DraftGateway {
   findMemberships(userId: string): Promise<Player[]>;
-  createDraft(playerName: string, playerCount: number): Promise<DraftMembership>;
-  joinDraft(code: string, playerName: string): Promise<DraftMembership>;
+  loadProfiles(draftId?: string): Promise<PlayerProfile[]>;
+  listJoinableDrafts(): Promise<JoinableDraft[]>;
+  createDraft(profileId: string, playerCount: number): Promise<DraftMembership>;
+  joinDraft(code: string, profileId: string): Promise<DraftMembership>;
+  joinDraftById(draftId: string, profileId: string): Promise<DraftMembership>;
   loadDraft(draftId: string): Promise<Draft>;
   loadPlayers(draftId: string): Promise<Player[]>;
   loadPicks(draftId: string): Promise<Pick[]>;
@@ -29,4 +32,5 @@ export interface DraftGateway {
   ): () => void;
   subscribeToPlayers(draftId: string, onChange: () => void, onReconnect: () => void): () => void;
   subscribeToPicks(draftId: string, onChange: () => void, onReconnect: () => void): () => void;
+  subscribeToLobby(onChange: () => void, onReconnect: () => void): () => void;
 }

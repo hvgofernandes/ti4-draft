@@ -8,6 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "check": "tsc --noEmit",
     "test:unit": "tsc -p tsconfig.unit.json && node --test tests/draftSelection.test.mjs",
+    "dev:reset-local-data": "node scripts/reset-local-transient-data.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

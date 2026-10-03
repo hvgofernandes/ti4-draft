@@ -11,6 +11,26 @@ Frontend do Twilight Draft Pick em React, TypeScript e Vite. As regras de negóc
 
 O URL e a chave são lidos exclusivamente das variáveis `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`. Não coloque chaves secretas do Supabase no frontend.
 
+### Limpeza dos dados locais
+
+O utilitário administrativo abaixo audita os drafts locais sem alterar dados:
+
+```powershell
+npm run dev:reset-local-data
+```
+
+Para remover drafts, participantes, picks e dependências transitórias, use explicitamente:
+
+```powershell
+npm run dev:reset-local-data -- --execute
+```
+
+O script obtém o endpoint pelo `supabase status` e se recusa a executar quando o hostname não é `localhost`, `127.0.0.1` ou `::1`. Perfis persistentes, catálogo, schema e migrations são preservados. Não use esse comando para dados que devam ser mantidos.
+
+### Estado do deploy remoto
+
+**REMOTE DEPLOY PENDING:** o projeto remoto permanece intencionalmente no histórico `20260929172259`. As migrations locais `20260929190000`, `20260930120000`, `20260930150000`, `20261003160000`, `20261003160100` e `20261003160200` devem ser aplicadas de verdade e em ordem durante uma futura fase explícita de deploy. Não marque essas migrations como aplicadas sem executar seu SQL.
+
 ## Verificação
 
 - `npm run check`: verificação TypeScript.

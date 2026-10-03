@@ -86,8 +86,10 @@ export function App() {
         />
       ) : (
         <Lobby
-          onCreate={(name, count) => draftGateway.createDraft(name, count)}
-          onJoin={(name, code) => draftGateway.joinDraft(code, name)}
+          gateway={draftGateway}
+          onCreate={(profileId, count) => draftGateway.createDraft(profileId, count)}
+          onJoin={(profileId, code) => draftGateway.joinDraft(code, profileId)}
+          onJoinDraft={(profileId, draftId) => draftGateway.joinDraftById(draftId, profileId)}
           onEnter={enterRoom}
         />
       )}

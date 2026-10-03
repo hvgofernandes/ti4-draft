@@ -1,4 +1,4 @@
-import type { ContentSet, Draft, DraftContentSet, Faction, Pick as DraftPick, MakePickResult, Player } from "../../domain/draft";
+import type { ContentSet, Draft, DraftContentSet, DraftMembership, Faction, JoinableDraft, Pick as DraftPick, MakePickResult, Player, PlayerProfile } from "../../domain/draft";
 
 type Table<Row, Insert, Update = Partial<Insert>> = {
   Row: Row;
@@ -27,16 +27,32 @@ export type Database = {
       content_sets: Table<ContentSet, ContentSet>;
       factions: Table<Faction, Faction>;
       draft_content_sets: Table<DraftContentSet, DraftContentSet>;
+      player_profiles: Table<
+        { id: string; name: string; sort_order: number; active: boolean; created_at: string },
+        never
+      >;
+      draft_discovery_signals: Table<
+        { draft_id: string; revision: number; updated_at: string },
+        { draft_id: string; revision?: number; updated_at?: string }
+      >;
     };
     Views: { [_ in never]: never };
     Functions: {
       create_draft: {
-        Args: { p_player_name: string; p_player_count: number };
-        Returns: { draft: Draft; player: Player };
+        Args: { p_profile_id: string; p_player_count: number };
+        Returns: DraftMembership;
       };
       join_draft: {
-        Args: { p_code: string; p_player_name: string };
-        Returns: { draft: Draft; player: Player };
+        Args: { p_code: string; p_profile_id: string } | { p_draft_id: string; p_profile_id: string };
+        Returns: DraftMembership;
+      };
+      list_player_profiles: {
+        Args: { p_draft_id?: string };
+        Returns: PlayerProfile[];
+      };
+      list_joinable_drafts: {
+        Args: Record<string, never>;
+        Returns: JoinableDraft[];
       };
       set_player_order: {
         Args: { p_draft_id: string; p_player_ids: string[] };
